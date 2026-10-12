@@ -1,0 +1,8282 @@
+[
+  {
+    "id": "pallet-town",
+    "name": "真新镇",
+    "kind": "town",
+    "description": "旅程从大木研究所开始。南侧海岸通往21号水道。",
+    "connections": [
+      "route-1",
+      "route-21",
+      "oaks-lab"
+    ],
+    "species": [
+      1,
+      4,
+      7,
+      16,
+      19,
+      25,
+      60,
+      72,
+      118,
+      120,
+      129
+    ],
+    "x": 17,
+    "y": 78,
+    "unlockBadge": 0,
+    "sourceLocation": "pallet-town",
+    "originalEncounters": [
+      {
+        "speciesId": 1,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 4,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 7,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 25,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 72,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 20,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 120,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 10,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": [
+      16,
+      19
+    ],
+    "encounterNote": "本地原型为完整151收集加入改编刷新，非原作野生分布。原作赠送、交换与固定事件亦暂以个人遭遇呈现。"
+  },
+  {
+    "id": "viridian-city",
+    "name": "常青市",
+    "kind": "city",
+    "description": "连接真新镇、常青森林和通往联盟的西部道路。",
+    "connections": [
+      "route-1",
+      "route-2",
+      "route-22",
+      "viridian-gym"
+    ],
+    "species": [
+      60,
+      72,
+      118,
+      129
+    ],
+    "x": 17,
+    "y": 59,
+    "unlockBadge": 0,
+    "sourceLocation": "viridian-city",
+    "originalEncounters": [
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 72,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "pewter-city",
+    "name": "深灰市",
+    "kind": "city",
+    "description": "山麓的岩石之城，深灰道馆与科学博物馆所在。",
+    "connections": [
+      "route-2-north",
+      "route-3",
+      "pewter-museum",
+      "pewter-gym"
+    ],
+    "species": [],
+    "x": 17,
+    "y": 20,
+    "unlockBadge": 0,
+    "sourceLocation": "pewter-city",
+    "originalEncounters": [],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "cerulean-city",
+    "name": "华蓝市",
+    "kind": "city",
+    "description": "水路环绕的城市，北方通往金球桥与正辉小屋。",
+    "connections": [
+      "route-4",
+      "route-24",
+      "cerulean-cave",
+      "route-5",
+      "route-9",
+      "cerulean-gym"
+    ],
+    "species": [
+      1,
+      54,
+      60,
+      98,
+      118,
+      119,
+      124,
+      129
+    ],
+    "x": 57,
+    "y": 20,
+    "unlockBadge": 0,
+    "sourceLocation": "cerulean-city",
+    "originalEncounters": [
+      {
+        "speciesId": 1,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 54,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 98,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 119,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 30,
+        "maxLevel": 40,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 124,
+        "methods": [
+          "npc-trade"
+        ],
+        "minLevel": 23,
+        "maxLevel": 100,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "vermilion-city",
+    "name": "枯叶市",
+    "kind": "city",
+    "description": "海港与圣特安努号泊位，电系道馆所在。",
+    "connections": [
+      "route-6",
+      "route-11",
+      "ss-anne",
+      "vermilion-gym"
+    ],
+    "species": [
+      7,
+      60,
+      72,
+      83,
+      90,
+      98,
+      116,
+      118,
+      120,
+      129
+    ],
+    "x": 57,
+    "y": 63,
+    "unlockBadge": 0,
+    "sourceLocation": "vermilion-city",
+    "originalEncounters": [
+      {
+        "speciesId": 7,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 72,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 20,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 83,
+        "methods": [
+          "npc-trade"
+        ],
+        "minLevel": 3,
+        "maxLevel": 100,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 90,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 98,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 116,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 120,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "lavender-town",
+    "name": "紫苑镇",
+    "kind": "town",
+    "description": "宝可梦塔坐落于此，向南通往沿海栈道。",
+    "connections": [
+      "route-10-south",
+      "route-8",
+      "route-12",
+      "pokemon-tower"
+    ],
+    "species": [],
+    "x": 83,
+    "y": 42,
+    "unlockBadge": 0,
+    "sourceLocation": "lavender-town",
+    "originalEncounters": [],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "celadon-city",
+    "name": "玉虹市",
+    "kind": "city",
+    "description": "百货商店、游戏城与草系道馆构成的繁华城市。",
+    "connections": [
+      "route-7",
+      "route-16",
+      "rocket-hideout",
+      "celadon-gym"
+    ],
+    "species": [
+      30,
+      33,
+      35,
+      37,
+      40,
+      60,
+      61,
+      63,
+      79,
+      118,
+      123,
+      127,
+      129,
+      133,
+      134,
+      135,
+      136,
+      137,
+      147
+    ],
+    "x": 37,
+    "y": 42,
+    "unlockBadge": 0,
+    "sourceLocation": "celadon-city",
+    "originalEncounters": [
+      {
+        "speciesId": 30,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 17,
+        "maxLevel": 17,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 33,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 17,
+        "maxLevel": 17,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 35,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 8,
+        "maxLevel": 12,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 37,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 18,
+        "maxLevel": 18,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 40,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 22,
+        "maxLevel": 22,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 61,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 23,
+        "maxLevel": 23,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 63,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 6,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 79,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 20,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 123,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 25,
+        "maxLevel": 30,
+        "versions": [
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 127,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 20,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 133,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 25,
+        "maxLevel": 25,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 137,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 18,
+        "maxLevel": 26,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 147,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 18,
+        "maxLevel": 24,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      }
+    ],
+    "adaptedSpecies": [
+      133,
+      134,
+      135,
+      136,
+      137
+    ],
+    "encounterNote": "本地原型为完整151收集加入改编刷新，非原作野生分布。原作赠送、交换与固定事件亦暂以个人遭遇呈现。"
+  },
+  {
+    "id": "saffron-city",
+    "name": "金黄市",
+    "kind": "city",
+    "description": "关都交通枢纽，西尔佛公司与超能力道馆所在。",
+    "connections": [
+      "route-5",
+      "route-6",
+      "route-8",
+      "route-7",
+      "silph-co",
+      "fighting-dojo",
+      "saffron-gym"
+    ],
+    "species": [
+      106,
+      107,
+      131
+    ],
+    "x": 57,
+    "y": 42,
+    "unlockBadge": 0,
+    "sourceLocation": "saffron-city",
+    "originalEncounters": [
+      {
+        "speciesId": 106,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 30,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 107,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 30,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 131,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "fuchsia-city",
+    "name": "浅红市",
+    "kind": "city",
+    "description": "狩猎地带入口所在，南方连接关都海域。",
+    "connections": [
+      "route-15",
+      "route-18",
+      "route-19",
+      "safari-zone",
+      "fuchsia-gym"
+    ],
+    "species": [
+      60,
+      98,
+      118,
+      119,
+      129,
+      130
+    ],
+    "x": 57,
+    "y": 84,
+    "unlockBadge": 0,
+    "sourceLocation": "fuchsia-city",
+    "originalEncounters": [
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 98,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 119,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 23,
+        "maxLevel": 23,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod",
+          "super-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 130,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "cinnabar-island",
+    "name": "红莲岛",
+    "kind": "town",
+    "description": "研究化石与火山生态的海岛，有废弃的宝可梦屋。",
+    "connections": [
+      "route-20",
+      "route-21",
+      "pokemon-mansion",
+      "pokemon-lab",
+      "cinnabar-gym"
+    ],
+    "species": [
+      60,
+      72,
+      86,
+      87,
+      89,
+      90,
+      101,
+      112,
+      114,
+      116,
+      118,
+      120,
+      129,
+      138,
+      140,
+      142
+    ],
+    "x": 17,
+    "y": 96,
+    "unlockBadge": 0,
+    "sourceLocation": "cinnabar-island",
+    "originalEncounters": [
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 72,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 30,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 86,
+        "methods": [
+          "npc-trade"
+        ],
+        "minLevel": 28,
+        "maxLevel": 100,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 87,
+        "methods": [
+          "npc-trade"
+        ],
+        "minLevel": 26,
+        "maxLevel": 100,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 89,
+        "methods": [
+          "npc-trade"
+        ],
+        "minLevel": 28,
+        "maxLevel": 100,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 90,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 101,
+        "methods": [
+          "npc-trade"
+        ],
+        "minLevel": 3,
+        "maxLevel": 100,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 112,
+        "methods": [
+          "npc-trade"
+        ],
+        "minLevel": 15,
+        "maxLevel": 100,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 114,
+        "methods": [
+          "npc-trade"
+        ],
+        "minLevel": 22,
+        "maxLevel": 100,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 116,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 120,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 138,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 30,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 140,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 30,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 142,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 30,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "indigo-plateau",
+    "name": "石英高原",
+    "kind": "league",
+    "description": "通向四天王与冠军的联盟终点。",
+    "connections": [
+      "victory-road",
+      "pokemon-league"
+    ],
+    "species": [],
+    "x": 3,
+    "y": 8,
+    "unlockBadge": 8,
+    "sourceLocation": "indigo-plateau",
+    "originalEncounters": [],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-1",
+    "name": "1号道路",
+    "kind": "route",
+    "description": "真新镇与常青市之间的新手草地。",
+    "connections": [
+      "pallet-town",
+      "viridian-city"
+    ],
+    "species": [
+      16,
+      19
+    ],
+    "x": 17,
+    "y": 69,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-1",
+    "originalEncounters": [
+      {
+        "speciesId": 16,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 2,
+        "maxLevel": 7,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 19,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 2,
+        "maxLevel": 4,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-2",
+    "name": "2号道路·南段",
+    "kind": "route",
+    "description": "常青市通往常青森林的南侧入口。",
+    "connections": [
+      "viridian-city",
+      "viridian-forest"
+    ],
+    "species": [
+      10,
+      13,
+      16,
+      19,
+      29,
+      32,
+      122
+    ],
+    "x": 17,
+    "y": 50,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-2",
+    "originalEncounters": [
+      {
+        "speciesId": 10,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 3,
+        "maxLevel": 5,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 13,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 3,
+        "maxLevel": 5,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 16,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 3,
+        "maxLevel": 7,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 19,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 2,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 29,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 4,
+        "maxLevel": 6,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 32,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 4,
+        "maxLevel": 6,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 122,
+        "methods": [
+          "npc-trade"
+        ],
+        "minLevel": 8,
+        "maxLevel": 100,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-2-north",
+    "name": "2号道路·北段",
+    "kind": "route",
+    "description": "常青森林北出口通向深灰市；东侧连接地鼠洞。",
+    "connections": [
+      "viridian-forest",
+      "pewter-city",
+      "digletts-cave"
+    ],
+    "species": [
+      10,
+      13,
+      16,
+      19,
+      29,
+      32,
+      122
+    ],
+    "x": 17,
+    "y": 28,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-2",
+    "originalEncounters": [
+      {
+        "speciesId": 10,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 3,
+        "maxLevel": 5,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 13,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 3,
+        "maxLevel": 5,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 16,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 3,
+        "maxLevel": 7,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 19,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 2,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 29,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 4,
+        "maxLevel": 6,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 32,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 4,
+        "maxLevel": 6,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 122,
+        "methods": [
+          "npc-trade"
+        ],
+        "minLevel": 8,
+        "maxLevel": 100,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-3",
+    "name": "3号道路",
+    "kind": "route",
+    "description": "深灰市东侧的丘陵，通往月见山入口。",
+    "connections": [
+      "pewter-city",
+      "mt-moon"
+    ],
+    "species": [
+      16,
+      18,
+      19,
+      21,
+      27,
+      39,
+      56,
+      129
+    ],
+    "x": 27,
+    "y": 20,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-3",
+    "originalEncounters": [
+      {
+        "speciesId": 16,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 6,
+        "maxLevel": 8,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 19,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 10,
+        "maxLevel": 12,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 21,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 5,
+        "maxLevel": 12,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 27,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 8,
+        "maxLevel": 10,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 39,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 3,
+        "maxLevel": 7,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 56,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 9,
+        "maxLevel": 9,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": [
+      18
+    ],
+    "encounterNote": "本地原型为完整151收集加入改编刷新，非原作野生分布。原作赠送、交换与固定事件亦暂以个人遭遇呈现。"
+  },
+  {
+    "id": "route-4",
+    "name": "4号道路",
+    "kind": "route",
+    "description": "月见山东侧出口至华蓝市的道路。",
+    "connections": [
+      "mt-moon",
+      "cerulean-city"
+    ],
+    "species": [
+      19,
+      21,
+      23,
+      27,
+      56,
+      129
+    ],
+    "x": 45,
+    "y": 20,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-4",
+    "originalEncounters": [
+      {
+        "speciesId": 19,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 8,
+        "maxLevel": 12,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 21,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 8,
+        "maxLevel": 12,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 23,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 6,
+        "maxLevel": 12,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 27,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 6,
+        "maxLevel": 12,
+        "versions": [
+          "blue",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 56,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 9,
+        "maxLevel": 9,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-5",
+    "name": "5号道路",
+    "kind": "route",
+    "description": "华蓝市南方，有宝可梦培育屋与地下通道入口。",
+    "connections": [
+      "cerulean-city",
+      "saffron-city",
+      "underground-north-south",
+      "day-care"
+    ],
+    "species": [
+      16,
+      17,
+      19,
+      39,
+      43,
+      52,
+      56,
+      63,
+      69
+    ],
+    "x": 57,
+    "y": 31,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-5",
+    "originalEncounters": [
+      {
+        "speciesId": 16,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 13,
+        "maxLevel": 17,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 17,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 17,
+        "maxLevel": 17,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 19,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 14,
+        "maxLevel": 16,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 39,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 3,
+        "maxLevel": 7,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 43,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 13,
+        "maxLevel": 16,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 52,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 10,
+        "maxLevel": 16,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 56,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 10,
+        "maxLevel": 16,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 63,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 7,
+        "maxLevel": 7,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 69,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 13,
+        "maxLevel": 16,
+        "versions": [
+          "blue"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-6",
+    "name": "6号道路",
+    "kind": "route",
+    "description": "枯叶市北方草地，连接金黄市与南北地下通道。",
+    "connections": [
+      "saffron-city",
+      "vermilion-city",
+      "underground-north-south"
+    ],
+    "species": [
+      16,
+      17,
+      19,
+      39,
+      43,
+      52,
+      54,
+      55,
+      56,
+      60,
+      62,
+      63,
+      69,
+      90,
+      98,
+      118,
+      129
+    ],
+    "x": 57,
+    "y": 53,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-6",
+    "originalEncounters": [
+      {
+        "speciesId": 16,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 13,
+        "maxLevel": 17,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 17,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 17,
+        "maxLevel": 17,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 19,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 14,
+        "maxLevel": 16,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 39,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 3,
+        "maxLevel": 7,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 43,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 13,
+        "maxLevel": 16,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 52,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 10,
+        "maxLevel": 16,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 54,
+        "methods": [
+          "surf"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 55,
+        "methods": [
+          "surf"
+        ],
+        "minLevel": 15,
+        "maxLevel": 20,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 56,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 10,
+        "maxLevel": 16,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 63,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 7,
+        "maxLevel": 7,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 69,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 13,
+        "maxLevel": 16,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 90,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 98,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 20,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": [
+      62
+    ],
+    "encounterNote": "本地原型为完整151收集加入改编刷新，非原作野生分布。原作赠送、交换与固定事件亦暂以个人遭遇呈现。"
+  },
+  {
+    "id": "route-7",
+    "name": "7号道路",
+    "kind": "route",
+    "description": "玉虹市与金黄市之间的短路段。",
+    "connections": [
+      "saffron-city",
+      "celadon-city",
+      "underground-east-west"
+    ],
+    "species": [
+      16,
+      17,
+      19,
+      37,
+      39,
+      43,
+      52,
+      56,
+      58,
+      63,
+      69
+    ],
+    "x": 47,
+    "y": 42,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-7",
+    "originalEncounters": [
+      {
+        "speciesId": 16,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 19,
+        "maxLevel": 22,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 17,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 24,
+        "maxLevel": 24,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 19,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 20,
+        "maxLevel": 20,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 37,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 18,
+        "maxLevel": 20,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 39,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 19,
+        "maxLevel": 24,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 43,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 19,
+        "maxLevel": 22,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 52,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 17,
+        "maxLevel": 20,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 56,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 17,
+        "maxLevel": 20,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 58,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 18,
+        "maxLevel": 20,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 63,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 15,
+        "maxLevel": 26,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 69,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 19,
+        "maxLevel": 22,
+        "versions": [
+          "blue"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-8",
+    "name": "8号道路",
+    "kind": "route",
+    "description": "金黄市与紫苑镇之间的道路，连接东西地下通道。",
+    "connections": [
+      "lavender-town",
+      "saffron-city",
+      "underground-east-west"
+    ],
+    "species": [
+      16,
+      17,
+      19,
+      23,
+      27,
+      37,
+      38,
+      39,
+      52,
+      53,
+      56,
+      58,
+      59,
+      63,
+      64
+    ],
+    "x": 70,
+    "y": 42,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-8",
+    "originalEncounters": [
+      {
+        "speciesId": 16,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 18,
+        "maxLevel": 22,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 17,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 24,
+        "maxLevel": 24,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 19,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 20,
+        "maxLevel": 20,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 23,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 17,
+        "maxLevel": 19,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 27,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 17,
+        "maxLevel": 19,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 37,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 15,
+        "maxLevel": 18,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 39,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 19,
+        "maxLevel": 24,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 52,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 18,
+        "maxLevel": 20,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 56,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 18,
+        "maxLevel": 20,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 58,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 15,
+        "maxLevel": 18,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 63,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 15,
+        "maxLevel": 19,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 64,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 20,
+        "maxLevel": 27,
+        "versions": [
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": [
+      38,
+      53,
+      59
+    ],
+    "encounterNote": "本地原型为完整151收集加入改编刷新，非原作野生分布。原作赠送、交换与固定事件亦暂以个人遭遇呈现。"
+  },
+  {
+    "id": "route-9",
+    "name": "9号道路",
+    "kind": "route",
+    "description": "华蓝市东侧山路，通往10号道路北段。",
+    "connections": [
+      "cerulean-city",
+      "route-10"
+    ],
+    "species": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      27,
+      29,
+      30,
+      32,
+      33
+    ],
+    "x": 70,
+    "y": 20,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-9",
+    "originalEncounters": [
+      {
+        "speciesId": 19,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 14,
+        "maxLevel": 18,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 20,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 20,
+        "maxLevel": 20,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 21,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 13,
+        "maxLevel": 17,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 22,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 19,
+        "maxLevel": 19,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 23,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 11,
+        "maxLevel": 17,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 27,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 11,
+        "maxLevel": 17,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 29,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 16,
+        "maxLevel": 18,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 30,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 18,
+        "maxLevel": 18,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 32,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 16,
+        "maxLevel": 18,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 33,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 18,
+        "maxLevel": 18,
+        "versions": [
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-10",
+    "name": "10号道路·北段",
+    "kind": "route",
+    "description": "岩山隧道北入口，水路支线通往无人发电厂。",
+    "connections": [
+      "route-9",
+      "rock-tunnel",
+      "power-plant"
+    ],
+    "species": [
+      19,
+      20,
+      21,
+      23,
+      27,
+      29,
+      32,
+      60,
+      61,
+      66,
+      79,
+      81,
+      98,
+      99,
+      100,
+      116,
+      118,
+      129
+    ],
+    "x": 83,
+    "y": 24,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-10",
+    "originalEncounters": [
+      {
+        "speciesId": 19,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 18,
+        "maxLevel": 18,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 20,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 20,
+        "maxLevel": 20,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 21,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 13,
+        "maxLevel": 17,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 23,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 11,
+        "maxLevel": 17,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 27,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 11,
+        "maxLevel": 17,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 29,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 17,
+        "maxLevel": 17,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 32,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 17,
+        "maxLevel": 17,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 61,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 23,
+        "maxLevel": 23,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 66,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 16,
+        "maxLevel": 18,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 79,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 81,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 16,
+        "maxLevel": 22,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 98,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 20,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 99,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 25,
+        "maxLevel": 25,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 100,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 14,
+        "maxLevel": 17,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 116,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-10-south",
+    "name": "10号道路·南段",
+    "kind": "route",
+    "description": "岩山隧道南出口与紫苑镇之间的山道。",
+    "connections": [
+      "rock-tunnel",
+      "lavender-town"
+    ],
+    "species": [
+      19,
+      20,
+      21,
+      23,
+      27,
+      29,
+      32,
+      60,
+      61,
+      66,
+      79,
+      81,
+      98,
+      99,
+      100,
+      116,
+      118,
+      129
+    ],
+    "x": 83,
+    "y": 36,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-10",
+    "originalEncounters": [
+      {
+        "speciesId": 19,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 18,
+        "maxLevel": 18,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 20,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 20,
+        "maxLevel": 20,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 21,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 13,
+        "maxLevel": 17,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 23,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 11,
+        "maxLevel": 17,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 27,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 11,
+        "maxLevel": 17,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 29,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 17,
+        "maxLevel": 17,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 32,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 17,
+        "maxLevel": 17,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 61,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 23,
+        "maxLevel": 23,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 66,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 16,
+        "maxLevel": 18,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 79,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 81,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 16,
+        "maxLevel": 22,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 98,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 20,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 99,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 25,
+        "maxLevel": 25,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 100,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 14,
+        "maxLevel": 17,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 116,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-11",
+    "name": "11号道路",
+    "kind": "route",
+    "description": "枯叶市东侧道路；地鼠洞入口在其西端。",
+    "connections": [
+      "vermilion-city",
+      "digletts-cave",
+      "route-12"
+    ],
+    "species": [
+      16,
+      17,
+      19,
+      20,
+      21,
+      23,
+      27,
+      30,
+      51,
+      60,
+      72,
+      90,
+      96,
+      98,
+      116,
+      118,
+      129
+    ],
+    "x": 70,
+    "y": 63,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-11",
+    "originalEncounters": [
+      {
+        "speciesId": 16,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 16,
+        "maxLevel": 18,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 17,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 18,
+        "maxLevel": 20,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 19,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 15,
+        "maxLevel": 17,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 20,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 17,
+        "maxLevel": 17,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 21,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 13,
+        "maxLevel": 17,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 23,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 12,
+        "maxLevel": 15,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 27,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 12,
+        "maxLevel": 15,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 30,
+        "methods": [
+          "npc-trade"
+        ],
+        "minLevel": 16,
+        "maxLevel": 100,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 51,
+        "methods": [
+          "npc-trade"
+        ],
+        "minLevel": 50,
+        "maxLevel": 100,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 72,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 20,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 90,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 96,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 9,
+        "maxLevel": 19,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 98,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 116,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-12",
+    "name": "12号道路",
+    "kind": "route",
+    "description": "紫苑镇南侧的沿海栈道，连接11号与13号道路。",
+    "connections": [
+      "route-11",
+      "lavender-town",
+      "route-13"
+    ],
+    "species": [
+      16,
+      17,
+      43,
+      44,
+      48,
+      60,
+      69,
+      70,
+      72,
+      79,
+      80,
+      83,
+      98,
+      116,
+      117,
+      118,
+      129,
+      143
+    ],
+    "x": 83,
+    "y": 61,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-12",
+    "originalEncounters": [
+      {
+        "speciesId": 16,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 23,
+        "maxLevel": 28,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 17,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 28,
+        "maxLevel": 28,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 43,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 22,
+        "maxLevel": 27,
+        "versions": [
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 44,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 28,
+        "maxLevel": 30,
+        "versions": [
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 48,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 24,
+        "maxLevel": 26,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 69,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 22,
+        "maxLevel": 27,
+        "versions": [
+          "blue",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 70,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 28,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 72,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 79,
+        "methods": [
+          "surf"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 80,
+        "methods": [
+          "surf"
+        ],
+        "minLevel": 15,
+        "maxLevel": 20,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 83,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 26,
+        "maxLevel": 31,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 98,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 116,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 20,
+        "maxLevel": 25,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 117,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 25,
+        "maxLevel": 35,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod",
+          "super-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 143,
+        "methods": [
+          "pokeflute"
+        ],
+        "minLevel": 30,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-13",
+    "name": "13号道路",
+    "kind": "route",
+    "description": "连接12号与14号道路的沿海草地。",
+    "connections": [
+      "route-12",
+      "route-14"
+    ],
+    "species": [
+      16,
+      17,
+      43,
+      44,
+      48,
+      60,
+      69,
+      70,
+      72,
+      79,
+      80,
+      83,
+      98,
+      116,
+      117,
+      118,
+      129,
+      132
+    ],
+    "x": 83,
+    "y": 76,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-13",
+    "originalEncounters": [
+      {
+        "speciesId": 16,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 25,
+        "maxLevel": 28,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 17,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 28,
+        "maxLevel": 28,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 43,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 22,
+        "maxLevel": 27,
+        "versions": [
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 44,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 28,
+        "maxLevel": 30,
+        "versions": [
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 48,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 24,
+        "maxLevel": 26,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 69,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 22,
+        "maxLevel": 27,
+        "versions": [
+          "blue",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 70,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 28,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 72,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 79,
+        "methods": [
+          "surf"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 80,
+        "methods": [
+          "surf"
+        ],
+        "minLevel": 15,
+        "maxLevel": 20,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 83,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 26,
+        "maxLevel": 31,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 98,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 116,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 20,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 117,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 20,
+        "maxLevel": 20,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod",
+          "super-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 132,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 25,
+        "maxLevel": 25,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-14",
+    "name": "14号道路",
+    "kind": "route",
+    "description": "东南沿海路段，有草系、虫系和鸟类精灵。",
+    "connections": [
+      "route-13",
+      "route-15"
+    ],
+    "species": [
+      16,
+      17,
+      43,
+      44,
+      48,
+      49,
+      69,
+      70,
+      132
+    ],
+    "x": 76,
+    "y": 84,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-14",
+    "originalEncounters": [
+      {
+        "speciesId": 16,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 26,
+        "maxLevel": 26,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 17,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 28,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 43,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 22,
+        "maxLevel": 28,
+        "versions": [
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 44,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 30,
+        "maxLevel": 30,
+        "versions": [
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 48,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 24,
+        "maxLevel": 27,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 49,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 30,
+        "maxLevel": 30,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 69,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 22,
+        "maxLevel": 28,
+        "versions": [
+          "blue",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 70,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 30,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 132,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 23,
+        "maxLevel": 23,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-15",
+    "name": "15号道路",
+    "kind": "route",
+    "description": "浅红市东侧道路。",
+    "connections": [
+      "route-14",
+      "fuchsia-city"
+    ],
+    "species": [
+      16,
+      17,
+      43,
+      44,
+      45,
+      48,
+      49,
+      69,
+      70,
+      71,
+      132
+    ],
+    "x": 67,
+    "y": 84,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-15",
+    "originalEncounters": [
+      {
+        "speciesId": 16,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 23,
+        "maxLevel": 23,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 17,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 28,
+        "maxLevel": 32,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 43,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 22,
+        "maxLevel": 28,
+        "versions": [
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 44,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 30,
+        "maxLevel": 30,
+        "versions": [
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 48,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 24,
+        "maxLevel": 28,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 49,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 30,
+        "maxLevel": 30,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 69,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 22,
+        "maxLevel": 28,
+        "versions": [
+          "blue",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 70,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 30,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 132,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 26,
+        "maxLevel": 26,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      }
+    ],
+    "adaptedSpecies": [
+      45,
+      71
+    ],
+    "encounterNote": "本地原型为完整151收集加入改编刷新，非原作野生分布。原作赠送、交换与固定事件亦暂以个人遭遇呈现。"
+  },
+  {
+    "id": "route-16",
+    "name": "16号道路",
+    "kind": "route",
+    "description": "玉虹市西侧，道路南转进入自行车道。",
+    "connections": [
+      "celadon-city",
+      "route-17"
+    ],
+    "species": [
+      19,
+      20,
+      21,
+      22,
+      84,
+      143
+    ],
+    "x": 27,
+    "y": 42,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-16",
+    "originalEncounters": [
+      {
+        "speciesId": 19,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 18,
+        "maxLevel": 24,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 20,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 23,
+        "maxLevel": 26,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 21,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 20,
+        "maxLevel": 23,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 22,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 24,
+        "maxLevel": 24,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 84,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 18,
+        "maxLevel": 26,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 143,
+        "methods": [
+          "pokeflute"
+        ],
+        "minLevel": 30,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-17",
+    "name": "17号道路",
+    "kind": "route",
+    "description": "连接16号与18号道路的长距离自行车道。",
+    "connections": [
+      "route-16",
+      "route-18"
+    ],
+    "species": [
+      20,
+      21,
+      22,
+      60,
+      72,
+      77,
+      78,
+      84,
+      85,
+      90,
+      98,
+      118,
+      129
+    ],
+    "x": 27,
+    "y": 65,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-17",
+    "originalEncounters": [
+      {
+        "speciesId": 20,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 25,
+        "maxLevel": 29,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 21,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 20,
+        "maxLevel": 22,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 22,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 25,
+        "maxLevel": 29,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 72,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 77,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 28,
+        "maxLevel": 32,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 84,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 24,
+        "maxLevel": 28,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 85,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 29,
+        "maxLevel": 29,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 90,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 25,
+        "maxLevel": 35,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 98,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod",
+          "super-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": [
+      78
+    ],
+    "encounterNote": "本地原型为完整151收集加入改编刷新，非原作野生分布。原作赠送、交换与固定事件亦暂以个人遭遇呈现。"
+  },
+  {
+    "id": "route-18",
+    "name": "18号道路",
+    "kind": "route",
+    "description": "自行车道南端至浅红市的道路。",
+    "connections": [
+      "route-17",
+      "fuchsia-city"
+    ],
+    "species": [
+      19,
+      20,
+      21,
+      22,
+      47,
+      60,
+      72,
+      84,
+      90,
+      98,
+      108,
+      118,
+      129
+    ],
+    "x": 40,
+    "y": 84,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-18",
+    "originalEncounters": [
+      {
+        "speciesId": 19,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 23,
+        "maxLevel": 24,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 20,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 25,
+        "maxLevel": 29,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 21,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 20,
+        "maxLevel": 23,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 22,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 24,
+        "maxLevel": 29,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 47,
+        "methods": [
+          "npc-trade"
+        ],
+        "minLevel": 22,
+        "maxLevel": 100,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 72,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 84,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 22,
+        "maxLevel": 28,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 90,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 20,
+        "maxLevel": 40,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 98,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 108,
+        "methods": [
+          "npc-trade"
+        ],
+        "minLevel": 23,
+        "maxLevel": 100,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod",
+          "super-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-19",
+    "name": "19号水道",
+    "kind": "water",
+    "description": "浅红市南方海域，向西通往双子岛。",
+    "connections": [
+      "fuchsia-city",
+      "route-20-east"
+    ],
+    "species": [
+      60,
+      72,
+      73,
+      90,
+      116,
+      118,
+      120,
+      129
+    ],
+    "x": 57,
+    "y": 93,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-sea-route-19",
+    "originalEncounters": [
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 72,
+        "methods": [
+          "super-rod",
+          "surf"
+        ],
+        "minLevel": 5,
+        "maxLevel": 40,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 73,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 30,
+        "maxLevel": 30,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 90,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 116,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 120,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 20,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-20-east",
+    "name": "20号水道·东段",
+    "kind": "water",
+    "description": "19号水道至双子岛东入口。",
+    "connections": [
+      "route-19",
+      "seafoam-islands"
+    ],
+    "species": [
+      60,
+      72,
+      73,
+      90,
+      116,
+      118,
+      120,
+      129
+    ],
+    "x": 46,
+    "y": 96,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-sea-route-20",
+    "originalEncounters": [
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 72,
+        "methods": [
+          "super-rod",
+          "surf"
+        ],
+        "minLevel": 5,
+        "maxLevel": 40,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 73,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 20,
+        "maxLevel": 40,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 90,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 116,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 120,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-20",
+    "name": "20号水道·西段",
+    "kind": "water",
+    "description": "双子岛西出口至红莲岛。",
+    "connections": [
+      "seafoam-islands",
+      "cinnabar-island"
+    ],
+    "species": [
+      60,
+      72,
+      73,
+      90,
+      116,
+      118,
+      120,
+      129
+    ],
+    "x": 29,
+    "y": 96,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-sea-route-20",
+    "originalEncounters": [
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 72,
+        "methods": [
+          "super-rod",
+          "surf"
+        ],
+        "minLevel": 5,
+        "maxLevel": 40,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 73,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 20,
+        "maxLevel": 40,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 90,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 116,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 120,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-21",
+    "name": "21号水道",
+    "kind": "water",
+    "description": "连接红莲岛与真新镇的海域。",
+    "connections": [
+      "cinnabar-island",
+      "pallet-town"
+    ],
+    "species": [
+      16,
+      17,
+      19,
+      20,
+      60,
+      72,
+      73,
+      90,
+      114,
+      116,
+      118,
+      120,
+      129
+    ],
+    "x": 17,
+    "y": 87,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-sea-route-21",
+    "originalEncounters": [
+      {
+        "speciesId": 16,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 11,
+        "maxLevel": 23,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 17,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 15,
+        "maxLevel": 32,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 19,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 13,
+        "maxLevel": 23,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 20,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 15,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 72,
+        "methods": [
+          "super-rod",
+          "surf"
+        ],
+        "minLevel": 5,
+        "maxLevel": 40,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 73,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 30,
+        "maxLevel": 30,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 90,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 114,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 28,
+        "maxLevel": 32,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 116,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 120,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 20,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-22",
+    "name": "22号道路",
+    "kind": "route",
+    "description": "常青市西侧道路，通往宝可梦联盟大门。",
+    "connections": [
+      "viridian-city",
+      "route-23"
+    ],
+    "species": [
+      19,
+      21,
+      29,
+      32,
+      56,
+      60,
+      61,
+      118,
+      129
+    ],
+    "x": 8,
+    "y": 59,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-22",
+    "originalEncounters": [
+      {
+        "speciesId": 19,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 2,
+        "maxLevel": 4,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 21,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 2,
+        "maxLevel": 6,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 29,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 2,
+        "maxLevel": 4,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 32,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 2,
+        "maxLevel": 4,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 56,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 3,
+        "maxLevel": 5,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 61,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-23",
+    "name": "23号道路",
+    "kind": "route",
+    "description": "联盟检验徽章的道路，终点是冠军之路。",
+    "connections": [
+      "route-22",
+      "victory-road"
+    ],
+    "species": [
+      21,
+      22,
+      23,
+      24,
+      27,
+      28,
+      30,
+      33,
+      56,
+      57,
+      60,
+      61,
+      80,
+      99,
+      117,
+      118,
+      119,
+      129,
+      132
+    ],
+    "x": 3,
+    "y": 43,
+    "unlockBadge": 8,
+    "sourceLocation": "kanto-route-23",
+    "originalEncounters": [
+      {
+        "speciesId": 21,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 26,
+        "maxLevel": 26,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 22,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 38,
+        "maxLevel": 45,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 23,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 26,
+        "maxLevel": 26,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 24,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 41,
+        "maxLevel": 41,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 27,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 26,
+        "maxLevel": 26,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 28,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 41,
+        "maxLevel": 41,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 30,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 41,
+        "maxLevel": 44,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 33,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 41,
+        "maxLevel": 44,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 56,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 36,
+        "maxLevel": 41,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 57,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 41,
+        "maxLevel": 46,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 61,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 30,
+        "maxLevel": 40,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 80,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 23,
+        "maxLevel": 23,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 99,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 23,
+        "maxLevel": 23,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 117,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 23,
+        "maxLevel": 23,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 119,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 23,
+        "maxLevel": 23,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 132,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 33,
+        "maxLevel": 43,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-24",
+    "name": "24号道路",
+    "kind": "route",
+    "description": "华蓝市北侧金球桥及草地。",
+    "connections": [
+      "cerulean-city",
+      "route-25"
+    ],
+    "species": [
+      4,
+      10,
+      11,
+      13,
+      14,
+      16,
+      17,
+      43,
+      48,
+      54,
+      60,
+      63,
+      69,
+      98,
+      118,
+      119,
+      129
+    ],
+    "x": 57,
+    "y": 10,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-24",
+    "originalEncounters": [
+      {
+        "speciesId": 4,
+        "methods": [
+          "gift"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 10,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 7,
+        "maxLevel": 7,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 11,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 8,
+        "maxLevel": 8,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 13,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 7,
+        "maxLevel": 7,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 14,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 8,
+        "maxLevel": 8,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 16,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 12,
+        "maxLevel": 17,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 17,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 17,
+        "maxLevel": 17,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 43,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 12,
+        "maxLevel": 14,
+        "versions": [
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 48,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 13,
+        "maxLevel": 16,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 54,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 63,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 8,
+        "maxLevel": 12,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 69,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 12,
+        "maxLevel": 14,
+        "versions": [
+          "blue",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 98,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 119,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 30,
+        "maxLevel": 30,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "route-25",
+    "name": "25号道路",
+    "kind": "route",
+    "description": "关都北部岬角，终点是正辉小屋。",
+    "connections": [
+      "route-24",
+      "bill-house"
+    ],
+    "species": [
+      10,
+      11,
+      13,
+      14,
+      16,
+      17,
+      43,
+      48,
+      54,
+      60,
+      63,
+      69,
+      98,
+      99,
+      118,
+      129
+    ],
+    "x": 70,
+    "y": 10,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-route-25",
+    "originalEncounters": [
+      {
+        "speciesId": 10,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 8,
+        "maxLevel": 8,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 11,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 7,
+        "maxLevel": 9,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 13,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 8,
+        "maxLevel": 8,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 14,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 7,
+        "maxLevel": 9,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 16,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 13,
+        "maxLevel": 17,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 17,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 17,
+        "maxLevel": 17,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 43,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 12,
+        "maxLevel": 14,
+        "versions": [
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 48,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 13,
+        "maxLevel": 16,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 54,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 63,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 10,
+        "maxLevel": 12,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 69,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 12,
+        "maxLevel": 14,
+        "versions": [
+          "blue",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 98,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 99,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 25,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "viridian-forest",
+    "name": "常青森林",
+    "kind": "forest",
+    "description": "森林步道连接2号道路南北两段，虫系和皮卡丘栖息于此。",
+    "connections": [
+      "route-2",
+      "route-2-north"
+    ],
+    "species": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      25
+    ],
+    "x": 17,
+    "y": 39,
+    "unlockBadge": 0,
+    "sourceLocation": "viridian-forest",
+    "originalEncounters": [
+      {
+        "speciesId": 10,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 3,
+        "maxLevel": 6,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 11,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 4,
+        "maxLevel": 6,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 13,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 3,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 14,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 4,
+        "maxLevel": 6,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 16,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 4,
+        "maxLevel": 8,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 17,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 9,
+        "maxLevel": 9,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 25,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 3,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      }
+    ],
+    "adaptedSpecies": [
+      12,
+      15
+    ],
+    "encounterNote": "本地原型为完整151收集加入改编刷新，非原作野生分布。原作赠送、交换与固定事件亦暂以个人遭遇呈现。"
+  },
+  {
+    "id": "mt-moon",
+    "name": "月见山",
+    "kind": "cave",
+    "description": "连接3号与4号道路的洞穴群，发现月之石与化石。",
+    "connections": [
+      "route-3",
+      "route-4"
+    ],
+    "species": [
+      27,
+      35,
+      36,
+      41,
+      46,
+      74
+    ],
+    "x": 35,
+    "y": 14,
+    "unlockBadge": 0,
+    "sourceLocation": "mt-moon",
+    "originalEncounters": [
+      {
+        "speciesId": 27,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 12,
+        "maxLevel": 12,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 35,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 8,
+        "maxLevel": 13,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 41,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 6,
+        "maxLevel": 13,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 46,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 8,
+        "maxLevel": 13,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 74,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 7,
+        "maxLevel": 11,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": [
+      36
+    ],
+    "encounterNote": "本地原型为完整151收集加入改编刷新，非原作野生分布。原作赠送、交换与固定事件亦暂以个人遭遇呈现。"
+  },
+  {
+    "id": "rock-tunnel",
+    "name": "岩山隧道",
+    "kind": "cave",
+    "description": "连接10号道路南北两段的黑暗山洞。",
+    "connections": [
+      "route-10",
+      "route-10-south"
+    ],
+    "species": [
+      41,
+      66,
+      74,
+      95
+    ],
+    "x": 83,
+    "y": 30,
+    "unlockBadge": 0,
+    "sourceLocation": "rock-tunnel",
+    "originalEncounters": [
+      {
+        "speciesId": 41,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 15,
+        "maxLevel": 22,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 66,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 15,
+        "maxLevel": 21,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 74,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 16,
+        "maxLevel": 21,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 95,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 13,
+        "maxLevel": 22,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "digletts-cave",
+    "name": "地鼠洞",
+    "kind": "cave",
+    "description": "地鼠挖出的通道，连接11号道路与2号道路北段。",
+    "connections": [
+      "route-11",
+      "route-2-north"
+    ],
+    "species": [
+      50,
+      51
+    ],
+    "x": 32,
+    "y": 56,
+    "unlockBadge": 0,
+    "sourceLocation": "digletts-cave",
+    "originalEncounters": [
+      {
+        "speciesId": 50,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 15,
+        "maxLevel": 22,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 51,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 29,
+        "maxLevel": 31,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "seafoam-islands",
+    "name": "双子岛",
+    "kind": "cave",
+    "description": "连接20号水道东西两侧的冰穴，急冻鸟的固定事件地。",
+    "connections": [
+      "route-20-east",
+      "route-20"
+    ],
+    "species": [
+      41,
+      42,
+      54,
+      55,
+      60,
+      72,
+      79,
+      80,
+      86,
+      87,
+      90,
+      91,
+      98,
+      99,
+      116,
+      117,
+      118,
+      120,
+      121,
+      129,
+      144
+    ],
+    "x": 38,
+    "y": 96,
+    "unlockBadge": 0,
+    "sourceLocation": "seafoam-islands",
+    "originalEncounters": [
+      {
+        "speciesId": 41,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 9,
+        "maxLevel": 45,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 42,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 27,
+        "maxLevel": 36,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 54,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 28,
+        "maxLevel": 33,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 55,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 37,
+        "maxLevel": 39,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 72,
+        "methods": [
+          "surf"
+        ],
+        "minLevel": 20,
+        "maxLevel": 40,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 79,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 28,
+        "maxLevel": 33,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 80,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 31,
+        "maxLevel": 39,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 86,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 22,
+        "maxLevel": 33,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 87,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 28,
+        "maxLevel": 38,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 90,
+        "methods": [
+          "super-rod",
+          "walk"
+        ],
+        "minLevel": 15,
+        "maxLevel": 33,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 98,
+        "methods": [
+          "super-rod",
+          "walk"
+        ],
+        "minLevel": 25,
+        "maxLevel": 33,
+        "versions": [
+          "blue",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 99,
+        "methods": [
+          "super-rod",
+          "walk"
+        ],
+        "minLevel": 28,
+        "maxLevel": 39,
+        "versions": [
+          "blue",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 116,
+        "methods": [
+          "super-rod",
+          "walk"
+        ],
+        "minLevel": 15,
+        "maxLevel": 33,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 117,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 37,
+        "maxLevel": 39,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 120,
+        "methods": [
+          "super-rod",
+          "surf",
+          "walk"
+        ],
+        "minLevel": 15,
+        "maxLevel": 40,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 144,
+        "methods": [
+          "static"
+        ],
+        "minLevel": 50,
+        "maxLevel": 50,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": [
+      91,
+      121
+    ],
+    "encounterNote": "本地原型为完整151收集加入改编刷新，非原作野生分布。原作赠送、交换与固定事件亦暂以个人遭遇呈现。"
+  },
+  {
+    "id": "power-plant",
+    "name": "无人发电厂",
+    "kind": "interior",
+    "description": "10号道路的水路支线，电系精灵与闪电鸟的栖息地。",
+    "connections": [
+      "route-10"
+    ],
+    "species": [
+      25,
+      26,
+      81,
+      82,
+      88,
+      89,
+      100,
+      101,
+      125,
+      145
+    ],
+    "x": 94,
+    "y": 26,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-power-plant",
+    "originalEncounters": [
+      {
+        "speciesId": 25,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 20,
+        "maxLevel": 24,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 26,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 33,
+        "maxLevel": 36,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 81,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 21,
+        "maxLevel": 35,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 82,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 32,
+        "maxLevel": 38,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 88,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 33,
+        "maxLevel": 37,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 89,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 33,
+        "maxLevel": 37,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 100,
+        "methods": [
+          "static",
+          "walk"
+        ],
+        "minLevel": 21,
+        "maxLevel": 40,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 101,
+        "methods": [
+          "static"
+        ],
+        "minLevel": 43,
+        "maxLevel": 43,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 125,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 33,
+        "maxLevel": 36,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 145,
+        "methods": [
+          "static"
+        ],
+        "minLevel": 50,
+        "maxLevel": 50,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "pokemon-tower",
+    "name": "宝可梦塔",
+    "kind": "interior",
+    "description": "紫苑镇的高塔，幽灵系精灵与嘎啦嘎啦故事发生地。",
+    "connections": [
+      "lavender-town"
+    ],
+    "species": [
+      92,
+      93,
+      94,
+      104
+    ],
+    "x": 92,
+    "y": 42,
+    "unlockBadge": 0,
+    "sourceLocation": "pokemon-tower",
+    "originalEncounters": [
+      {
+        "speciesId": 92,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 18,
+        "maxLevel": 29,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 93,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 20,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 104,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 20,
+        "maxLevel": 24,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": [
+      94
+    ],
+    "encounterNote": "本地原型为完整151收集加入改编刷新，非原作野生分布。原作赠送、交换与固定事件亦暂以个人遭遇呈现。"
+  },
+  {
+    "id": "pokemon-mansion",
+    "name": "宝可梦屋",
+    "kind": "interior",
+    "description": "红莲岛废弃研究设施，记载梦幻与超梦研究线索。",
+    "connections": [
+      "cinnabar-island"
+    ],
+    "species": [
+      19,
+      20,
+      37,
+      58,
+      77,
+      88,
+      89,
+      109,
+      110,
+      126,
+      132,
+      151
+    ],
+    "x": 8,
+    "y": 93,
+    "unlockBadge": 0,
+    "sourceLocation": "pokemon-mansion",
+    "originalEncounters": [
+      {
+        "speciesId": 19,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 34,
+        "maxLevel": 43,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 20,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 34,
+        "maxLevel": 46,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 37,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 32,
+        "maxLevel": 35,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 58,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 26,
+        "maxLevel": 38,
+        "versions": [
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 77,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 28,
+        "maxLevel": 36,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 88,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 23,
+        "maxLevel": 38,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 89,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 35,
+        "maxLevel": 42,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 109,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 30,
+        "maxLevel": 35,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 110,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 37,
+        "maxLevel": 42,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 126,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 34,
+        "maxLevel": 38,
+        "versions": [
+          "blue"
+        ]
+      },
+      {
+        "speciesId": 132,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 12,
+        "maxLevel": 24,
+        "versions": [
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": [
+      151
+    ],
+    "encounterNote": "本地原型为完整151收集加入改编刷新，非原作野生分布。原作赠送、交换与固定事件亦暂以个人遭遇呈现。"
+  },
+  {
+    "id": "safari-zone",
+    "name": "狩猎地带",
+    "kind": "safari",
+    "description": "浅红市北侧生态保护区；首版聚合园区各分区。",
+    "connections": [
+      "fuchsia-city"
+    ],
+    "species": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      46,
+      47,
+      48,
+      49,
+      54,
+      60,
+      79,
+      84,
+      98,
+      102,
+      103,
+      104,
+      105,
+      111,
+      113,
+      114,
+      115,
+      118,
+      123,
+      127,
+      128,
+      129,
+      147,
+      148,
+      149
+    ],
+    "x": 57,
+    "y": 75,
+    "unlockBadge": 0,
+    "sourceLocation": "kanto-safari-zone",
+    "originalEncounters": [
+      {
+        "speciesId": 29,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 14,
+        "maxLevel": 36,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 30,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 23,
+        "maxLevel": 33,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 32,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 14,
+        "maxLevel": 36,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 33,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 23,
+        "maxLevel": 33,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 46,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 22,
+        "maxLevel": 27,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 47,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 25,
+        "maxLevel": 32,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 48,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 22,
+        "maxLevel": 23,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 49,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 31,
+        "maxLevel": 32,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 54,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 79,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 84,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 26,
+        "maxLevel": 26,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 98,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 102,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 20,
+        "maxLevel": 27,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 104,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 16,
+        "maxLevel": 19,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 105,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 24,
+        "maxLevel": 24,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 111,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 20,
+        "maxLevel": 26,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 113,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 7,
+        "maxLevel": 26,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 114,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 22,
+        "maxLevel": 27,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 115,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 25,
+        "maxLevel": 33,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 123,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 15,
+        "maxLevel": 28,
+        "versions": [
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 127,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 15,
+        "maxLevel": 28,
+        "versions": [
+          "blue",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 128,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 21,
+        "maxLevel": 28,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod",
+          "super-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 147,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 15,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 148,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 15,
+        "maxLevel": 15,
+        "versions": [
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": [
+      31,
+      34,
+      103,
+      149
+    ],
+    "encounterNote": "本地原型为完整151收集加入改编刷新，非原作野生分布。原作赠送、交换与固定事件亦暂以个人遭遇呈现。"
+  },
+  {
+    "id": "cerulean-cave",
+    "name": "华蓝洞窟",
+    "kind": "cave",
+    "description": "华蓝市西北的高等级洞窟，超梦固定事件所在地。",
+    "connections": [
+      "cerulean-city"
+    ],
+    "species": [
+      24,
+      26,
+      28,
+      40,
+      42,
+      44,
+      47,
+      49,
+      60,
+      64,
+      65,
+      68,
+      70,
+      75,
+      76,
+      80,
+      82,
+      85,
+      97,
+      99,
+      101,
+      105,
+      108,
+      111,
+      112,
+      113,
+      117,
+      118,
+      119,
+      129,
+      132,
+      150
+    ],
+    "x": 48,
+    "y": 13,
+    "unlockBadge": 8,
+    "sourceLocation": "cerulean-cave",
+    "originalEncounters": [
+      {
+        "speciesId": 24,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 52,
+        "maxLevel": 57,
+        "versions": [
+          "red"
+        ]
+      },
+      {
+        "speciesId": 26,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 53,
+        "maxLevel": 64,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 28,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 52,
+        "maxLevel": 57,
+        "versions": [
+          "blue",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 40,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 54,
+        "maxLevel": 54,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 42,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 46,
+        "maxLevel": 59,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 44,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 55,
+        "maxLevel": 58,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 47,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 52,
+        "maxLevel": 64,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 49,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 49,
+        "maxLevel": 54,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 60,
+        "methods": [
+          "good-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 10,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 64,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 49,
+        "maxLevel": 51,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 70,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 55,
+        "maxLevel": 58,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 75,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 45,
+        "maxLevel": 55,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 80,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 23,
+        "maxLevel": 23,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 82,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 46,
+        "maxLevel": 46,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 85,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 49,
+        "maxLevel": 51,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 97,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 46,
+        "maxLevel": 46,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 99,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 23,
+        "maxLevel": 23,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 101,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 52,
+        "maxLevel": 55,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 105,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 52,
+        "maxLevel": 55,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 108,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 50,
+        "maxLevel": 55,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 111,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 50,
+        "maxLevel": 52,
+        "versions": [
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 112,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 52,
+        "maxLevel": 62,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 113,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 56,
+        "maxLevel": 64,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 117,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 23,
+        "maxLevel": 23,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 118,
+        "methods": [
+          "good-rod",
+          "super-rod"
+        ],
+        "minLevel": 10,
+        "maxLevel": 30,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 119,
+        "methods": [
+          "super-rod"
+        ],
+        "minLevel": 23,
+        "maxLevel": 60,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 129,
+        "methods": [
+          "old-rod"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 132,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 53,
+        "maxLevel": 67,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 150,
+        "methods": [
+          "static"
+        ],
+        "minLevel": 70,
+        "maxLevel": 70,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": [
+      65,
+      68,
+      76
+    ],
+    "encounterNote": "本地原型为完整151收集加入改编刷新，非原作野生分布。原作赠送、交换与固定事件亦暂以个人遭遇呈现。"
+  },
+  {
+    "id": "victory-road",
+    "name": "冠军之路",
+    "kind": "cave",
+    "description": "连接23号道路与石英高原的最后试炼。",
+    "connections": [
+      "route-23",
+      "indigo-plateau"
+    ],
+    "species": [
+      41,
+      42,
+      49,
+      66,
+      67,
+      74,
+      75,
+      95,
+      105,
+      146
+    ],
+    "x": 3,
+    "y": 25,
+    "unlockBadge": 8,
+    "sourceLocation": "kanto-victory-road-2",
+    "originalEncounters": [
+      {
+        "speciesId": 41,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 22,
+        "maxLevel": 44,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 42,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 39,
+        "maxLevel": 44,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 49,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 40,
+        "maxLevel": 40,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 66,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 22,
+        "maxLevel": 24,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 67,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 39,
+        "maxLevel": 45,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 74,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 24,
+        "maxLevel": 46,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 75,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 41,
+        "maxLevel": 47,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 95,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 36,
+        "maxLevel": 49,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      },
+      {
+        "speciesId": 105,
+        "methods": [
+          "walk"
+        ],
+        "minLevel": 40,
+        "maxLevel": 43,
+        "versions": [
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "speciesId": 146,
+        "methods": [
+          "static"
+        ],
+        "minLevel": 50,
+        "maxLevel": 50,
+        "versions": [
+          "blue",
+          "red",
+          "yellow"
+        ]
+      }
+    ],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "oaks-lab",
+    "name": "大木研究所",
+    "kind": "interior",
+    "description": "选择妙蛙种子、小火龙或杰尼龟，建立初始训练伙伴关系。",
+    "connections": [
+      "pallet-town"
+    ],
+    "species": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "x": 24,
+    "y": 78,
+    "unlockBadge": 0,
+    "sourceLocation": "oaks-lab",
+    "originalEncounters": [],
+    "adaptedSpecies": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "encounterNote": "本地原型为完整151收集加入改编刷新，非原作野生分布。原作赠送、交换与固定事件亦暂以个人遭遇呈现。"
+  },
+  {
+    "id": "pewter-museum",
+    "name": "深灰科学博物馆",
+    "kind": "interior",
+    "description": "展示化石与科学研究；可取得古代琥珀线索。",
+    "connections": [
+      "pewter-city"
+    ],
+    "species": [],
+    "x": 17,
+    "y": 13,
+    "unlockBadge": 0,
+    "sourceLocation": "pewter-museum",
+    "originalEncounters": [],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "bill-house",
+    "name": "正辉小屋",
+    "kind": "interior",
+    "description": "25号道路尽头的海角小屋。",
+    "connections": [
+      "route-25"
+    ],
+    "species": [],
+    "x": 81,
+    "y": 10,
+    "unlockBadge": 0,
+    "sourceLocation": "bill-house",
+    "originalEncounters": [],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "day-care",
+    "name": "宝可梦培育屋",
+    "kind": "interior",
+    "description": "5号道路的培育设施；完整培育规则属于后续内容。",
+    "connections": [
+      "route-5"
+    ],
+    "species": [],
+    "x": 49,
+    "y": 31,
+    "unlockBadge": 0,
+    "sourceLocation": "day-care",
+    "originalEncounters": [],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "ss-anne",
+    "name": "圣特安努号",
+    "kind": "interior",
+    "description": "停靠枯叶港的客轮；首版以一个室内节点呈现。",
+    "connections": [
+      "vermilion-city"
+    ],
+    "species": [],
+    "x": 64,
+    "y": 68,
+    "unlockBadge": 0,
+    "sourceLocation": "ss-anne",
+    "originalEncounters": [],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "underground-north-south",
+    "name": "地下通道·南北",
+    "kind": "interior",
+    "description": "连接5号与6号道路，绕过金黄市。",
+    "connections": [
+      "route-5",
+      "route-6"
+    ],
+    "species": [],
+    "x": 48,
+    "y": 53,
+    "unlockBadge": 0,
+    "sourceLocation": "underground-north-south",
+    "originalEncounters": [],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "underground-east-west",
+    "name": "地下通道·东西",
+    "kind": "interior",
+    "description": "连接7号与8号道路，绕过金黄市。",
+    "connections": [
+      "route-7",
+      "route-8"
+    ],
+    "species": [],
+    "x": 69,
+    "y": 49,
+    "unlockBadge": 0,
+    "sourceLocation": "underground-east-west",
+    "originalEncounters": [],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "rocket-hideout",
+    "name": "火箭队基地",
+    "kind": "interior",
+    "description": "玉虹游戏城地下的火箭队据点。",
+    "connections": [
+      "celadon-city"
+    ],
+    "species": [],
+    "x": 37,
+    "y": 49,
+    "unlockBadge": 0,
+    "sourceLocation": "rocket-hideout",
+    "originalEncounters": [],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "silph-co",
+    "name": "西尔佛公司",
+    "kind": "interior",
+    "description": "金黄市的公司大楼，与火箭队事件及拉普拉斯赠送相关。",
+    "connections": [
+      "saffron-city"
+    ],
+    "species": [
+      131
+    ],
+    "x": 64,
+    "y": 36,
+    "unlockBadge": 0,
+    "sourceLocation": "silph-co",
+    "originalEncounters": [],
+    "adaptedSpecies": [
+      131
+    ],
+    "encounterNote": "本地原型为完整151收集加入改编刷新，非原作野生分布。原作赠送、交换与固定事件亦暂以个人遭遇呈现。"
+  },
+  {
+    "id": "fighting-dojo",
+    "name": "格斗道场",
+    "kind": "interior",
+    "description": "金黄市训练场，与飞腿郎和快拳郎的选择相关。",
+    "connections": [
+      "saffron-city"
+    ],
+    "species": [
+      106,
+      107
+    ],
+    "x": 51,
+    "y": 36,
+    "unlockBadge": 0,
+    "sourceLocation": "fighting-dojo",
+    "originalEncounters": [],
+    "adaptedSpecies": [
+      106,
+      107
+    ],
+    "encounterNote": "本地原型为完整151收集加入改编刷新，非原作野生分布。原作赠送、交换与固定事件亦暂以个人遭遇呈现。"
+  },
+  {
+    "id": "pokemon-lab",
+    "name": "宝可梦研究所",
+    "kind": "interior",
+    "description": "红莲岛化石复原设施，关联菊石兽、化石盔与化石翼龙。",
+    "connections": [
+      "cinnabar-island"
+    ],
+    "species": [
+      138,
+      139,
+      140,
+      141,
+      142
+    ],
+    "x": 24,
+    "y": 92,
+    "unlockBadge": 0,
+    "sourceLocation": "pokemon-lab",
+    "originalEncounters": [],
+    "adaptedSpecies": [
+      138,
+      139,
+      140,
+      141,
+      142
+    ],
+    "encounterNote": "本地原型为完整151收集加入改编刷新，非原作野生分布。原作赠送、交换与固定事件亦暂以个人遭遇呈现。"
+  },
+  {
+    "id": "pewter-gym",
+    "name": "深灰道馆",
+    "kind": "gym",
+    "description": "小刚的岩石系道馆，灰色徽章。",
+    "connections": [
+      "pewter-city"
+    ],
+    "species": [],
+    "x": 10,
+    "y": 20,
+    "unlockBadge": 0,
+    "sourceLocation": "pewter-gym",
+    "originalEncounters": [],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "cerulean-gym",
+    "name": "华蓝道馆",
+    "kind": "gym",
+    "description": "小霞的水系道馆，蓝色徽章。",
+    "connections": [
+      "cerulean-city"
+    ],
+    "species": [],
+    "x": 64,
+    "y": 25,
+    "unlockBadge": 0,
+    "sourceLocation": "cerulean-gym",
+    "originalEncounters": [],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "vermilion-gym",
+    "name": "枯叶道馆",
+    "kind": "gym",
+    "description": "马志士的电系道馆，橙色徽章。",
+    "connections": [
+      "vermilion-city"
+    ],
+    "species": [],
+    "x": 50,
+    "y": 68,
+    "unlockBadge": 0,
+    "sourceLocation": "vermilion-gym",
+    "originalEncounters": [],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "celadon-gym",
+    "name": "玉虹道馆",
+    "kind": "gym",
+    "description": "莉佳的草系道馆，彩虹徽章。",
+    "connections": [
+      "celadon-city"
+    ],
+    "species": [],
+    "x": 37,
+    "y": 35,
+    "unlockBadge": 0,
+    "sourceLocation": "celadon-gym",
+    "originalEncounters": [],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "fuchsia-gym",
+    "name": "浅红道馆",
+    "kind": "gym",
+    "description": "阿桔的毒系道馆，粉红徽章。",
+    "connections": [
+      "fuchsia-city"
+    ],
+    "species": [],
+    "x": 64,
+    "y": 89,
+    "unlockBadge": 0,
+    "sourceLocation": "fuchsia-gym",
+    "originalEncounters": [],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "saffron-gym",
+    "name": "金黄道馆",
+    "kind": "gym",
+    "description": "娜姿的超能力系道馆，金色徽章。",
+    "connections": [
+      "saffron-city"
+    ],
+    "species": [],
+    "x": 63,
+    "y": 47,
+    "unlockBadge": 0,
+    "sourceLocation": "saffron-gym",
+    "originalEncounters": [],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "cinnabar-gym",
+    "name": "红莲道馆",
+    "kind": "gym",
+    "description": "夏伯的火系道馆，深红徽章。",
+    "connections": [
+      "cinnabar-island"
+    ],
+    "species": [],
+    "x": 8,
+    "y": 99,
+    "unlockBadge": 0,
+    "sourceLocation": "cinnabar-gym",
+    "originalEncounters": [],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "viridian-gym",
+    "name": "常青道馆",
+    "kind": "gym",
+    "description": "坂木的地面系道馆，绿色徽章。",
+    "connections": [
+      "viridian-city"
+    ],
+    "species": [],
+    "x": 24,
+    "y": 59,
+    "unlockBadge": 0,
+    "sourceLocation": "viridian-gym",
+    "originalEncounters": [],
+    "adaptedSpecies": []
+  },
+  {
+    "id": "pokemon-league",
+    "name": "宝可梦联盟",
+    "kind": "interior",
+    "description": "四天王与冠军的连续挑战入口。",
+    "connections": [
+      "indigo-plateau"
+    ],
+    "species": [],
+    "x": 9,
+    "y": 8,
+    "unlockBadge": 8,
+    "sourceLocation": "pokemon-league",
+    "originalEncounters": [],
+    "adaptedSpecies": []
+  }
+]

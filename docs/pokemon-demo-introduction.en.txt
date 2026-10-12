@@ -1,0 +1,17 @@
+Hi! I saw your post looking for help with online PvP, and I'd love to contribute to the gameplay side of it.
+
+I used to work as an architectural designer, but my love of games has motivated me to start making my own. I was already interested in your project, and after watching your introduction videos, I used AI-assisted development tools to build a small prototype exploring my own ideas for Pokémon battles.
+
+The playable demo features autonomous real-time combat in arenas generated from the environment around each encounter, with destructible cover and terrain that Pokémon can use to avoid attacks. Players can issue tactical and move commands while their Pokémon continue acting on their own. In the broader project, I've also been experimenting with Qwen-powered companion dialogue and a learning-and-training system, with the aim of developing distinct battle styles for each trainer and Pokémon. These experiments are not all integrated into the current demo yet.
+
+I'd be especially excited to help prototype PvP mechanics, tactical arenas, and trainer–Pokémon interaction. My architecture background has shaped how I think about space, movement, and cover, and I'm eager to keep learning alongside an experienced team. I would be happy to share a short gameplay video and the prototype, or start with a small, clearly scoped task if that would be useful. Thank you for taking a look!
+
+Short first-contact version:
+
+Hi! I saw your call for online PvP help. I'm a former architectural designer moving into game development, and your project inspired me to build a small AI-assisted Pokémon battle prototype. It explores real-time tactical commands, arenas generated from nearby scenery, and destructible cover. I'm also experimenting with Qwen-powered companion dialogue and learning-based battle styles in the broader project. I'd love to contribute to PvP gameplay and arena design. Would you be open to a short gameplay video and a look at the demo?
+
+Before sending:
+- Attach an actual gameplay video or verified HTTPS demo link. A localhost URL will not work for someone on another computer.
+- This is a prototype contribution pitch, not a claim of professional multiplayer hosting experience.
+- Do not describe Qwen as controlling the current battle commands, or the standalone demo as an already complete multiplayer game.
+- No outreach message has been sent by Codex.

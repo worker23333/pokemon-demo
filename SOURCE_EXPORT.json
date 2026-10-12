@@ -1,0 +1,453 @@
+{
+  "kind": "source-only-review-export",
+  "runtimeAssetsIncluded": false,
+  "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 720,
+      "sha256": "c101da9ac6676704d773f1272be4ea93dac511a851e633d3ef865e76ce2e3f02"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 102,
+      "sha256": "a4cd683a3631bc28e7d707c6bc65dfcfc6cec038c37c28a3ba15efcc5a1d9aad"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4052,
+      "sha256": "165d30aca2967b5af35abc19c59388e0f567061457b6f61d836d6b991e4e67a8"
+    },
+    {
+      "path": "RUNTIME_ASSETS_REQUIRED.md",
+      "bytes": 1120,
+      "sha256": "476869063b9cd25cee740a5d27910d32df9adad6fe3d6696fb82eef00c798c93"
+    },
+    {
+      "path": "apps/web/api.ts",
+      "bytes": 5601,
+      "sha256": "7656f9efd740e199c6f00f317a605c274f19e74816c37241bb6aa1bd64909db0"
+    },
+    {
+      "path": "apps/web/arena/directional-sprite.ts",
+      "bytes": 7762,
+      "sha256": "9eb703a1ee37e93f5d04af7df1f861f02dd443500759078e754412c6fe2314e4"
+    },
+    {
+      "path": "apps/web/arena/fx.ts",
+      "bytes": 13511,
+      "sha256": "cfa808d402d9c477f74d439d9a7835d01df573486aa581c1637ed8e8d9fd0f64"
+    },
+    {
+      "path": "apps/web/arena/moves.ts",
+      "bytes": 3349,
+      "sha256": "1f1407c0d98e028aee41d8591bfccc41de7ee3de937839414b3d0565e8aba775"
+    },
+    {
+      "path": "apps/web/arena/timeline.ts",
+      "bytes": 5923,
+      "sha256": "bc3d038ad758e1fbfeb67bda59fc56fac5db976cb2ea3b32874c1afaae748e77"
+    },
+    {
+      "path": "apps/web/arena/types.ts",
+      "bytes": 5412,
+      "sha256": "e558e7e390aa2c2880977209e3fb580477450b6fe4948ce50122e4c0ca9ea56f"
+    },
+    {
+      "path": "apps/web/arena/util.ts",
+      "bytes": 2359,
+      "sha256": "44e6d46cbda7f63438a8aed471385fa49a891ff1add7895909ec64df3418e351"
+    },
+    {
+      "path": "apps/web/command-feedback.ts",
+      "bytes": 8327,
+      "sha256": "58358dcf795b2ae3fc5bced96b7dd769bcdbc7c1ec28541f52707508d03bdee6"
+    },
+    {
+      "path": "demos/gamma-battle/api-client.ts",
+      "bytes": 4390,
+      "sha256": "0212e886315ea2160b9e6d96f4256b118e4e981a27add47946f3c03ed6699382"
+    },
+    {
+      "path": "demos/gamma-battle/field.py",
+      "bytes": 14591,
+      "sha256": "abb5a4fdc91f4e392bec3d96dcc84467a8b33918668188c744d1a978087d6efe"
+    },
+    {
+      "path": "demos/gamma-battle/gamma-assets.ts",
+      "bytes": 12393,
+      "sha256": "dc5b7503f86f72af8378218babe0ca72bca95b8be1f192c6e2038ca1110b7a9c"
+    },
+    {
+      "path": "demos/gamma-battle/gamma-audio.ts",
+      "bytes": 13685,
+      "sha256": "d0075367ae15ad2985f5cec1ca260d62dc95c7e6a05f15ed5eab71da4200ab48"
+    },
+    {
+      "path": "demos/gamma-battle/index.html",
+      "bytes": 319,
+      "sha256": "dd9a31e694a481fcffddeaabbb4023fe045d26b8b134b4f4b767675c6e5bae85"
+    },
+    {
+      "path": "demos/gamma-battle/main.ts",
+      "bytes": 21340,
+      "sha256": "b4a897c3d10fae9318c8a0001d1be59ffcb418eabc50626ca578993b71978c98"
+    },
+    {
+      "path": "demos/gamma-battle/run.mjs",
+      "bytes": 2327,
+      "sha256": "fa8cb08ef9ef424222b886d3d35082f5784c73959d37042327eed7798ae5b06e"
+    },
+    {
+      "path": "demos/gamma-battle/scene.ts",
+      "bytes": 25586,
+      "sha256": "ef083d184c4eb6cd34943bf811b9fb1f8b52e331c86b44138fd2191f193a5115"
+    },
+    {
+      "path": "demos/gamma-battle/server.py",
+      "bytes": 14558,
+      "sha256": "48d53280f21f02a1d5fe9ae8507d0bfa019aa3f3662969b0df9b13e9a9c69e18"
+    },
+    {
+      "path": "demos/gamma-battle/style.css",
+      "bytes": 22862,
+      "sha256": "f0d4172993ee6558c637b8f0617b0654cc9356e1455368fe07acf5e016aec217"
+    },
+    {
+      "path": "demos/gamma-battle/tsconfig.json",
+      "bytes": 124,
+      "sha256": "80ff19f204e28e730c47d305ccd3c8f71bd41d571a54e403c8968a27cc6fbe6c"
+    },
+    {
+      "path": "demos/gamma-battle/vite.config.ts",
+      "bytes": 539,
+      "sha256": "a253749c63c1e2cdf42d68d85ad0555e53b777df57cf29ba30555fbf6d254c04"
+    },
+    {
+      "path": "demos/gamma-world/battle-bridge.ts",
+      "bytes": 7701,
+      "sha256": "7d422f558c070f2ba708c4a90b6eb9a5d37335aee0473451c7054a3fa7d05381"
+    },
+    {
+      "path": "demos/gamma-world/battle-room-generator.ts",
+      "bytes": 8435,
+      "sha256": "2a4e35695b37d76aa30d0861cf84f354b9c1d7c480392e7f1dcc1aebf300a790"
+    },
+    {
+      "path": "demos/gamma-world/battle-room-scene.ts",
+      "bytes": 9232,
+      "sha256": "2f97c457168c36f8f0c640ee3844798d91f6a57c3e37048dd80f9eb443914f21"
+    },
+    {
+      "path": "demos/gamma-world/battle-room-types.ts",
+      "bytes": 970,
+      "sha256": "2ef78e96631e5c333ca6b0193a7c25b86fe8acd8283bd0a5c6b4371b69b1c299"
+    },
+    {
+      "path": "demos/gamma-world/bootstrap.ts",
+      "bytes": 1278,
+      "sha256": "869d1e9a08c9495916a250deb2b2dab6ddefc31cb8eaabf1cdd02a44638467dd"
+    },
+    {
+      "path": "demos/gamma-world/companion-behavior.ts",
+      "bytes": 4359,
+      "sha256": "3ce410c1e06541f4796110185693bfc4827094e3e843297c37dd7a145439346f"
+    },
+    {
+      "path": "demos/gamma-world/companion-trail.ts",
+      "bytes": 2309,
+      "sha256": "5dd46a7ee0ece260e50c5e5ff4d097200bb54d1f812b38c03e6d6e590195d83a"
+    },
+    {
+      "path": "demos/gamma-world/encounters.ts",
+      "bytes": 2734,
+      "sha256": "d0e0559c47ad2ddb387ad9660693d6e09ecd6fbc3ce5a289f3c5881e0c8d4c2f"
+    },
+    {
+      "path": "demos/gamma-world/field-actors.ts",
+      "bytes": 15407,
+      "sha256": "f187c922554d49143d8c0f90b02316c1a21d28a13b309dacf88a3e8b444904c3"
+    },
+    {
+      "path": "demos/gamma-world/field-effects.ts",
+      "bytes": 12702,
+      "sha256": "ef5b760451892c4b3fa5d7eac0509c721ef30fd126cc5523c76bb1d0f0d80b43"
+    },
+    {
+      "path": "demos/gamma-world/field-navigation.ts",
+      "bytes": 4350,
+      "sha256": "8bd1ad381bac03a33c917c89e087888631b0aca5e56e9c1e239d5d34757ba476"
+    },
+    {
+      "path": "demos/gamma-world/field-session.ts",
+      "bytes": 21405,
+      "sha256": "df33c251c7965975cdd3c2741c4f7059106813fad99e7b276a25158a04a7b0ba"
+    },
+    {
+      "path": "demos/gamma-world/field-types.ts",
+      "bytes": 1003,
+      "sha256": "2f8c3dda0589bdc568131fa2671b342d8b7d18b6346325cb0acdca9b8061d9c1"
+    },
+    {
+      "path": "demos/gamma-world/index.html",
+      "bytes": 3366,
+      "sha256": "60bb82f976d615ca77faff4d265840b32a0b036ee7cb2b2f57b5b2fff3220965"
+    },
+    {
+      "path": "demos/gamma-world/main.ts",
+      "bytes": 34635,
+      "sha256": "9f2cb40b697acba0f05e683360738f16dbb8cda2e0bf4e509be2323eacc61d44"
+    },
+    {
+      "path": "demos/gamma-world/model-scale.ts",
+      "bytes": 268,
+      "sha256": "d350e52669c5e8202bcdae355906c35be2dd12685dba9f925f0027a27bbe2831"
+    },
+    {
+      "path": "demos/gamma-world/native-scene.ts",
+      "bytes": 42439,
+      "sha256": "dcad119ead9e27a04824898a35cabe43c40dbb43d2b7fee7c39381e347fba2a6"
+    },
+    {
+      "path": "demos/gamma-world/pokemon-model.ts",
+      "bytes": 2204,
+      "sha256": "567a05d4d4ff13db12e660d4b90dc3c3fb0b8dab2645b1e85bc5514dc73d5ac8"
+    },
+    {
+      "path": "demos/gamma-world/scene.ts",
+      "bytes": 43866,
+      "sha256": "041e3cc7317de6b31f6a063bd98b4e892ae17002fbb1319dc61e540ff20c4fe4"
+    },
+    {
+      "path": "demos/gamma-world/source-view.ts",
+      "bytes": 2575,
+      "sha256": "2a5c1e487ed42110f5c1b40f30f44daeeaf92e54f36aa7fed076ef9461f68227"
+    },
+    {
+      "path": "demos/gamma-world/state.ts",
+      "bytes": 5885,
+      "sha256": "4dfa26ed64a33b79217eeeec86b7d604ef3a3743a521f700d134a837857fcf97"
+    },
+    {
+      "path": "demos/gamma-world/style.css",
+      "bytes": 30593,
+      "sha256": "87752b3a014826bd8bafffc8797bf7c4e54106bf3fe02c882e8456ef176fec2b"
+    },
+    {
+      "path": "demos/gamma-world/tsconfig.json",
+      "bytes": 129,
+      "sha256": "8a818c1f1db6716a889a53c0219c6f2129feec8cb9ee98eec5cebd27d9f3f41b"
+    },
+    {
+      "path": "demos/gamma-world/types.ts",
+      "bytes": 2098,
+      "sha256": "dffb4d50510268cd1a493278f89cba58ee2932cfc0a966a7e1ea5be2ca28d21f"
+    },
+    {
+      "path": "demos/gamma-world/world-assets.ts",
+      "bytes": 5722,
+      "sha256": "27ca47c4943a4d97525304a2ddfac83387d071aa6607cc9ffa3ec6f6b600c30d"
+    },
+    {
+      "path": "demos/gamma-world/world-data.ts",
+      "bytes": 13170,
+      "sha256": "9dc7123f4a43c8e4854d00b9a6ff71dfe757da6fbd71da30540a1d189f09fcf2"
+    },
+    {
+      "path": "demos/gamma-world/world-navigation.ts",
+      "bytes": 15877,
+      "sha256": "3736fa4a49c67ef2b1d9b65c94d16fc4032355875d9e5628df7d497d1fc28c4d"
+    },
+    {
+      "path": "demos/visual-stage-p1/move-catalog.js",
+      "bytes": 2457,
+      "sha256": "1d00368245fc3b5dddfe41d4bfb8b8176db475ebc71f7bc25e6aec55c7fc90b8"
+    },
+    {
+      "path": "demos/visual-stage-p1/muzzle-anchors.js",
+      "bytes": 6753,
+      "sha256": "d36cfc41d76ce1c8bd855c3d2814a167e32c6414ef23c39d626220959bdf230b"
+    },
+    {
+      "path": "demos/visual-stage-p1/reference-effects.js",
+      "bytes": 29043,
+      "sha256": "ee68437421479f5a80b9cdb6fe4c32f73f90e213db634546199fc6fe6fa5e25c"
+    },
+    {
+      "path": "demos/visual-stage-p1/skill-effects.js",
+      "bytes": 10362,
+      "sha256": "7e218939202acc50f426a5a5d542197ba0292200555348582af110fbcf549187"
+    },
+    {
+      "path": "docs/ASSET_CREDITS.md",
+      "bytes": 29963,
+      "sha256": "0344f65d11a5dc9a200dcd290a46a3b17dcc515ed7fb1a6cfa962d9b054e7976"
+    },
+    {
+      "path": "docs/POKEMON_DEMO_RELEASE.md",
+      "bytes": 4536,
+      "sha256": "43fd94379ad9c12692095041b8fe43adf5e53c1385bf100e9badfee4a340af61"
+    },
+    {
+      "path": "docs/pokemon-demo-introduction.en.txt",
+      "bytes": 2394,
+      "sha256": "208a8f76d8da35d241a7f00ade2dedc606228ce60f2cec15fa82da5da6c37b38"
+    },
+    {
+      "path": "package.json",
+      "bytes": 494,
+      "sha256": "ae19d550ac1df616caf43404b0ab878e7970c00346e976d7406abb945f367469"
+    },
+    {
+      "path": "packages/content/move-fx.json",
+      "bytes": 23297,
+      "sha256": "ffc3bedf9ca41f58bdadcb22de8047a7bceedf9ef0571a88fcb6e9239c1958fd"
+    },
+    {
+      "path": "packages/content/move-mechanics.json",
+      "bytes": 31898,
+      "sha256": "ced3fb77c47817b27913ef7a264f99adab398b8dac51aa484b2a54df7f1cb42b"
+    },
+    {
+      "path": "packages/content/moves.json",
+      "bytes": 38414,
+      "sha256": "56185decc6e993ba71612a87793aff55e349c967e409b5eec6cf34af0c02621c"
+    },
+    {
+      "path": "packages/content/regions.json",
+      "bytes": 147353,
+      "sha256": "6c9bb6d837cb9d90d9769dd9fdd084d800a698a009e3d5c0bb60310802d61667"
+    },
+    {
+      "path": "packages/content/species.json",
+      "bytes": 181386,
+      "sha256": "b603379fcd6a695929ff62203cd423a2bb2b168fe5063cb7d9ea41ac43cb51e8"
+    },
+    {
+      "path": "packages/content/type-chart.json",
+      "bytes": 7457,
+      "sha256": "30f5b02c02174803309d3bed216f65978c37028958e2dc21ceb7b4203f9b7b19"
+    },
+    {
+      "path": "packages/presentation/action-stage.d.ts",
+      "bytes": 585,
+      "sha256": "2a694f7a907f399037f3a590f88c6f296546504be8423dd0f9225d53d99e8e65"
+    },
+    {
+      "path": "packages/presentation/action-stage.js",
+      "bytes": 4917,
+      "sha256": "2d7eac2c6cfeed97939f2dfc0d0a2a42dae8586f6894a4fb443a90c0e7f27032"
+    },
+    {
+      "path": "packages/presentation/battle-juice.d.ts",
+      "bytes": 1032,
+      "sha256": "89849c90f901f876ccb9360b7294158d79bd0d3ced6d2bfa13f8b28114c14c6a"
+    },
+    {
+      "path": "packages/presentation/battle-juice.js",
+      "bytes": 3117,
+      "sha256": "eddef89e8b4bf6348d9bfccf24bc896dca251ea6f436ff65d4535c6ba0800fdd"
+    },
+    {
+      "path": "packages/presentation/battle-motion.d.ts",
+      "bytes": 1663,
+      "sha256": "2b725e071eda5c698014323b9977df502ce57d36d5b7a46679aa4773008602c5"
+    },
+    {
+      "path": "packages/presentation/pmd-sprites.d.ts",
+      "bytes": 1607,
+      "sha256": "4065e4c7e3e4d6480ef814bc77867e913248d496b24c15e6dfe85158871ce549"
+    },
+    {
+      "path": "packages/presentation/pmd-sprites.js",
+      "bytes": 3704,
+      "sha256": "e8c4bc49f50694b0e6ef9c873a60a8524aa96da5e772f32195d43e3b98d81c8e"
+    },
+    {
+      "path": "release/pokemon-demo/.dockerignore",
+      "bytes": 720,
+      "sha256": "c101da9ac6676704d773f1272be4ea93dac511a851e633d3ef865e76ce2e3f02"
+    },
+    {
+      "path": "release/pokemon-demo/Dockerfile",
+      "bytes": 1406,
+      "sha256": "5701d232e00eebe4547869d4008ad5f547f1fbf3455dd451b8e680e1e010a3da"
+    },
+    {
+      "path": "release/pokemon-demo/README.md",
+      "bytes": 4800,
+      "sha256": "9fe04623d87e893edc1c4bd3d1cb5fd16f4288a70a6290d50b62fb878217afb3"
+    },
+    {
+      "path": "release/pokemon-demo/app.py",
+      "bytes": 3313,
+      "sha256": "dc327281bc4f1f40eace1c43872956df612921ab7fd48cfc8a8ef4a66e872854"
+    },
+    {
+      "path": "release/pokemon-demo/export_source.py",
+      "bytes": 7810,
+      "sha256": "598c6d4dda540062d865f73bc66c7be1153376e0f19333ff8732cab158a3cadf"
+    },
+    {
+      "path": "release/pokemon-demo/import_web.py",
+      "bytes": 4099,
+      "sha256": "fe7f7b9d704eeab3482779b46cf4734559eabd81d973cb4ff81aa2888c0917da"
+    },
+    {
+      "path": "release/pokemon-demo/requirements.txt",
+      "bytes": 45,
+      "sha256": "a097b887ffbda073188f557d2f6078b806b3e3f302f2e3483eedc08efd6534cb"
+    },
+    {
+      "path": "release/pokemon-demo/test_release.py",
+      "bytes": 7728,
+      "sha256": "c5c1bf7c3ac328ffd52fc7f9e281604d625b54b36a5eabac00ce669def64a748"
+    },
+    {
+      "path": "release/pokemon-demo/web_bundle.py",
+      "bytes": 4244,
+      "sha256": "9afd98908a1d7a2f60c4bcb1d514e40e277c30a862ff1d3a47408d87bc831504"
+    },
+    {
+      "path": "server/__init__.py",
+      "bytes": 49,
+      "sha256": "3effd02253b1a1d724c3b3a5489cafd2dbe57202bc837b403c0aae12c8cb9e33"
+    },
+    {
+      "path": "server/combat.py",
+      "bytes": 141549,
+      "sha256": "1ea3c19eafbc95ee6f0b3ecc3f265c5f95669e41edddcb48df123f320bb635f8"
+    },
+    {
+      "path": "server/content.py",
+      "bytes": 1611,
+      "sha256": "712e16988c3ea44bacf09d9abb398f3d0cee84ed46e8791f6ee3baabad05daf5"
+    },
+    {
+      "path": "server/personality.py",
+      "bytes": 7716,
+      "sha256": "e6b8f97e21abb2e3a9b490344ab5688f350b5f1f435b379d323685f5845bfd2f"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 333,
+      "sha256": "1005848619d9b6f42ea9c580d36b55abbaa7d7809e24fd935aca02e1b266546e"
+    }
+  ],
+  "fileCountExcludingManifest": 86,
+  "bytesExcludingManifest": 1203519,
+  "generatedFiles": [
+    "package.json",
+    ".gitignore",
+    ".dockerignore",
+    "RUNTIME_ASSETS_REQUIRED.md",
+    "demos/gamma-battle/vite.config.ts"
+  ],
+  "omittedRuntimeInputs": [
+    "demos/gamma-world/assets/ (including generated TypeScript asset manifests)",
+    "demos/gamma-battle/assets/",
+    "demos/gamma-world/data/ (source maps, collision geometry and sprite textures)",
+    "demos/gamma-world/evidence/native-sprite-default-materials.json (runtime import)",
+    "demos/gamma-battle/evidence/asset-status.json (runtime import)",
+    "public/assets/pokemon/ (PMD sheets, metadata and attribution records)"
+  ]
+}

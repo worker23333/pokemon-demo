@@ -1,0 +1,9884 @@
+[
+  {
+    "id": 1,
+    "name": "妙蛙种子",
+    "nameEn": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "speed": 45,
+      "special": 65
+    },
+    "color": "#78c850",
+    "habitat": "草原",
+    "evolvesTo": [
+      2
+    ],
+    "sprite": "/assets/pokemon/1.png",
+    "spriteBack": "/assets/pokemon/back/1.png",
+    "spriteAnimated": "/assets/pokemon/animated/1.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/bulbasaur.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 7,
+        "moveId": 73
+      },
+      {
+        "level": 13,
+        "moveId": 22
+      },
+      {
+        "level": 20,
+        "moveId": 77
+      },
+      {
+        "level": 27,
+        "moveId": 75
+      },
+      {
+        "level": 34,
+        "moveId": 74
+      },
+      {
+        "level": 41,
+        "moveId": 79
+      },
+      {
+        "level": 48,
+        "moveId": 76
+      }
+    ],
+    "initialMoves": [
+      33,
+      45
+    ],
+    "catchRate": 45,
+    "baseExperience": 64,
+    "evolutionRules": [
+      {
+        "to": 2,
+        "method": "level",
+        "level": 16
+      }
+    ],
+    "heightDm": 7
+  },
+  {
+    "id": 2,
+    "name": "妙蛙草",
+    "nameEn": "Ivysaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 62,
+      "defense": 63,
+      "speed": 60,
+      "special": 80
+    },
+    "color": "#78c850",
+    "habitat": "草原",
+    "evolvesTo": [
+      3
+    ],
+    "sprite": "/assets/pokemon/2.png",
+    "spriteBack": "/assets/pokemon/back/2.png",
+    "spriteAnimated": "/assets/pokemon/animated/2.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/ivysaur.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 1,
+        "moveId": 73
+      },
+      {
+        "level": 7,
+        "moveId": 73
+      },
+      {
+        "level": 13,
+        "moveId": 22
+      },
+      {
+        "level": 22,
+        "moveId": 77
+      },
+      {
+        "level": 30,
+        "moveId": 75
+      },
+      {
+        "level": 38,
+        "moveId": 74
+      },
+      {
+        "level": 46,
+        "moveId": 79
+      },
+      {
+        "level": 54,
+        "moveId": 76
+      }
+    ],
+    "initialMoves": [
+      33,
+      45,
+      73
+    ],
+    "catchRate": 45,
+    "baseExperience": 141,
+    "evolutionRules": [
+      {
+        "to": 3,
+        "method": "level",
+        "level": 32
+      }
+    ],
+    "heightDm": 10
+  },
+  {
+    "id": 3,
+    "name": "妙蛙花",
+    "nameEn": "Venusaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "speed": 80,
+      "special": 100
+    },
+    "color": "#78c850",
+    "habitat": "草原",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/3.png",
+    "spriteBack": "/assets/pokemon/back/3.png",
+    "spriteAnimated": "/assets/pokemon/animated/3.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/venusaur.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 1,
+        "moveId": 73
+      },
+      {
+        "level": 1,
+        "moveId": 22
+      },
+      {
+        "level": 7,
+        "moveId": 73
+      },
+      {
+        "level": 13,
+        "moveId": 22
+      },
+      {
+        "level": 22,
+        "moveId": 77
+      },
+      {
+        "level": 30,
+        "moveId": 75
+      },
+      {
+        "level": 43,
+        "moveId": 74
+      },
+      {
+        "level": 55,
+        "moveId": 79
+      },
+      {
+        "level": 65,
+        "moveId": 76
+      }
+    ],
+    "initialMoves": [
+      33,
+      45,
+      73,
+      22
+    ],
+    "catchRate": 45,
+    "baseExperience": 208,
+    "evolutionRules": [],
+    "heightDm": 20
+  },
+  {
+    "id": 4,
+    "name": "小火龙",
+    "nameEn": "Charmander",
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "speed": 65,
+      "special": 50
+    },
+    "color": "#ef8030",
+    "habitat": "山地",
+    "evolvesTo": [
+      5
+    ],
+    "sprite": "/assets/pokemon/4.png",
+    "spriteBack": "/assets/pokemon/back/4.png",
+    "spriteAnimated": "/assets/pokemon/animated/4.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/charmander.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 9,
+        "moveId": 52
+      },
+      {
+        "level": 15,
+        "moveId": 43
+      },
+      {
+        "level": 22,
+        "moveId": 99
+      },
+      {
+        "level": 30,
+        "moveId": 163
+      },
+      {
+        "level": 38,
+        "moveId": 53
+      },
+      {
+        "level": 46,
+        "moveId": 83
+      }
+    ],
+    "initialMoves": [
+      10,
+      45
+    ],
+    "catchRate": 45,
+    "baseExperience": 65,
+    "evolutionRules": [
+      {
+        "to": 5,
+        "method": "level",
+        "level": 16
+      }
+    ],
+    "heightDm": 6
+  },
+  {
+    "id": 5,
+    "name": "火恐龙",
+    "nameEn": "Charmeleon",
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "hp": 58,
+      "attack": 64,
+      "defense": 58,
+      "speed": 80,
+      "special": 65
+    },
+    "color": "#ef8030",
+    "habitat": "山地",
+    "evolvesTo": [
+      6
+    ],
+    "sprite": "/assets/pokemon/5.png",
+    "spriteBack": "/assets/pokemon/back/5.png",
+    "spriteAnimated": "/assets/pokemon/animated/5.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/charmeleon.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 1,
+        "moveId": 52
+      },
+      {
+        "level": 9,
+        "moveId": 52
+      },
+      {
+        "level": 15,
+        "moveId": 43
+      },
+      {
+        "level": 24,
+        "moveId": 99
+      },
+      {
+        "level": 33,
+        "moveId": 163
+      },
+      {
+        "level": 42,
+        "moveId": 53
+      },
+      {
+        "level": 56,
+        "moveId": 83
+      }
+    ],
+    "initialMoves": [
+      10,
+      45,
+      52
+    ],
+    "catchRate": 45,
+    "baseExperience": 142,
+    "evolutionRules": [
+      {
+        "to": 6,
+        "method": "level",
+        "level": 36
+      }
+    ],
+    "heightDm": 11
+  },
+  {
+    "id": 6,
+    "name": "喷火龙",
+    "nameEn": "Charizard",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "speed": 100,
+      "special": 85
+    },
+    "color": "#ef8030",
+    "habitat": "山地",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/6.png",
+    "spriteBack": "/assets/pokemon/back/6.png",
+    "spriteAnimated": "/assets/pokemon/animated/6.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/charizard.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 1,
+        "moveId": 52
+      },
+      {
+        "level": 1,
+        "moveId": 43
+      },
+      {
+        "level": 9,
+        "moveId": 52
+      },
+      {
+        "level": 15,
+        "moveId": 43
+      },
+      {
+        "level": 24,
+        "moveId": 99
+      },
+      {
+        "level": 36,
+        "moveId": 163
+      },
+      {
+        "level": 46,
+        "moveId": 53
+      },
+      {
+        "level": 55,
+        "moveId": 83
+      }
+    ],
+    "initialMoves": [
+      10,
+      45,
+      52,
+      43
+    ],
+    "catchRate": 45,
+    "baseExperience": 209,
+    "evolutionRules": [],
+    "heightDm": 17
+  },
+  {
+    "id": 7,
+    "name": "杰尼龟",
+    "nameEn": "Squirtle",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 44,
+      "attack": 48,
+      "defense": 65,
+      "speed": 43,
+      "special": 50
+    },
+    "color": "#6890f0",
+    "habitat": "水边",
+    "evolvesTo": [
+      8
+    ],
+    "sprite": "/assets/pokemon/7.png",
+    "spriteBack": "/assets/pokemon/back/7.png",
+    "spriteAnimated": "/assets/pokemon/animated/7.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/squirtle.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 39
+      },
+      {
+        "level": 8,
+        "moveId": 145
+      },
+      {
+        "level": 15,
+        "moveId": 55
+      },
+      {
+        "level": 22,
+        "moveId": 44
+      },
+      {
+        "level": 28,
+        "moveId": 110
+      },
+      {
+        "level": 35,
+        "moveId": 130
+      },
+      {
+        "level": 42,
+        "moveId": 56
+      }
+    ],
+    "initialMoves": [
+      33,
+      39
+    ],
+    "catchRate": 45,
+    "baseExperience": 66,
+    "evolutionRules": [
+      {
+        "to": 8,
+        "method": "level",
+        "level": 16
+      }
+    ],
+    "heightDm": 5
+  },
+  {
+    "id": 8,
+    "name": "卡咪龟",
+    "nameEn": "Wartortle",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 59,
+      "attack": 63,
+      "defense": 80,
+      "speed": 58,
+      "special": 65
+    },
+    "color": "#6890f0",
+    "habitat": "水边",
+    "evolvesTo": [
+      9
+    ],
+    "sprite": "/assets/pokemon/8.png",
+    "spriteBack": "/assets/pokemon/back/8.png",
+    "spriteAnimated": "/assets/pokemon/animated/8.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/wartortle.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 39
+      },
+      {
+        "level": 1,
+        "moveId": 145
+      },
+      {
+        "level": 8,
+        "moveId": 145
+      },
+      {
+        "level": 15,
+        "moveId": 55
+      },
+      {
+        "level": 24,
+        "moveId": 44
+      },
+      {
+        "level": 31,
+        "moveId": 110
+      },
+      {
+        "level": 39,
+        "moveId": 130
+      },
+      {
+        "level": 47,
+        "moveId": 56
+      }
+    ],
+    "initialMoves": [
+      33,
+      39,
+      145
+    ],
+    "catchRate": 45,
+    "baseExperience": 143,
+    "evolutionRules": [
+      {
+        "to": 9,
+        "method": "level",
+        "level": 36
+      }
+    ],
+    "heightDm": 10
+  },
+  {
+    "id": 9,
+    "name": "水箭龟",
+    "nameEn": "Blastoise",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "speed": 78,
+      "special": 85
+    },
+    "color": "#6890f0",
+    "habitat": "水边",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/9.png",
+    "spriteBack": "/assets/pokemon/back/9.png",
+    "spriteAnimated": "/assets/pokemon/animated/9.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/blastoise.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 39
+      },
+      {
+        "level": 1,
+        "moveId": 145
+      },
+      {
+        "level": 1,
+        "moveId": 55
+      },
+      {
+        "level": 8,
+        "moveId": 145
+      },
+      {
+        "level": 15,
+        "moveId": 55
+      },
+      {
+        "level": 24,
+        "moveId": 44
+      },
+      {
+        "level": 31,
+        "moveId": 110
+      },
+      {
+        "level": 42,
+        "moveId": 130
+      },
+      {
+        "level": 52,
+        "moveId": 56
+      }
+    ],
+    "initialMoves": [
+      33,
+      39,
+      145,
+      55
+    ],
+    "catchRate": 45,
+    "baseExperience": 210,
+    "evolutionRules": [],
+    "heightDm": 16
+  },
+  {
+    "id": 10,
+    "name": "绿毛虫",
+    "nameEn": "Caterpie",
+    "types": [
+      "bug"
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 30,
+      "defense": 35,
+      "speed": 45,
+      "special": 20
+    },
+    "color": "#a8b820",
+    "habitat": "森林",
+    "evolvesTo": [
+      11
+    ],
+    "sprite": "/assets/pokemon/10.png",
+    "spriteBack": "/assets/pokemon/back/10.png",
+    "spriteAnimated": "/assets/pokemon/animated/10.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/caterpie.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 81
+      }
+    ],
+    "initialMoves": [
+      33,
+      81
+    ],
+    "catchRate": 255,
+    "baseExperience": 53,
+    "evolutionRules": [
+      {
+        "to": 11,
+        "method": "level",
+        "level": 7
+      }
+    ],
+    "heightDm": 3
+  },
+  {
+    "id": 11,
+    "name": "铁甲蛹",
+    "nameEn": "Metapod",
+    "types": [
+      "bug"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 20,
+      "defense": 55,
+      "speed": 30,
+      "special": 25
+    },
+    "color": "#a8b820",
+    "habitat": "森林",
+    "evolvesTo": [
+      12
+    ],
+    "sprite": "/assets/pokemon/11.png",
+    "spriteBack": "/assets/pokemon/back/11.png",
+    "spriteAnimated": "/assets/pokemon/animated/11.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/metapod.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 106
+      }
+    ],
+    "initialMoves": [
+      106
+    ],
+    "catchRate": 120,
+    "baseExperience": 72,
+    "evolutionRules": [
+      {
+        "to": 12,
+        "method": "level",
+        "level": 10
+      }
+    ],
+    "heightDm": 7
+  },
+  {
+    "id": 12,
+    "name": "巴大蝶",
+    "nameEn": "Butterfree",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 45,
+      "defense": 50,
+      "speed": 70,
+      "special": 80
+    },
+    "color": "#a8b820",
+    "habitat": "森林",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/12.png",
+    "spriteBack": "/assets/pokemon/back/12.png",
+    "spriteAnimated": "/assets/pokemon/animated/12.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/butterfree.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 93
+      },
+      {
+        "level": 12,
+        "moveId": 93
+      },
+      {
+        "level": 15,
+        "moveId": 77
+      },
+      {
+        "level": 16,
+        "moveId": 78
+      },
+      {
+        "level": 17,
+        "moveId": 79
+      },
+      {
+        "level": 21,
+        "moveId": 48
+      },
+      {
+        "level": 26,
+        "moveId": 18
+      },
+      {
+        "level": 32,
+        "moveId": 60
+      }
+    ],
+    "initialMoves": [
+      93
+    ],
+    "catchRate": 45,
+    "baseExperience": 160,
+    "evolutionRules": [],
+    "heightDm": 11
+  },
+  {
+    "id": 13,
+    "name": "独角虫",
+    "nameEn": "Weedle",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 35,
+      "defense": 30,
+      "speed": 50,
+      "special": 20
+    },
+    "color": "#a8b820",
+    "habitat": "森林",
+    "evolvesTo": [
+      14
+    ],
+    "sprite": "/assets/pokemon/13.png",
+    "spriteBack": "/assets/pokemon/back/13.png",
+    "spriteAnimated": "/assets/pokemon/animated/13.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/weedle.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 40
+      },
+      {
+        "level": 1,
+        "moveId": 81
+      }
+    ],
+    "initialMoves": [
+      40,
+      81
+    ],
+    "catchRate": 255,
+    "baseExperience": 52,
+    "evolutionRules": [
+      {
+        "to": 14,
+        "method": "level",
+        "level": 7
+      }
+    ],
+    "heightDm": 3
+  },
+  {
+    "id": 14,
+    "name": "铁壳蛹",
+    "nameEn": "Kakuna",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 25,
+      "defense": 50,
+      "speed": 35,
+      "special": 25
+    },
+    "color": "#a8b820",
+    "habitat": "森林",
+    "evolvesTo": [
+      15
+    ],
+    "sprite": "/assets/pokemon/14.png",
+    "spriteBack": "/assets/pokemon/back/14.png",
+    "spriteAnimated": "/assets/pokemon/animated/14.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/kakuna.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 106
+      }
+    ],
+    "initialMoves": [
+      106
+    ],
+    "catchRate": 120,
+    "baseExperience": 71,
+    "evolutionRules": [
+      {
+        "to": 15,
+        "method": "level",
+        "level": 10
+      }
+    ],
+    "heightDm": 6
+  },
+  {
+    "id": 15,
+    "name": "大针蜂",
+    "nameEn": "Beedrill",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 80,
+      "defense": 40,
+      "speed": 75,
+      "special": 45
+    },
+    "color": "#a8b820",
+    "habitat": "森林",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/15.png",
+    "spriteBack": "/assets/pokemon/back/15.png",
+    "spriteAnimated": "/assets/pokemon/animated/15.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/beedrill.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 31
+      },
+      {
+        "level": 12,
+        "moveId": 31
+      },
+      {
+        "level": 16,
+        "moveId": 116
+      },
+      {
+        "level": 20,
+        "moveId": 41
+      },
+      {
+        "level": 25,
+        "moveId": 99
+      },
+      {
+        "level": 30,
+        "moveId": 42
+      },
+      {
+        "level": 35,
+        "moveId": 97
+      }
+    ],
+    "initialMoves": [
+      31
+    ],
+    "catchRate": 45,
+    "baseExperience": 159,
+    "evolutionRules": [],
+    "heightDm": 10
+  },
+  {
+    "id": 16,
+    "name": "波波",
+    "nameEn": "Pidgey",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 40,
+      "speed": 56,
+      "special": 35
+    },
+    "color": "#a8a878",
+    "habitat": "森林",
+    "evolvesTo": [
+      17
+    ],
+    "sprite": "/assets/pokemon/16.png",
+    "spriteBack": "/assets/pokemon/back/16.png",
+    "spriteAnimated": "/assets/pokemon/animated/16.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/pidgey.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 16
+      },
+      {
+        "level": 5,
+        "moveId": 28
+      },
+      {
+        "level": 12,
+        "moveId": 98
+      },
+      {
+        "level": 19,
+        "moveId": 18
+      },
+      {
+        "level": 28,
+        "moveId": 17
+      },
+      {
+        "level": 36,
+        "moveId": 97
+      },
+      {
+        "level": 44,
+        "moveId": 119
+      }
+    ],
+    "initialMoves": [
+      16
+    ],
+    "catchRate": 255,
+    "baseExperience": 55,
+    "evolutionRules": [
+      {
+        "to": 17,
+        "method": "level",
+        "level": 18
+      }
+    ],
+    "heightDm": 3
+  },
+  {
+    "id": 17,
+    "name": "比比鸟",
+    "nameEn": "Pidgeotto",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "stats": {
+      "hp": 63,
+      "attack": 60,
+      "defense": 55,
+      "speed": 71,
+      "special": 50
+    },
+    "color": "#a8a878",
+    "habitat": "森林",
+    "evolvesTo": [
+      18
+    ],
+    "sprite": "/assets/pokemon/17.png",
+    "spriteBack": "/assets/pokemon/back/17.png",
+    "spriteAnimated": "/assets/pokemon/animated/17.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/pidgeotto.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 16
+      },
+      {
+        "level": 1,
+        "moveId": 28
+      },
+      {
+        "level": 5,
+        "moveId": 28
+      },
+      {
+        "level": 12,
+        "moveId": 98
+      },
+      {
+        "level": 21,
+        "moveId": 18
+      },
+      {
+        "level": 31,
+        "moveId": 17
+      },
+      {
+        "level": 40,
+        "moveId": 97
+      },
+      {
+        "level": 49,
+        "moveId": 119
+      }
+    ],
+    "initialMoves": [
+      16,
+      28
+    ],
+    "catchRate": 120,
+    "baseExperience": 113,
+    "evolutionRules": [
+      {
+        "to": 18,
+        "method": "level",
+        "level": 36
+      }
+    ],
+    "heightDm": 11
+  },
+  {
+    "id": 18,
+    "name": "大比鸟",
+    "nameEn": "Pidgeot",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "stats": {
+      "hp": 83,
+      "attack": 80,
+      "defense": 75,
+      "speed": 91,
+      "special": 70
+    },
+    "color": "#a8a878",
+    "habitat": "森林",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/18.png",
+    "spriteBack": "/assets/pokemon/back/18.png",
+    "spriteAnimated": "/assets/pokemon/animated/18.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/pidgeot.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 16
+      },
+      {
+        "level": 1,
+        "moveId": 28
+      },
+      {
+        "level": 1,
+        "moveId": 98
+      },
+      {
+        "level": 5,
+        "moveId": 28
+      },
+      {
+        "level": 12,
+        "moveId": 98
+      },
+      {
+        "level": 21,
+        "moveId": 18
+      },
+      {
+        "level": 31,
+        "moveId": 17
+      },
+      {
+        "level": 44,
+        "moveId": 97
+      },
+      {
+        "level": 54,
+        "moveId": 119
+      }
+    ],
+    "initialMoves": [
+      16,
+      28,
+      98
+    ],
+    "catchRate": 45,
+    "baseExperience": 172,
+    "evolutionRules": [],
+    "heightDm": 15
+  },
+  {
+    "id": 19,
+    "name": "小拉达",
+    "nameEn": "Rattata",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 56,
+      "defense": 35,
+      "speed": 72,
+      "special": 25
+    },
+    "color": "#a8a878",
+    "habitat": "草原",
+    "evolvesTo": [
+      20
+    ],
+    "sprite": "/assets/pokemon/19.png",
+    "spriteBack": "/assets/pokemon/back/19.png",
+    "spriteAnimated": "/assets/pokemon/animated/19.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/rattata.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 39
+      },
+      {
+        "level": 7,
+        "moveId": 98
+      },
+      {
+        "level": 14,
+        "moveId": 158
+      },
+      {
+        "level": 23,
+        "moveId": 116
+      },
+      {
+        "level": 34,
+        "moveId": 162
+      }
+    ],
+    "initialMoves": [
+      33,
+      39
+    ],
+    "catchRate": 255,
+    "baseExperience": 57,
+    "evolutionRules": [
+      {
+        "to": 20,
+        "method": "level",
+        "level": 20
+      }
+    ],
+    "heightDm": 3
+  },
+  {
+    "id": 20,
+    "name": "拉达",
+    "nameEn": "Raticate",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 81,
+      "defense": 60,
+      "speed": 97,
+      "special": 50
+    },
+    "color": "#a8a878",
+    "habitat": "草原",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/20.png",
+    "spriteBack": "/assets/pokemon/back/20.png",
+    "spriteAnimated": "/assets/pokemon/animated/20.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/raticate.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 39
+      },
+      {
+        "level": 1,
+        "moveId": 98
+      },
+      {
+        "level": 7,
+        "moveId": 98
+      },
+      {
+        "level": 14,
+        "moveId": 158
+      },
+      {
+        "level": 27,
+        "moveId": 116
+      },
+      {
+        "level": 41,
+        "moveId": 162
+      }
+    ],
+    "initialMoves": [
+      33,
+      39,
+      98
+    ],
+    "catchRate": 90,
+    "baseExperience": 116,
+    "evolutionRules": [],
+    "heightDm": 7
+  },
+  {
+    "id": 21,
+    "name": "烈雀",
+    "nameEn": "Spearow",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 60,
+      "defense": 30,
+      "speed": 70,
+      "special": 31
+    },
+    "color": "#a8a878",
+    "habitat": "粗地",
+    "evolvesTo": [
+      22
+    ],
+    "sprite": "/assets/pokemon/21.png",
+    "spriteBack": "/assets/pokemon/back/21.png",
+    "spriteAnimated": "/assets/pokemon/animated/21.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/spearow.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 64
+      },
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 9,
+        "moveId": 43
+      },
+      {
+        "level": 15,
+        "moveId": 31
+      },
+      {
+        "level": 22,
+        "moveId": 119
+      },
+      {
+        "level": 29,
+        "moveId": 65
+      },
+      {
+        "level": 36,
+        "moveId": 97
+      }
+    ],
+    "initialMoves": [
+      64,
+      45
+    ],
+    "catchRate": 255,
+    "baseExperience": 58,
+    "evolutionRules": [
+      {
+        "to": 22,
+        "method": "level",
+        "level": 20
+      }
+    ],
+    "heightDm": 3
+  },
+  {
+    "id": 22,
+    "name": "大嘴雀",
+    "nameEn": "Fearow",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 65,
+      "speed": 100,
+      "special": 61
+    },
+    "color": "#a8a878",
+    "habitat": "粗地",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/22.png",
+    "spriteBack": "/assets/pokemon/back/22.png",
+    "spriteAnimated": "/assets/pokemon/animated/22.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/fearow.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 64
+      },
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 1,
+        "moveId": 43
+      },
+      {
+        "level": 9,
+        "moveId": 43
+      },
+      {
+        "level": 15,
+        "moveId": 31
+      },
+      {
+        "level": 25,
+        "moveId": 119
+      },
+      {
+        "level": 34,
+        "moveId": 65
+      },
+      {
+        "level": 43,
+        "moveId": 97
+      }
+    ],
+    "initialMoves": [
+      64,
+      45,
+      43
+    ],
+    "catchRate": 90,
+    "baseExperience": 162,
+    "evolutionRules": [],
+    "heightDm": 12
+  },
+  {
+    "id": 23,
+    "name": "阿柏蛇",
+    "nameEn": "Ekans",
+    "types": [
+      "poison"
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 60,
+      "defense": 44,
+      "speed": 55,
+      "special": 40
+    },
+    "color": "#a040a0",
+    "habitat": "草原",
+    "evolvesTo": [
+      24
+    ],
+    "sprite": "/assets/pokemon/23.png",
+    "spriteBack": "/assets/pokemon/back/23.png",
+    "spriteAnimated": "/assets/pokemon/animated/23.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/ekans.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 35
+      },
+      {
+        "level": 1,
+        "moveId": 43
+      },
+      {
+        "level": 10,
+        "moveId": 40
+      },
+      {
+        "level": 17,
+        "moveId": 44
+      },
+      {
+        "level": 24,
+        "moveId": 137
+      },
+      {
+        "level": 31,
+        "moveId": 103
+      },
+      {
+        "level": 38,
+        "moveId": 51
+      }
+    ],
+    "initialMoves": [
+      35,
+      43
+    ],
+    "catchRate": 255,
+    "baseExperience": 62,
+    "evolutionRules": [
+      {
+        "to": 24,
+        "method": "level",
+        "level": 22
+      }
+    ],
+    "heightDm": 20
+  },
+  {
+    "id": 24,
+    "name": "阿柏怪",
+    "nameEn": "Arbok",
+    "types": [
+      "poison"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 85,
+      "defense": 69,
+      "speed": 80,
+      "special": 65
+    },
+    "color": "#a040a0",
+    "habitat": "草原",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/24.png",
+    "spriteBack": "/assets/pokemon/back/24.png",
+    "spriteAnimated": "/assets/pokemon/animated/24.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/arbok.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 35
+      },
+      {
+        "level": 1,
+        "moveId": 43
+      },
+      {
+        "level": 1,
+        "moveId": 40
+      },
+      {
+        "level": 10,
+        "moveId": 40
+      },
+      {
+        "level": 17,
+        "moveId": 44
+      },
+      {
+        "level": 27,
+        "moveId": 137
+      },
+      {
+        "level": 36,
+        "moveId": 103
+      },
+      {
+        "level": 47,
+        "moveId": 51
+      }
+    ],
+    "initialMoves": [
+      35,
+      43,
+      40
+    ],
+    "catchRate": 90,
+    "baseExperience": 147,
+    "evolutionRules": [],
+    "heightDm": 35
+  },
+  {
+    "id": 25,
+    "name": "皮卡丘",
+    "nameEn": "Pikachu",
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 30,
+      "speed": 90,
+      "special": 50
+    },
+    "color": "#f8d030",
+    "habitat": "森林",
+    "evolvesTo": [
+      26
+    ],
+    "sprite": "/assets/pokemon/25.png",
+    "spriteBack": "/assets/pokemon/back/25.png",
+    "spriteAnimated": "/assets/pokemon/animated/25.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/pikachu.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 84
+      },
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 9,
+        "moveId": 86
+      },
+      {
+        "level": 16,
+        "moveId": 98
+      },
+      {
+        "level": 26,
+        "moveId": 129
+      },
+      {
+        "level": 33,
+        "moveId": 97
+      },
+      {
+        "level": 43,
+        "moveId": 87
+      }
+    ],
+    "initialMoves": [
+      84,
+      45
+    ],
+    "catchRate": 190,
+    "baseExperience": 82,
+    "evolutionRules": [
+      {
+        "to": 26,
+        "method": "item",
+        "item": "thunder_stone"
+      }
+    ],
+    "heightDm": 4
+  },
+  {
+    "id": 26,
+    "name": "雷丘",
+    "nameEn": "Raichu",
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 90,
+      "defense": 55,
+      "speed": 100,
+      "special": 90
+    },
+    "color": "#f8d030",
+    "habitat": "森林",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/26.png",
+    "spriteBack": "/assets/pokemon/back/26.png",
+    "spriteAnimated": "/assets/pokemon/animated/26.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/raichu.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 84
+      },
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 1,
+        "moveId": 86
+      }
+    ],
+    "initialMoves": [
+      84,
+      45,
+      86
+    ],
+    "catchRate": 75,
+    "baseExperience": 122,
+    "evolutionRules": [],
+    "heightDm": 8
+  },
+  {
+    "id": 27,
+    "name": "穿山鼠",
+    "nameEn": "Sandshrew",
+    "types": [
+      "ground"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 85,
+      "speed": 40,
+      "special": 30
+    },
+    "color": "#e0c068",
+    "habitat": "粗地",
+    "evolvesTo": [
+      28
+    ],
+    "sprite": "/assets/pokemon/27.png",
+    "spriteBack": "/assets/pokemon/back/27.png",
+    "spriteAnimated": "/assets/pokemon/animated/27.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/sandshrew.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 10,
+        "moveId": 28
+      },
+      {
+        "level": 17,
+        "moveId": 163
+      },
+      {
+        "level": 24,
+        "moveId": 40
+      },
+      {
+        "level": 31,
+        "moveId": 129
+      },
+      {
+        "level": 38,
+        "moveId": 154
+      }
+    ],
+    "initialMoves": [
+      10
+    ],
+    "catchRate": 255,
+    "baseExperience": 93,
+    "evolutionRules": [
+      {
+        "to": 28,
+        "method": "level",
+        "level": 22
+      }
+    ],
+    "heightDm": 6
+  },
+  {
+    "id": 28,
+    "name": "穿山王",
+    "nameEn": "Sandslash",
+    "types": [
+      "ground"
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 110,
+      "speed": 65,
+      "special": 55
+    },
+    "color": "#e0c068",
+    "habitat": "粗地",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/28.png",
+    "spriteBack": "/assets/pokemon/back/28.png",
+    "spriteAnimated": "/assets/pokemon/animated/28.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/sandslash.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 1,
+        "moveId": 28
+      },
+      {
+        "level": 10,
+        "moveId": 28
+      },
+      {
+        "level": 17,
+        "moveId": 163
+      },
+      {
+        "level": 27,
+        "moveId": 40
+      },
+      {
+        "level": 36,
+        "moveId": 129
+      },
+      {
+        "level": 47,
+        "moveId": 154
+      }
+    ],
+    "initialMoves": [
+      10,
+      28
+    ],
+    "catchRate": 90,
+    "baseExperience": 163,
+    "evolutionRules": [],
+    "heightDm": 10
+  },
+  {
+    "id": 29,
+    "name": "尼多兰",
+    "nameEn": "Nidoran♀",
+    "types": [
+      "poison"
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 47,
+      "defense": 52,
+      "speed": 41,
+      "special": 40
+    },
+    "color": "#a040a0",
+    "habitat": "草原",
+    "evolvesTo": [
+      30
+    ],
+    "sprite": "/assets/pokemon/29.png",
+    "spriteBack": "/assets/pokemon/back/29.png",
+    "spriteAnimated": "/assets/pokemon/animated/29.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/nidoranf.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 8,
+        "moveId": 10
+      },
+      {
+        "level": 14,
+        "moveId": 40
+      },
+      {
+        "level": 21,
+        "moveId": 39
+      },
+      {
+        "level": 29,
+        "moveId": 44
+      },
+      {
+        "level": 36,
+        "moveId": 154
+      },
+      {
+        "level": 43,
+        "moveId": 24
+      }
+    ],
+    "initialMoves": [
+      45,
+      33
+    ],
+    "catchRate": 235,
+    "baseExperience": 59,
+    "evolutionRules": [
+      {
+        "to": 30,
+        "method": "level",
+        "level": 16
+      }
+    ],
+    "heightDm": 4
+  },
+  {
+    "id": 30,
+    "name": "尼多娜",
+    "nameEn": "Nidorina",
+    "types": [
+      "poison"
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 62,
+      "defense": 67,
+      "speed": 56,
+      "special": 55
+    },
+    "color": "#a040a0",
+    "habitat": "草原",
+    "evolvesTo": [
+      31
+    ],
+    "sprite": "/assets/pokemon/30.png",
+    "spriteBack": "/assets/pokemon/back/30.png",
+    "spriteAnimated": "/assets/pokemon/animated/30.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/nidorina.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 8,
+        "moveId": 10
+      },
+      {
+        "level": 14,
+        "moveId": 40
+      },
+      {
+        "level": 23,
+        "moveId": 39
+      },
+      {
+        "level": 32,
+        "moveId": 44
+      },
+      {
+        "level": 41,
+        "moveId": 154
+      },
+      {
+        "level": 50,
+        "moveId": 24
+      }
+    ],
+    "initialMoves": [
+      45,
+      33,
+      10
+    ],
+    "catchRate": 120,
+    "baseExperience": 117,
+    "evolutionRules": [
+      {
+        "to": 31,
+        "method": "item",
+        "item": "moon_stone"
+      }
+    ],
+    "heightDm": 8
+  },
+  {
+    "id": 31,
+    "name": "尼多后",
+    "nameEn": "Nidoqueen",
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 82,
+      "defense": 87,
+      "speed": 76,
+      "special": 75
+    },
+    "color": "#a040a0",
+    "habitat": "草原",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/31.png",
+    "spriteBack": "/assets/pokemon/back/31.png",
+    "spriteAnimated": "/assets/pokemon/animated/31.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/nidoqueen.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 1,
+        "moveId": 39
+      },
+      {
+        "level": 1,
+        "moveId": 34
+      },
+      {
+        "level": 8,
+        "moveId": 10
+      },
+      {
+        "level": 14,
+        "moveId": 40
+      },
+      {
+        "level": 23,
+        "moveId": 34
+      }
+    ],
+    "initialMoves": [
+      33,
+      10,
+      39,
+      34
+    ],
+    "catchRate": 45,
+    "baseExperience": 194,
+    "evolutionRules": [],
+    "heightDm": 13
+  },
+  {
+    "id": 32,
+    "name": "尼多朗",
+    "nameEn": "Nidoran♂",
+    "types": [
+      "poison"
+    ],
+    "stats": {
+      "hp": 46,
+      "attack": 57,
+      "defense": 40,
+      "speed": 50,
+      "special": 40
+    },
+    "color": "#a040a0",
+    "habitat": "草原",
+    "evolvesTo": [
+      33
+    ],
+    "sprite": "/assets/pokemon/32.png",
+    "spriteBack": "/assets/pokemon/back/32.png",
+    "spriteAnimated": "/assets/pokemon/animated/32.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/nidoranm.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 43
+      },
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 8,
+        "moveId": 30
+      },
+      {
+        "level": 14,
+        "moveId": 40
+      },
+      {
+        "level": 21,
+        "moveId": 116
+      },
+      {
+        "level": 29,
+        "moveId": 31
+      },
+      {
+        "level": 36,
+        "moveId": 32
+      },
+      {
+        "level": 43,
+        "moveId": 24
+      }
+    ],
+    "initialMoves": [
+      43,
+      33
+    ],
+    "catchRate": 235,
+    "baseExperience": 60,
+    "evolutionRules": [
+      {
+        "to": 33,
+        "method": "level",
+        "level": 16
+      }
+    ],
+    "heightDm": 5
+  },
+  {
+    "id": 33,
+    "name": "尼多力诺",
+    "nameEn": "Nidorino",
+    "types": [
+      "poison"
+    ],
+    "stats": {
+      "hp": 61,
+      "attack": 72,
+      "defense": 57,
+      "speed": 65,
+      "special": 55
+    },
+    "color": "#a040a0",
+    "habitat": "草原",
+    "evolvesTo": [
+      34
+    ],
+    "sprite": "/assets/pokemon/33.png",
+    "spriteBack": "/assets/pokemon/back/33.png",
+    "spriteAnimated": "/assets/pokemon/animated/33.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/nidorino.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 43
+      },
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 30
+      },
+      {
+        "level": 8,
+        "moveId": 30
+      },
+      {
+        "level": 14,
+        "moveId": 40
+      },
+      {
+        "level": 23,
+        "moveId": 116
+      },
+      {
+        "level": 32,
+        "moveId": 31
+      },
+      {
+        "level": 41,
+        "moveId": 32
+      },
+      {
+        "level": 50,
+        "moveId": 24
+      }
+    ],
+    "initialMoves": [
+      43,
+      33,
+      30
+    ],
+    "catchRate": 120,
+    "baseExperience": 118,
+    "evolutionRules": [
+      {
+        "to": 34,
+        "method": "item",
+        "item": "moon_stone"
+      }
+    ],
+    "heightDm": 9
+  },
+  {
+    "id": 34,
+    "name": "尼多王",
+    "nameEn": "Nidoking",
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "stats": {
+      "hp": 81,
+      "attack": 92,
+      "defense": 77,
+      "speed": 85,
+      "special": 75
+    },
+    "color": "#a040a0",
+    "habitat": "草原",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/34.png",
+    "spriteBack": "/assets/pokemon/back/34.png",
+    "spriteAnimated": "/assets/pokemon/animated/34.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/nidoking.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 30
+      },
+      {
+        "level": 1,
+        "moveId": 40
+      },
+      {
+        "level": 1,
+        "moveId": 37
+      },
+      {
+        "level": 8,
+        "moveId": 30
+      },
+      {
+        "level": 14,
+        "moveId": 40
+      },
+      {
+        "level": 23,
+        "moveId": 37
+      }
+    ],
+    "initialMoves": [
+      33,
+      30,
+      40,
+      37
+    ],
+    "catchRate": 45,
+    "baseExperience": 195,
+    "evolutionRules": [],
+    "heightDm": 14
+  },
+  {
+    "id": 35,
+    "name": "皮皮",
+    "nameEn": "Clefairy",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 45,
+      "defense": 48,
+      "speed": 35,
+      "special": 60
+    },
+    "color": "#a8a878",
+    "habitat": "山地",
+    "evolvesTo": [
+      36
+    ],
+    "sprite": "/assets/pokemon/35.png",
+    "spriteBack": "/assets/pokemon/back/35.png",
+    "spriteAnimated": "/assets/pokemon/animated/35.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/clefairy.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 13,
+        "moveId": 47
+      },
+      {
+        "level": 18,
+        "moveId": 3
+      },
+      {
+        "level": 24,
+        "moveId": 107
+      },
+      {
+        "level": 31,
+        "moveId": 118
+      },
+      {
+        "level": 39,
+        "moveId": 111
+      },
+      {
+        "level": 48,
+        "moveId": 113
+      }
+    ],
+    "initialMoves": [
+      1,
+      45
+    ],
+    "catchRate": 150,
+    "baseExperience": 68,
+    "evolutionRules": [
+      {
+        "to": 36,
+        "method": "item",
+        "item": "moon_stone"
+      }
+    ],
+    "heightDm": 6
+  },
+  {
+    "id": 36,
+    "name": "皮可西",
+    "nameEn": "Clefable",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 70,
+      "defense": 73,
+      "speed": 60,
+      "special": 85
+    },
+    "color": "#a8a878",
+    "habitat": "山地",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/36.png",
+    "spriteBack": "/assets/pokemon/back/36.png",
+    "spriteAnimated": "/assets/pokemon/animated/36.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/clefable.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 47
+      },
+      {
+        "level": 1,
+        "moveId": 3
+      },
+      {
+        "level": 1,
+        "moveId": 107
+      },
+      {
+        "level": 1,
+        "moveId": 118
+      }
+    ],
+    "initialMoves": [
+      47,
+      3,
+      107,
+      118
+    ],
+    "catchRate": 25,
+    "baseExperience": 129,
+    "evolutionRules": [],
+    "heightDm": 13
+  },
+  {
+    "id": 37,
+    "name": "六尾",
+    "nameEn": "Vulpix",
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "hp": 38,
+      "attack": 41,
+      "defense": 40,
+      "speed": 65,
+      "special": 65
+    },
+    "color": "#ef8030",
+    "habitat": "草原",
+    "evolvesTo": [
+      38
+    ],
+    "sprite": "/assets/pokemon/37.png",
+    "spriteBack": "/assets/pokemon/back/37.png",
+    "spriteAnimated": "/assets/pokemon/animated/37.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/vulpix.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 52
+      },
+      {
+        "level": 1,
+        "moveId": 39
+      },
+      {
+        "level": 16,
+        "moveId": 98
+      },
+      {
+        "level": 21,
+        "moveId": 46
+      },
+      {
+        "level": 28,
+        "moveId": 109
+      },
+      {
+        "level": 35,
+        "moveId": 53
+      },
+      {
+        "level": 42,
+        "moveId": 83
+      }
+    ],
+    "initialMoves": [
+      52,
+      39
+    ],
+    "catchRate": 190,
+    "baseExperience": 63,
+    "evolutionRules": [
+      {
+        "to": 38,
+        "method": "item",
+        "item": "fire_stone"
+      }
+    ],
+    "heightDm": 6
+  },
+  {
+    "id": 38,
+    "name": "九尾",
+    "nameEn": "Ninetales",
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "hp": 73,
+      "attack": 76,
+      "defense": 75,
+      "speed": 100,
+      "special": 100
+    },
+    "color": "#ef8030",
+    "habitat": "草原",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/38.png",
+    "spriteBack": "/assets/pokemon/back/38.png",
+    "spriteAnimated": "/assets/pokemon/animated/38.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/ninetales.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 52
+      },
+      {
+        "level": 1,
+        "moveId": 39
+      },
+      {
+        "level": 1,
+        "moveId": 98
+      },
+      {
+        "level": 1,
+        "moveId": 46
+      }
+    ],
+    "initialMoves": [
+      52,
+      39,
+      98,
+      46
+    ],
+    "catchRate": 75,
+    "baseExperience": 178,
+    "evolutionRules": [],
+    "heightDm": 11
+  },
+  {
+    "id": 39,
+    "name": "胖丁",
+    "nameEn": "Jigglypuff",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "hp": 115,
+      "attack": 45,
+      "defense": 20,
+      "speed": 20,
+      "special": 25
+    },
+    "color": "#a8a878",
+    "habitat": "草原",
+    "evolvesTo": [
+      40
+    ],
+    "sprite": "/assets/pokemon/39.png",
+    "spriteBack": "/assets/pokemon/back/39.png",
+    "spriteAnimated": "/assets/pokemon/animated/39.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/jigglypuff.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 47
+      },
+      {
+        "level": 9,
+        "moveId": 1
+      },
+      {
+        "level": 14,
+        "moveId": 50
+      },
+      {
+        "level": 19,
+        "moveId": 111
+      },
+      {
+        "level": 24,
+        "moveId": 3
+      },
+      {
+        "level": 29,
+        "moveId": 156
+      },
+      {
+        "level": 34,
+        "moveId": 34
+      },
+      {
+        "level": 39,
+        "moveId": 38
+      }
+    ],
+    "initialMoves": [
+      47
+    ],
+    "catchRate": 170,
+    "baseExperience": 76,
+    "evolutionRules": [
+      {
+        "to": 40,
+        "method": "item",
+        "item": "moon_stone"
+      }
+    ],
+    "heightDm": 5
+  },
+  {
+    "id": 40,
+    "name": "胖可丁",
+    "nameEn": "Wigglytuff",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "hp": 140,
+      "attack": 70,
+      "defense": 45,
+      "speed": 45,
+      "special": 50
+    },
+    "color": "#a8a878",
+    "habitat": "草原",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/40.png",
+    "spriteBack": "/assets/pokemon/back/40.png",
+    "spriteAnimated": "/assets/pokemon/animated/40.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/wigglytuff.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 47
+      },
+      {
+        "level": 1,
+        "moveId": 50
+      },
+      {
+        "level": 1,
+        "moveId": 111
+      },
+      {
+        "level": 1,
+        "moveId": 3
+      }
+    ],
+    "initialMoves": [
+      47,
+      50,
+      111,
+      3
+    ],
+    "catchRate": 50,
+    "baseExperience": 109,
+    "evolutionRules": [],
+    "heightDm": 10
+  },
+  {
+    "id": 41,
+    "name": "超音蝠",
+    "nameEn": "Zubat",
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "speed": 55,
+      "special": 40
+    },
+    "color": "#a040a0",
+    "habitat": "洞穴",
+    "evolvesTo": [
+      42
+    ],
+    "sprite": "/assets/pokemon/41.png",
+    "spriteBack": "/assets/pokemon/back/41.png",
+    "spriteAnimated": "/assets/pokemon/animated/41.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/zubat.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 141
+      },
+      {
+        "level": 10,
+        "moveId": 48
+      },
+      {
+        "level": 15,
+        "moveId": 44
+      },
+      {
+        "level": 21,
+        "moveId": 109
+      },
+      {
+        "level": 28,
+        "moveId": 17
+      },
+      {
+        "level": 36,
+        "moveId": 114
+      }
+    ],
+    "initialMoves": [
+      141
+    ],
+    "catchRate": 255,
+    "baseExperience": 54,
+    "evolutionRules": [
+      {
+        "to": 42,
+        "method": "level",
+        "level": 22
+      }
+    ],
+    "heightDm": 8
+  },
+  {
+    "id": 42,
+    "name": "大嘴蝠",
+    "nameEn": "Golbat",
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 70,
+      "speed": 90,
+      "special": 75
+    },
+    "color": "#a040a0",
+    "habitat": "洞穴",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/42.png",
+    "spriteBack": "/assets/pokemon/back/42.png",
+    "spriteAnimated": "/assets/pokemon/animated/42.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/golbat.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 141
+      },
+      {
+        "level": 1,
+        "moveId": 103
+      },
+      {
+        "level": 1,
+        "moveId": 44
+      },
+      {
+        "level": 10,
+        "moveId": 48
+      },
+      {
+        "level": 15,
+        "moveId": 44
+      },
+      {
+        "level": 21,
+        "moveId": 109
+      },
+      {
+        "level": 32,
+        "moveId": 17
+      },
+      {
+        "level": 43,
+        "moveId": 114
+      }
+    ],
+    "initialMoves": [
+      141,
+      103,
+      44
+    ],
+    "catchRate": 90,
+    "baseExperience": 171,
+    "evolutionRules": [],
+    "heightDm": 16
+  },
+  {
+    "id": 43,
+    "name": "走路草",
+    "nameEn": "Oddish",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 55,
+      "speed": 30,
+      "special": 75
+    },
+    "color": "#78c850",
+    "habitat": "草原",
+    "evolvesTo": [
+      44
+    ],
+    "sprite": "/assets/pokemon/43.png",
+    "spriteBack": "/assets/pokemon/back/43.png",
+    "spriteAnimated": "/assets/pokemon/animated/43.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/oddish.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 71
+      },
+      {
+        "level": 15,
+        "moveId": 77
+      },
+      {
+        "level": 17,
+        "moveId": 78
+      },
+      {
+        "level": 19,
+        "moveId": 79
+      },
+      {
+        "level": 24,
+        "moveId": 51
+      },
+      {
+        "level": 33,
+        "moveId": 80
+      },
+      {
+        "level": 46,
+        "moveId": 76
+      }
+    ],
+    "initialMoves": [
+      71
+    ],
+    "catchRate": 255,
+    "baseExperience": 78,
+    "evolutionRules": [
+      {
+        "to": 44,
+        "method": "level",
+        "level": 21
+      }
+    ],
+    "heightDm": 5
+  },
+  {
+    "id": 44,
+    "name": "臭臭花",
+    "nameEn": "Gloom",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 70,
+      "speed": 40,
+      "special": 85
+    },
+    "color": "#78c850",
+    "habitat": "草原",
+    "evolvesTo": [
+      45
+    ],
+    "sprite": "/assets/pokemon/44.png",
+    "spriteBack": "/assets/pokemon/back/44.png",
+    "spriteAnimated": "/assets/pokemon/animated/44.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/gloom.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 71
+      },
+      {
+        "level": 1,
+        "moveId": 77
+      },
+      {
+        "level": 1,
+        "moveId": 78
+      },
+      {
+        "level": 15,
+        "moveId": 77
+      },
+      {
+        "level": 17,
+        "moveId": 78
+      },
+      {
+        "level": 19,
+        "moveId": 79
+      },
+      {
+        "level": 28,
+        "moveId": 51
+      },
+      {
+        "level": 38,
+        "moveId": 80
+      },
+      {
+        "level": 52,
+        "moveId": 76
+      }
+    ],
+    "initialMoves": [
+      71,
+      77,
+      78
+    ],
+    "catchRate": 120,
+    "baseExperience": 132,
+    "evolutionRules": [
+      {
+        "to": 45,
+        "method": "item",
+        "item": "leaf_stone"
+      }
+    ],
+    "heightDm": 8
+  },
+  {
+    "id": 45,
+    "name": "霸王花",
+    "nameEn": "Vileplume",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 85,
+      "speed": 50,
+      "special": 100
+    },
+    "color": "#78c850",
+    "habitat": "草原",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/45.png",
+    "spriteBack": "/assets/pokemon/back/45.png",
+    "spriteAnimated": "/assets/pokemon/animated/45.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/vileplume.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 78
+      },
+      {
+        "level": 1,
+        "moveId": 79
+      },
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 1,
+        "moveId": 80
+      },
+      {
+        "level": 15,
+        "moveId": 77
+      },
+      {
+        "level": 17,
+        "moveId": 78
+      },
+      {
+        "level": 19,
+        "moveId": 79
+      }
+    ],
+    "initialMoves": [
+      78,
+      79,
+      51,
+      80
+    ],
+    "catchRate": 45,
+    "baseExperience": 184,
+    "evolutionRules": [],
+    "heightDm": 12
+  },
+  {
+    "id": 46,
+    "name": "派拉斯",
+    "nameEn": "Paras",
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 70,
+      "defense": 55,
+      "speed": 25,
+      "special": 55
+    },
+    "color": "#a8b820",
+    "habitat": "森林",
+    "evolvesTo": [
+      47
+    ],
+    "sprite": "/assets/pokemon/46.png",
+    "spriteBack": "/assets/pokemon/back/46.png",
+    "spriteAnimated": "/assets/pokemon/animated/46.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/paras.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 13,
+        "moveId": 78
+      },
+      {
+        "level": 20,
+        "moveId": 141
+      },
+      {
+        "level": 27,
+        "moveId": 147
+      },
+      {
+        "level": 34,
+        "moveId": 163
+      },
+      {
+        "level": 41,
+        "moveId": 74
+      }
+    ],
+    "initialMoves": [
+      10
+    ],
+    "catchRate": 190,
+    "baseExperience": 70,
+    "evolutionRules": [
+      {
+        "to": 47,
+        "method": "level",
+        "level": 24
+      }
+    ],
+    "heightDm": 3
+  },
+  {
+    "id": 47,
+    "name": "派拉斯特",
+    "nameEn": "Parasect",
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 95,
+      "defense": 80,
+      "speed": 30,
+      "special": 80
+    },
+    "color": "#a8b820",
+    "habitat": "森林",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/47.png",
+    "spriteBack": "/assets/pokemon/back/47.png",
+    "spriteAnimated": "/assets/pokemon/animated/47.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/parasect.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 1,
+        "moveId": 78
+      },
+      {
+        "level": 1,
+        "moveId": 141
+      },
+      {
+        "level": 13,
+        "moveId": 78
+      },
+      {
+        "level": 20,
+        "moveId": 141
+      },
+      {
+        "level": 30,
+        "moveId": 147
+      },
+      {
+        "level": 39,
+        "moveId": 163
+      },
+      {
+        "level": 48,
+        "moveId": 74
+      }
+    ],
+    "initialMoves": [
+      10,
+      78,
+      141
+    ],
+    "catchRate": 75,
+    "baseExperience": 128,
+    "evolutionRules": [],
+    "heightDm": 10
+  },
+  {
+    "id": 48,
+    "name": "毛球",
+    "nameEn": "Venonat",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 55,
+      "defense": 50,
+      "speed": 45,
+      "special": 40
+    },
+    "color": "#a8b820",
+    "habitat": "森林",
+    "evolvesTo": [
+      49
+    ],
+    "sprite": "/assets/pokemon/48.png",
+    "spriteBack": "/assets/pokemon/back/48.png",
+    "spriteAnimated": "/assets/pokemon/animated/48.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/venonat.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 50
+      },
+      {
+        "level": 24,
+        "moveId": 77
+      },
+      {
+        "level": 27,
+        "moveId": 141
+      },
+      {
+        "level": 30,
+        "moveId": 78
+      },
+      {
+        "level": 35,
+        "moveId": 60
+      },
+      {
+        "level": 38,
+        "moveId": 79
+      },
+      {
+        "level": 43,
+        "moveId": 94
+      }
+    ],
+    "initialMoves": [
+      33,
+      50
+    ],
+    "catchRate": 190,
+    "baseExperience": 75,
+    "evolutionRules": [
+      {
+        "to": 49,
+        "method": "level",
+        "level": 31
+      }
+    ],
+    "heightDm": 10
+  },
+  {
+    "id": 49,
+    "name": "摩鲁蛾",
+    "nameEn": "Venomoth",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 65,
+      "defense": 60,
+      "speed": 90,
+      "special": 90
+    },
+    "color": "#a8b820",
+    "habitat": "森林",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/49.png",
+    "spriteBack": "/assets/pokemon/back/49.png",
+    "spriteAnimated": "/assets/pokemon/animated/49.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/venomoth.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 50
+      },
+      {
+        "level": 1,
+        "moveId": 77
+      },
+      {
+        "level": 1,
+        "moveId": 141
+      },
+      {
+        "level": 24,
+        "moveId": 77
+      },
+      {
+        "level": 27,
+        "moveId": 141
+      },
+      {
+        "level": 30,
+        "moveId": 78
+      },
+      {
+        "level": 38,
+        "moveId": 60
+      },
+      {
+        "level": 43,
+        "moveId": 79
+      },
+      {
+        "level": 50,
+        "moveId": 94
+      }
+    ],
+    "initialMoves": [
+      33,
+      50,
+      77,
+      141
+    ],
+    "catchRate": 75,
+    "baseExperience": 138,
+    "evolutionRules": [],
+    "heightDm": 15
+  },
+  {
+    "id": 50,
+    "name": "地鼠",
+    "nameEn": "Diglett",
+    "types": [
+      "ground"
+    ],
+    "stats": {
+      "hp": 10,
+      "attack": 55,
+      "defense": 25,
+      "speed": 95,
+      "special": 45
+    },
+    "color": "#e0c068",
+    "habitat": "洞穴",
+    "evolvesTo": [
+      51
+    ],
+    "sprite": "/assets/pokemon/50.png",
+    "spriteBack": "/assets/pokemon/back/50.png",
+    "spriteAnimated": "/assets/pokemon/animated/50.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/diglett.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 15,
+        "moveId": 45
+      },
+      {
+        "level": 19,
+        "moveId": 91
+      },
+      {
+        "level": 24,
+        "moveId": 28
+      },
+      {
+        "level": 31,
+        "moveId": 163
+      },
+      {
+        "level": 40,
+        "moveId": 89
+      }
+    ],
+    "initialMoves": [
+      10
+    ],
+    "catchRate": 255,
+    "baseExperience": 81,
+    "evolutionRules": [
+      {
+        "to": 51,
+        "method": "level",
+        "level": 26
+      }
+    ],
+    "heightDm": 2
+  },
+  {
+    "id": 51,
+    "name": "三地鼠",
+    "nameEn": "Dugtrio",
+    "types": [
+      "ground"
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 80,
+      "defense": 50,
+      "speed": 120,
+      "special": 70
+    },
+    "color": "#e0c068",
+    "habitat": "洞穴",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/51.png",
+    "spriteBack": "/assets/pokemon/back/51.png",
+    "spriteAnimated": "/assets/pokemon/animated/51.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/dugtrio.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 1,
+        "moveId": 91
+      },
+      {
+        "level": 15,
+        "moveId": 45
+      },
+      {
+        "level": 19,
+        "moveId": 91
+      },
+      {
+        "level": 24,
+        "moveId": 28
+      },
+      {
+        "level": 35,
+        "moveId": 163
+      },
+      {
+        "level": 47,
+        "moveId": 89
+      }
+    ],
+    "initialMoves": [
+      10,
+      45,
+      91
+    ],
+    "catchRate": 50,
+    "baseExperience": 153,
+    "evolutionRules": [],
+    "heightDm": 7
+  },
+  {
+    "id": 52,
+    "name": "喵喵",
+    "nameEn": "Meowth",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "speed": 90,
+      "special": 40
+    },
+    "color": "#a8a878",
+    "habitat": "城市",
+    "evolvesTo": [
+      53
+    ],
+    "sprite": "/assets/pokemon/52.png",
+    "spriteBack": "/assets/pokemon/back/52.png",
+    "spriteAnimated": "/assets/pokemon/animated/52.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/meowth.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 12,
+        "moveId": 44
+      },
+      {
+        "level": 17,
+        "moveId": 6
+      },
+      {
+        "level": 24,
+        "moveId": 103
+      },
+      {
+        "level": 33,
+        "moveId": 154
+      },
+      {
+        "level": 44,
+        "moveId": 163
+      }
+    ],
+    "initialMoves": [
+      10,
+      45
+    ],
+    "catchRate": 255,
+    "baseExperience": 69,
+    "evolutionRules": [
+      {
+        "to": 53,
+        "method": "level",
+        "level": 28
+      }
+    ],
+    "heightDm": 4
+  },
+  {
+    "id": 53,
+    "name": "猫老大",
+    "nameEn": "Persian",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 70,
+      "defense": 60,
+      "speed": 115,
+      "special": 65
+    },
+    "color": "#a8a878",
+    "habitat": "城市",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/53.png",
+    "spriteBack": "/assets/pokemon/back/53.png",
+    "spriteAnimated": "/assets/pokemon/animated/53.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/persian.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 1,
+        "moveId": 44
+      },
+      {
+        "level": 1,
+        "moveId": 103
+      },
+      {
+        "level": 12,
+        "moveId": 44
+      },
+      {
+        "level": 17,
+        "moveId": 6
+      },
+      {
+        "level": 24,
+        "moveId": 103
+      },
+      {
+        "level": 37,
+        "moveId": 154
+      },
+      {
+        "level": 51,
+        "moveId": 163
+      }
+    ],
+    "initialMoves": [
+      10,
+      45,
+      44,
+      103
+    ],
+    "catchRate": 90,
+    "baseExperience": 148,
+    "evolutionRules": [],
+    "heightDm": 10
+  },
+  {
+    "id": 54,
+    "name": "可达鸭",
+    "nameEn": "Psyduck",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 52,
+      "defense": 48,
+      "speed": 55,
+      "special": 50
+    },
+    "color": "#6890f0",
+    "habitat": "水边",
+    "evolvesTo": [
+      55
+    ],
+    "sprite": "/assets/pokemon/54.png",
+    "spriteBack": "/assets/pokemon/back/54.png",
+    "spriteAnimated": "/assets/pokemon/animated/54.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/psyduck.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 28,
+        "moveId": 39
+      },
+      {
+        "level": 31,
+        "moveId": 50
+      },
+      {
+        "level": 36,
+        "moveId": 93
+      },
+      {
+        "level": 43,
+        "moveId": 154
+      },
+      {
+        "level": 52,
+        "moveId": 56
+      }
+    ],
+    "initialMoves": [
+      10
+    ],
+    "catchRate": 190,
+    "baseExperience": 80,
+    "evolutionRules": [
+      {
+        "to": 55,
+        "method": "level",
+        "level": 33
+      }
+    ],
+    "heightDm": 8
+  },
+  {
+    "id": 55,
+    "name": "哥达鸭",
+    "nameEn": "Golduck",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 78,
+      "speed": 85,
+      "special": 80
+    },
+    "color": "#6890f0",
+    "habitat": "水边",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/55.png",
+    "spriteBack": "/assets/pokemon/back/55.png",
+    "spriteAnimated": "/assets/pokemon/animated/55.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/golduck.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 1,
+        "moveId": 39
+      },
+      {
+        "level": 1,
+        "moveId": 50
+      },
+      {
+        "level": 28,
+        "moveId": 39
+      },
+      {
+        "level": 31,
+        "moveId": 50
+      },
+      {
+        "level": 39,
+        "moveId": 93
+      },
+      {
+        "level": 48,
+        "moveId": 154
+      },
+      {
+        "level": 59,
+        "moveId": 56
+      }
+    ],
+    "initialMoves": [
+      10,
+      39,
+      50
+    ],
+    "catchRate": 75,
+    "baseExperience": 174,
+    "evolutionRules": [],
+    "heightDm": 17
+  },
+  {
+    "id": 56,
+    "name": "猴怪",
+    "nameEn": "Mankey",
+    "types": [
+      "fighting"
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 35,
+      "speed": 70,
+      "special": 35
+    },
+    "color": "#c03028",
+    "habitat": "山地",
+    "evolvesTo": [
+      57
+    ],
+    "sprite": "/assets/pokemon/56.png",
+    "spriteBack": "/assets/pokemon/back/56.png",
+    "spriteAnimated": "/assets/pokemon/animated/56.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/mankey.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 1,
+        "moveId": 43
+      },
+      {
+        "level": 15,
+        "moveId": 2
+      },
+      {
+        "level": 21,
+        "moveId": 154
+      },
+      {
+        "level": 27,
+        "moveId": 116
+      },
+      {
+        "level": 33,
+        "moveId": 69
+      },
+      {
+        "level": 39,
+        "moveId": 37
+      }
+    ],
+    "initialMoves": [
+      10,
+      43
+    ],
+    "catchRate": 190,
+    "baseExperience": 74,
+    "evolutionRules": [
+      {
+        "to": 57,
+        "method": "level",
+        "level": 28
+      }
+    ],
+    "heightDm": 5
+  },
+  {
+    "id": 57,
+    "name": "火暴猴",
+    "nameEn": "Primeape",
+    "types": [
+      "fighting"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 105,
+      "defense": 60,
+      "speed": 95,
+      "special": 60
+    },
+    "color": "#c03028",
+    "habitat": "山地",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/57.png",
+    "spriteBack": "/assets/pokemon/back/57.png",
+    "spriteAnimated": "/assets/pokemon/animated/57.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/primeape.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 1,
+        "moveId": 43
+      },
+      {
+        "level": 1,
+        "moveId": 2
+      },
+      {
+        "level": 1,
+        "moveId": 154
+      },
+      {
+        "level": 15,
+        "moveId": 2
+      },
+      {
+        "level": 21,
+        "moveId": 154
+      },
+      {
+        "level": 27,
+        "moveId": 116
+      },
+      {
+        "level": 37,
+        "moveId": 69
+      },
+      {
+        "level": 46,
+        "moveId": 37
+      }
+    ],
+    "initialMoves": [
+      10,
+      43,
+      2,
+      154
+    ],
+    "catchRate": 75,
+    "baseExperience": 149,
+    "evolutionRules": [],
+    "heightDm": 10
+  },
+  {
+    "id": 58,
+    "name": "卡蒂狗",
+    "nameEn": "Growlithe",
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 45,
+      "speed": 60,
+      "special": 50
+    },
+    "color": "#ef8030",
+    "habitat": "草原",
+    "evolvesTo": [
+      59
+    ],
+    "sprite": "/assets/pokemon/58.png",
+    "spriteBack": "/assets/pokemon/back/58.png",
+    "spriteAnimated": "/assets/pokemon/animated/58.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/growlithe.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 44
+      },
+      {
+        "level": 1,
+        "moveId": 46
+      },
+      {
+        "level": 18,
+        "moveId": 52
+      },
+      {
+        "level": 23,
+        "moveId": 43
+      },
+      {
+        "level": 30,
+        "moveId": 36
+      },
+      {
+        "level": 39,
+        "moveId": 97
+      },
+      {
+        "level": 50,
+        "moveId": 53
+      }
+    ],
+    "initialMoves": [
+      44,
+      46
+    ],
+    "catchRate": 190,
+    "baseExperience": 91,
+    "evolutionRules": [
+      {
+        "to": 59,
+        "method": "item",
+        "item": "fire_stone"
+      }
+    ],
+    "heightDm": 7
+  },
+  {
+    "id": 59,
+    "name": "风速狗",
+    "nameEn": "Arcanine",
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 110,
+      "defense": 80,
+      "speed": 95,
+      "special": 80
+    },
+    "color": "#ef8030",
+    "habitat": "草原",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/59.png",
+    "spriteBack": "/assets/pokemon/back/59.png",
+    "spriteAnimated": "/assets/pokemon/animated/59.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/arcanine.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 46
+      },
+      {
+        "level": 1,
+        "moveId": 52
+      },
+      {
+        "level": 1,
+        "moveId": 43
+      },
+      {
+        "level": 1,
+        "moveId": 36
+      }
+    ],
+    "initialMoves": [
+      46,
+      52,
+      43,
+      36
+    ],
+    "catchRate": 75,
+    "baseExperience": 213,
+    "evolutionRules": [],
+    "heightDm": 19
+  },
+  {
+    "id": 60,
+    "name": "蚊香蝌蚪",
+    "nameEn": "Poliwag",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 50,
+      "defense": 40,
+      "speed": 90,
+      "special": 40
+    },
+    "color": "#6890f0",
+    "habitat": "水边",
+    "evolvesTo": [
+      61
+    ],
+    "sprite": "/assets/pokemon/60.png",
+    "spriteBack": "/assets/pokemon/back/60.png",
+    "spriteAnimated": "/assets/pokemon/animated/60.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/poliwag.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 145
+      },
+      {
+        "level": 16,
+        "moveId": 95
+      },
+      {
+        "level": 19,
+        "moveId": 55
+      },
+      {
+        "level": 25,
+        "moveId": 3
+      },
+      {
+        "level": 31,
+        "moveId": 34
+      },
+      {
+        "level": 38,
+        "moveId": 133
+      },
+      {
+        "level": 45,
+        "moveId": 56
+      }
+    ],
+    "initialMoves": [
+      145
+    ],
+    "catchRate": 255,
+    "baseExperience": 77,
+    "evolutionRules": [
+      {
+        "to": 61,
+        "method": "level",
+        "level": 25
+      }
+    ],
+    "heightDm": 6
+  },
+  {
+    "id": 61,
+    "name": "蚊香君",
+    "nameEn": "Poliwhirl",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 65,
+      "speed": 90,
+      "special": 50
+    },
+    "color": "#6890f0",
+    "habitat": "水边",
+    "evolvesTo": [
+      62
+    ],
+    "sprite": "/assets/pokemon/61.png",
+    "spriteBack": "/assets/pokemon/back/61.png",
+    "spriteAnimated": "/assets/pokemon/animated/61.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/poliwhirl.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 145
+      },
+      {
+        "level": 1,
+        "moveId": 95
+      },
+      {
+        "level": 1,
+        "moveId": 55
+      },
+      {
+        "level": 16,
+        "moveId": 95
+      },
+      {
+        "level": 19,
+        "moveId": 55
+      },
+      {
+        "level": 26,
+        "moveId": 3
+      },
+      {
+        "level": 33,
+        "moveId": 34
+      },
+      {
+        "level": 41,
+        "moveId": 133
+      },
+      {
+        "level": 49,
+        "moveId": 56
+      }
+    ],
+    "initialMoves": [
+      145,
+      95,
+      55
+    ],
+    "catchRate": 120,
+    "baseExperience": 131,
+    "evolutionRules": [
+      {
+        "to": 62,
+        "method": "item",
+        "item": "water_stone"
+      }
+    ],
+    "heightDm": 10
+  },
+  {
+    "id": 62,
+    "name": "蚊香泳士",
+    "nameEn": "Poliwrath",
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 85,
+      "defense": 95,
+      "speed": 70,
+      "special": 70
+    },
+    "color": "#6890f0",
+    "habitat": "水边",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/62.png",
+    "spriteBack": "/assets/pokemon/back/62.png",
+    "spriteAnimated": "/assets/pokemon/animated/62.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/poliwrath.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 95
+      },
+      {
+        "level": 1,
+        "moveId": 55
+      },
+      {
+        "level": 1,
+        "moveId": 3
+      },
+      {
+        "level": 1,
+        "moveId": 34
+      },
+      {
+        "level": 16,
+        "moveId": 95
+      },
+      {
+        "level": 19,
+        "moveId": 55
+      }
+    ],
+    "initialMoves": [
+      95,
+      55,
+      3,
+      34
+    ],
+    "catchRate": 45,
+    "baseExperience": 185,
+    "evolutionRules": [],
+    "heightDm": 13
+  },
+  {
+    "id": 63,
+    "name": "凯西",
+    "nameEn": "Abra",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "hp": 25,
+      "attack": 20,
+      "defense": 15,
+      "speed": 90,
+      "special": 105
+    },
+    "color": "#f85888",
+    "habitat": "城市",
+    "evolvesTo": [
+      64
+    ],
+    "sprite": "/assets/pokemon/63.png",
+    "spriteBack": "/assets/pokemon/back/63.png",
+    "spriteAnimated": "/assets/pokemon/animated/63.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/abra.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 100
+      }
+    ],
+    "initialMoves": [
+      100
+    ],
+    "catchRate": 200,
+    "baseExperience": 73,
+    "evolutionRules": [
+      {
+        "to": 64,
+        "method": "level",
+        "level": 16
+      }
+    ],
+    "heightDm": 9
+  },
+  {
+    "id": 64,
+    "name": "勇基拉",
+    "nameEn": "Kadabra",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 35,
+      "defense": 30,
+      "speed": 105,
+      "special": 120
+    },
+    "color": "#f85888",
+    "habitat": "城市",
+    "evolvesTo": [
+      65
+    ],
+    "sprite": "/assets/pokemon/64.png",
+    "spriteBack": "/assets/pokemon/back/64.png",
+    "spriteAnimated": "/assets/pokemon/animated/64.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/kadabra.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 100
+      },
+      {
+        "level": 1,
+        "moveId": 93
+      },
+      {
+        "level": 1,
+        "moveId": 50
+      },
+      {
+        "level": 16,
+        "moveId": 93
+      },
+      {
+        "level": 20,
+        "moveId": 50
+      },
+      {
+        "level": 27,
+        "moveId": 60
+      },
+      {
+        "level": 31,
+        "moveId": 105
+      },
+      {
+        "level": 38,
+        "moveId": 94
+      },
+      {
+        "level": 42,
+        "moveId": 115
+      }
+    ],
+    "initialMoves": [
+      100,
+      93,
+      50
+    ],
+    "catchRate": 100,
+    "baseExperience": 145,
+    "evolutionRules": [
+      {
+        "to": 65,
+        "method": "trade"
+      }
+    ],
+    "heightDm": 13
+  },
+  {
+    "id": 65,
+    "name": "胡地",
+    "nameEn": "Alakazam",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 50,
+      "defense": 45,
+      "speed": 120,
+      "special": 135
+    },
+    "color": "#f85888",
+    "habitat": "城市",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/65.png",
+    "spriteBack": "/assets/pokemon/back/65.png",
+    "spriteAnimated": "/assets/pokemon/animated/65.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/alakazam.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 100
+      },
+      {
+        "level": 1,
+        "moveId": 93
+      },
+      {
+        "level": 1,
+        "moveId": 50
+      },
+      {
+        "level": 16,
+        "moveId": 93
+      },
+      {
+        "level": 20,
+        "moveId": 50
+      },
+      {
+        "level": 27,
+        "moveId": 60
+      },
+      {
+        "level": 31,
+        "moveId": 105
+      },
+      {
+        "level": 38,
+        "moveId": 94
+      },
+      {
+        "level": 42,
+        "moveId": 115
+      }
+    ],
+    "initialMoves": [
+      100,
+      93,
+      50
+    ],
+    "catchRate": 50,
+    "baseExperience": 186,
+    "evolutionRules": [],
+    "heightDm": 15
+  },
+  {
+    "id": 66,
+    "name": "腕力",
+    "nameEn": "Machop",
+    "types": [
+      "fighting"
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 80,
+      "defense": 50,
+      "speed": 35,
+      "special": 35
+    },
+    "color": "#c03028",
+    "habitat": "山地",
+    "evolvesTo": [
+      67
+    ],
+    "sprite": "/assets/pokemon/66.png",
+    "spriteBack": "/assets/pokemon/back/66.png",
+    "spriteAnimated": "/assets/pokemon/animated/66.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/machop.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 2
+      },
+      {
+        "level": 20,
+        "moveId": 67
+      },
+      {
+        "level": 25,
+        "moveId": 43
+      },
+      {
+        "level": 32,
+        "moveId": 116
+      },
+      {
+        "level": 39,
+        "moveId": 69
+      },
+      {
+        "level": 46,
+        "moveId": 66
+      }
+    ],
+    "initialMoves": [
+      2
+    ],
+    "catchRate": 180,
+    "baseExperience": 88,
+    "evolutionRules": [
+      {
+        "to": 67,
+        "method": "level",
+        "level": 28
+      }
+    ],
+    "heightDm": 8
+  },
+  {
+    "id": 67,
+    "name": "豪力",
+    "nameEn": "Machoke",
+    "types": [
+      "fighting"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 70,
+      "speed": 45,
+      "special": 50
+    },
+    "color": "#c03028",
+    "habitat": "山地",
+    "evolvesTo": [
+      68
+    ],
+    "sprite": "/assets/pokemon/67.png",
+    "spriteBack": "/assets/pokemon/back/67.png",
+    "spriteAnimated": "/assets/pokemon/animated/67.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/machoke.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 2
+      },
+      {
+        "level": 1,
+        "moveId": 67
+      },
+      {
+        "level": 1,
+        "moveId": 43
+      },
+      {
+        "level": 20,
+        "moveId": 67
+      },
+      {
+        "level": 25,
+        "moveId": 43
+      },
+      {
+        "level": 36,
+        "moveId": 116
+      },
+      {
+        "level": 44,
+        "moveId": 69
+      },
+      {
+        "level": 52,
+        "moveId": 66
+      }
+    ],
+    "initialMoves": [
+      2,
+      67,
+      43
+    ],
+    "catchRate": 90,
+    "baseExperience": 146,
+    "evolutionRules": [
+      {
+        "to": 68,
+        "method": "trade"
+      }
+    ],
+    "heightDm": 15
+  },
+  {
+    "id": 68,
+    "name": "怪力",
+    "nameEn": "Machamp",
+    "types": [
+      "fighting"
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 130,
+      "defense": 80,
+      "speed": 55,
+      "special": 65
+    },
+    "color": "#c03028",
+    "habitat": "山地",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/68.png",
+    "spriteBack": "/assets/pokemon/back/68.png",
+    "spriteAnimated": "/assets/pokemon/animated/68.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/machamp.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 2
+      },
+      {
+        "level": 1,
+        "moveId": 67
+      },
+      {
+        "level": 1,
+        "moveId": 43
+      },
+      {
+        "level": 20,
+        "moveId": 67
+      },
+      {
+        "level": 25,
+        "moveId": 43
+      },
+      {
+        "level": 36,
+        "moveId": 116
+      },
+      {
+        "level": 44,
+        "moveId": 69
+      },
+      {
+        "level": 52,
+        "moveId": 66
+      }
+    ],
+    "initialMoves": [
+      2,
+      67,
+      43
+    ],
+    "catchRate": 45,
+    "baseExperience": 193,
+    "evolutionRules": [],
+    "heightDm": 16
+  },
+  {
+    "id": 69,
+    "name": "喇叭芽",
+    "nameEn": "Bellsprout",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 35,
+      "speed": 40,
+      "special": 70
+    },
+    "color": "#78c850",
+    "habitat": "森林",
+    "evolvesTo": [
+      70
+    ],
+    "sprite": "/assets/pokemon/69.png",
+    "spriteBack": "/assets/pokemon/back/69.png",
+    "spriteAnimated": "/assets/pokemon/animated/69.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/bellsprout.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 22
+      },
+      {
+        "level": 1,
+        "moveId": 74
+      },
+      {
+        "level": 13,
+        "moveId": 35
+      },
+      {
+        "level": 15,
+        "moveId": 77
+      },
+      {
+        "level": 18,
+        "moveId": 79
+      },
+      {
+        "level": 21,
+        "moveId": 78
+      },
+      {
+        "level": 26,
+        "moveId": 51
+      },
+      {
+        "level": 33,
+        "moveId": 75
+      },
+      {
+        "level": 42,
+        "moveId": 21
+      }
+    ],
+    "initialMoves": [
+      22,
+      74
+    ],
+    "catchRate": 255,
+    "baseExperience": 84,
+    "evolutionRules": [
+      {
+        "to": 70,
+        "method": "level",
+        "level": 21
+      }
+    ],
+    "heightDm": 7
+  },
+  {
+    "id": 70,
+    "name": "口呆花",
+    "nameEn": "Weepinbell",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 50,
+      "speed": 55,
+      "special": 85
+    },
+    "color": "#78c850",
+    "habitat": "森林",
+    "evolvesTo": [
+      71
+    ],
+    "sprite": "/assets/pokemon/70.png",
+    "spriteBack": "/assets/pokemon/back/70.png",
+    "spriteAnimated": "/assets/pokemon/animated/70.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/weepinbell.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 22
+      },
+      {
+        "level": 1,
+        "moveId": 74
+      },
+      {
+        "level": 1,
+        "moveId": 35
+      },
+      {
+        "level": 13,
+        "moveId": 35
+      },
+      {
+        "level": 15,
+        "moveId": 77
+      },
+      {
+        "level": 18,
+        "moveId": 79
+      },
+      {
+        "level": 23,
+        "moveId": 78
+      },
+      {
+        "level": 29,
+        "moveId": 51
+      },
+      {
+        "level": 38,
+        "moveId": 75
+      },
+      {
+        "level": 49,
+        "moveId": 21
+      }
+    ],
+    "initialMoves": [
+      22,
+      74,
+      35
+    ],
+    "catchRate": 120,
+    "baseExperience": 151,
+    "evolutionRules": [
+      {
+        "to": 71,
+        "method": "item",
+        "item": "leaf_stone"
+      }
+    ],
+    "heightDm": 10
+  },
+  {
+    "id": 71,
+    "name": "大食花",
+    "nameEn": "Victreebel",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "speed": 70,
+      "special": 100
+    },
+    "color": "#78c850",
+    "habitat": "森林",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/71.png",
+    "spriteBack": "/assets/pokemon/back/71.png",
+    "spriteAnimated": "/assets/pokemon/animated/71.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/victreebel.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 79
+      },
+      {
+        "level": 1,
+        "moveId": 78
+      },
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 1,
+        "moveId": 75
+      },
+      {
+        "level": 13,
+        "moveId": 35
+      },
+      {
+        "level": 15,
+        "moveId": 77
+      },
+      {
+        "level": 18,
+        "moveId": 79
+      }
+    ],
+    "initialMoves": [
+      79,
+      78,
+      51,
+      75
+    ],
+    "catchRate": 45,
+    "baseExperience": 191,
+    "evolutionRules": [],
+    "heightDm": 17
+  },
+  {
+    "id": 72,
+    "name": "玛瑙水母",
+    "nameEn": "Tentacool",
+    "types": [
+      "water",
+      "poison"
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 35,
+      "speed": 70,
+      "special": 100
+    },
+    "color": "#6890f0",
+    "habitat": "海洋",
+    "evolvesTo": [
+      73
+    ],
+    "sprite": "/assets/pokemon/72.png",
+    "spriteBack": "/assets/pokemon/back/72.png",
+    "spriteAnimated": "/assets/pokemon/animated/72.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/tentacool.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 7,
+        "moveId": 48
+      },
+      {
+        "level": 13,
+        "moveId": 35
+      },
+      {
+        "level": 18,
+        "moveId": 40
+      },
+      {
+        "level": 22,
+        "moveId": 55
+      },
+      {
+        "level": 27,
+        "moveId": 132
+      },
+      {
+        "level": 33,
+        "moveId": 112
+      },
+      {
+        "level": 40,
+        "moveId": 103
+      },
+      {
+        "level": 48,
+        "moveId": 56
+      }
+    ],
+    "initialMoves": [
+      51
+    ],
+    "catchRate": 190,
+    "baseExperience": 105,
+    "evolutionRules": [
+      {
+        "to": 73,
+        "method": "level",
+        "level": 30
+      }
+    ],
+    "heightDm": 9
+  },
+  {
+    "id": 73,
+    "name": "毒刺水母",
+    "nameEn": "Tentacruel",
+    "types": [
+      "water",
+      "poison"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 70,
+      "defense": 65,
+      "speed": 100,
+      "special": 120
+    },
+    "color": "#6890f0",
+    "habitat": "海洋",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/73.png",
+    "spriteBack": "/assets/pokemon/back/73.png",
+    "spriteAnimated": "/assets/pokemon/animated/73.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/tentacruel.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 1,
+        "moveId": 48
+      },
+      {
+        "level": 1,
+        "moveId": 35
+      },
+      {
+        "level": 7,
+        "moveId": 48
+      },
+      {
+        "level": 13,
+        "moveId": 35
+      },
+      {
+        "level": 18,
+        "moveId": 40
+      },
+      {
+        "level": 22,
+        "moveId": 55
+      },
+      {
+        "level": 27,
+        "moveId": 132
+      },
+      {
+        "level": 35,
+        "moveId": 112
+      },
+      {
+        "level": 43,
+        "moveId": 103
+      },
+      {
+        "level": 50,
+        "moveId": 56
+      }
+    ],
+    "initialMoves": [
+      51,
+      48,
+      35
+    ],
+    "catchRate": 60,
+    "baseExperience": 205,
+    "evolutionRules": [],
+    "heightDm": 16
+  },
+  {
+    "id": 74,
+    "name": "小拳石",
+    "nameEn": "Geodude",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 100,
+      "speed": 20,
+      "special": 30
+    },
+    "color": "#b8a038",
+    "habitat": "山地",
+    "evolvesTo": [
+      75
+    ],
+    "sprite": "/assets/pokemon/74.png",
+    "spriteBack": "/assets/pokemon/back/74.png",
+    "spriteAnimated": "/assets/pokemon/animated/74.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/geodude.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 11,
+        "moveId": 111
+      },
+      {
+        "level": 16,
+        "moveId": 88
+      },
+      {
+        "level": 21,
+        "moveId": 120
+      },
+      {
+        "level": 26,
+        "moveId": 106
+      },
+      {
+        "level": 31,
+        "moveId": 89
+      },
+      {
+        "level": 36,
+        "moveId": 153
+      }
+    ],
+    "initialMoves": [
+      33
+    ],
+    "catchRate": 255,
+    "baseExperience": 86,
+    "evolutionRules": [
+      {
+        "to": 75,
+        "method": "level",
+        "level": 25
+      }
+    ],
+    "heightDm": 4
+  },
+  {
+    "id": 75,
+    "name": "隆隆石",
+    "nameEn": "Graveler",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 95,
+      "defense": 115,
+      "speed": 35,
+      "special": 45
+    },
+    "color": "#b8a038",
+    "habitat": "山地",
+    "evolvesTo": [
+      76
+    ],
+    "sprite": "/assets/pokemon/75.png",
+    "spriteBack": "/assets/pokemon/back/75.png",
+    "spriteAnimated": "/assets/pokemon/animated/75.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/graveler.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 111
+      },
+      {
+        "level": 11,
+        "moveId": 111
+      },
+      {
+        "level": 16,
+        "moveId": 88
+      },
+      {
+        "level": 21,
+        "moveId": 120
+      },
+      {
+        "level": 29,
+        "moveId": 106
+      },
+      {
+        "level": 36,
+        "moveId": 89
+      },
+      {
+        "level": 43,
+        "moveId": 153
+      }
+    ],
+    "initialMoves": [
+      33,
+      111
+    ],
+    "catchRate": 120,
+    "baseExperience": 134,
+    "evolutionRules": [
+      {
+        "to": 76,
+        "method": "trade"
+      }
+    ],
+    "heightDm": 10
+  },
+  {
+    "id": 76,
+    "name": "隆隆岩",
+    "nameEn": "Golem",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 110,
+      "defense": 130,
+      "speed": 45,
+      "special": 55
+    },
+    "color": "#b8a038",
+    "habitat": "山地",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/76.png",
+    "spriteBack": "/assets/pokemon/back/76.png",
+    "spriteAnimated": "/assets/pokemon/animated/76.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/golem.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 111
+      },
+      {
+        "level": 11,
+        "moveId": 111
+      },
+      {
+        "level": 16,
+        "moveId": 88
+      },
+      {
+        "level": 21,
+        "moveId": 120
+      },
+      {
+        "level": 29,
+        "moveId": 106
+      },
+      {
+        "level": 36,
+        "moveId": 89
+      },
+      {
+        "level": 43,
+        "moveId": 153
+      }
+    ],
+    "initialMoves": [
+      33,
+      111
+    ],
+    "catchRate": 45,
+    "baseExperience": 177,
+    "evolutionRules": [],
+    "heightDm": 14
+  },
+  {
+    "id": 77,
+    "name": "小火马",
+    "nameEn": "Ponyta",
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 85,
+      "defense": 55,
+      "speed": 90,
+      "special": 65
+    },
+    "color": "#ef8030",
+    "habitat": "草原",
+    "evolvesTo": [
+      78
+    ],
+    "sprite": "/assets/pokemon/77.png",
+    "spriteBack": "/assets/pokemon/back/77.png",
+    "spriteAnimated": "/assets/pokemon/animated/77.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/ponyta.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 52
+      },
+      {
+        "level": 30,
+        "moveId": 39
+      },
+      {
+        "level": 32,
+        "moveId": 23
+      },
+      {
+        "level": 35,
+        "moveId": 45
+      },
+      {
+        "level": 39,
+        "moveId": 83
+      },
+      {
+        "level": 43,
+        "moveId": 36
+      },
+      {
+        "level": 48,
+        "moveId": 97
+      }
+    ],
+    "initialMoves": [
+      52
+    ],
+    "catchRate": 190,
+    "baseExperience": 152,
+    "evolutionRules": [
+      {
+        "to": 78,
+        "method": "level",
+        "level": 40
+      }
+    ],
+    "heightDm": 10
+  },
+  {
+    "id": 78,
+    "name": "烈焰马",
+    "nameEn": "Rapidash",
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 100,
+      "defense": 70,
+      "speed": 105,
+      "special": 80
+    },
+    "color": "#ef8030",
+    "habitat": "草原",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/78.png",
+    "spriteBack": "/assets/pokemon/back/78.png",
+    "spriteAnimated": "/assets/pokemon/animated/78.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/rapidash.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 52
+      },
+      {
+        "level": 1,
+        "moveId": 39
+      },
+      {
+        "level": 1,
+        "moveId": 23
+      },
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 30,
+        "moveId": 39
+      },
+      {
+        "level": 32,
+        "moveId": 23
+      },
+      {
+        "level": 35,
+        "moveId": 45
+      },
+      {
+        "level": 39,
+        "moveId": 83
+      },
+      {
+        "level": 47,
+        "moveId": 36
+      },
+      {
+        "level": 55,
+        "moveId": 97
+      }
+    ],
+    "initialMoves": [
+      52,
+      39,
+      23,
+      45
+    ],
+    "catchRate": 60,
+    "baseExperience": 192,
+    "evolutionRules": [],
+    "heightDm": 17
+  },
+  {
+    "id": 79,
+    "name": "呆呆兽",
+    "nameEn": "Slowpoke",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 65,
+      "defense": 65,
+      "speed": 15,
+      "special": 40
+    },
+    "color": "#6890f0",
+    "habitat": "水边",
+    "evolvesTo": [
+      80
+    ],
+    "sprite": "/assets/pokemon/79.png",
+    "spriteBack": "/assets/pokemon/back/79.png",
+    "spriteAnimated": "/assets/pokemon/animated/79.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/slowpoke.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 93
+      },
+      {
+        "level": 18,
+        "moveId": 50
+      },
+      {
+        "level": 22,
+        "moveId": 29
+      },
+      {
+        "level": 27,
+        "moveId": 45
+      },
+      {
+        "level": 33,
+        "moveId": 55
+      },
+      {
+        "level": 40,
+        "moveId": 133
+      },
+      {
+        "level": 48,
+        "moveId": 94
+      }
+    ],
+    "initialMoves": [
+      93
+    ],
+    "catchRate": 190,
+    "baseExperience": 99,
+    "evolutionRules": [
+      {
+        "to": 80,
+        "method": "level",
+        "level": 37
+      }
+    ],
+    "heightDm": 12
+  },
+  {
+    "id": 80,
+    "name": "呆壳兽",
+    "nameEn": "Slowbro",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 75,
+      "defense": 110,
+      "speed": 30,
+      "special": 80
+    },
+    "color": "#6890f0",
+    "habitat": "水边",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/80.png",
+    "spriteBack": "/assets/pokemon/back/80.png",
+    "spriteAnimated": "/assets/pokemon/animated/80.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/slowbro.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 93
+      },
+      {
+        "level": 1,
+        "moveId": 50
+      },
+      {
+        "level": 1,
+        "moveId": 29
+      },
+      {
+        "level": 18,
+        "moveId": 50
+      },
+      {
+        "level": 22,
+        "moveId": 29
+      },
+      {
+        "level": 27,
+        "moveId": 45
+      },
+      {
+        "level": 33,
+        "moveId": 55
+      },
+      {
+        "level": 37,
+        "moveId": 110
+      },
+      {
+        "level": 44,
+        "moveId": 133
+      },
+      {
+        "level": 55,
+        "moveId": 94
+      }
+    ],
+    "initialMoves": [
+      93,
+      50,
+      29
+    ],
+    "catchRate": 75,
+    "baseExperience": 164,
+    "evolutionRules": [],
+    "heightDm": 16
+  },
+  {
+    "id": 81,
+    "name": "小磁怪",
+    "nameEn": "Magnemite",
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "hp": 25,
+      "attack": 35,
+      "defense": 70,
+      "speed": 45,
+      "special": 95
+    },
+    "color": "#f8d030",
+    "habitat": "粗地",
+    "evolvesTo": [
+      82
+    ],
+    "sprite": "/assets/pokemon/81.png",
+    "spriteBack": "/assets/pokemon/back/81.png",
+    "spriteAnimated": "/assets/pokemon/animated/81.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/magnemite.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 21,
+        "moveId": 49
+      },
+      {
+        "level": 25,
+        "moveId": 84
+      },
+      {
+        "level": 29,
+        "moveId": 48
+      },
+      {
+        "level": 35,
+        "moveId": 86
+      },
+      {
+        "level": 41,
+        "moveId": 129
+      },
+      {
+        "level": 47,
+        "moveId": 103
+      }
+    ],
+    "initialMoves": [
+      33
+    ],
+    "catchRate": 190,
+    "baseExperience": 89,
+    "evolutionRules": [
+      {
+        "to": 82,
+        "method": "level",
+        "level": 30
+      }
+    ],
+    "heightDm": 3
+  },
+  {
+    "id": 82,
+    "name": "三合一磁怪",
+    "nameEn": "Magneton",
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 60,
+      "defense": 95,
+      "speed": 70,
+      "special": 120
+    },
+    "color": "#f8d030",
+    "habitat": "粗地",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/82.png",
+    "spriteBack": "/assets/pokemon/back/82.png",
+    "spriteAnimated": "/assets/pokemon/animated/82.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/magneton.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 49
+      },
+      {
+        "level": 1,
+        "moveId": 84
+      },
+      {
+        "level": 21,
+        "moveId": 49
+      },
+      {
+        "level": 25,
+        "moveId": 84
+      },
+      {
+        "level": 29,
+        "moveId": 48
+      },
+      {
+        "level": 38,
+        "moveId": 86
+      },
+      {
+        "level": 46,
+        "moveId": 129
+      },
+      {
+        "level": 54,
+        "moveId": 103
+      }
+    ],
+    "initialMoves": [
+      33,
+      49,
+      84
+    ],
+    "catchRate": 60,
+    "baseExperience": 161,
+    "evolutionRules": [],
+    "heightDm": 10
+  },
+  {
+    "id": 83,
+    "name": "大葱鸭",
+    "nameEn": "Farfetch’d",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "stats": {
+      "hp": 52,
+      "attack": 65,
+      "defense": 55,
+      "speed": 60,
+      "special": 58
+    },
+    "color": "#a8a878",
+    "habitat": "草原",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/83.png",
+    "spriteBack": "/assets/pokemon/back/83.png",
+    "spriteAnimated": "/assets/pokemon/animated/83.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/farfetchd.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 64
+      },
+      {
+        "level": 1,
+        "moveId": 28
+      },
+      {
+        "level": 7,
+        "moveId": 43
+      },
+      {
+        "level": 15,
+        "moveId": 31
+      },
+      {
+        "level": 23,
+        "moveId": 14
+      },
+      {
+        "level": 31,
+        "moveId": 97
+      },
+      {
+        "level": 39,
+        "moveId": 163
+      }
+    ],
+    "initialMoves": [
+      64,
+      28
+    ],
+    "catchRate": 45,
+    "baseExperience": 94,
+    "evolutionRules": [],
+    "heightDm": 8
+  },
+  {
+    "id": 84,
+    "name": "嘟嘟",
+    "nameEn": "Doduo",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 85,
+      "defense": 45,
+      "speed": 75,
+      "special": 35
+    },
+    "color": "#a8a878",
+    "habitat": "草原",
+    "evolvesTo": [
+      85
+    ],
+    "sprite": "/assets/pokemon/84.png",
+    "spriteBack": "/assets/pokemon/back/84.png",
+    "spriteAnimated": "/assets/pokemon/animated/84.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/doduo.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 64
+      },
+      {
+        "level": 20,
+        "moveId": 45
+      },
+      {
+        "level": 24,
+        "moveId": 31
+      },
+      {
+        "level": 30,
+        "moveId": 65
+      },
+      {
+        "level": 36,
+        "moveId": 99
+      },
+      {
+        "level": 40,
+        "moveId": 161
+      },
+      {
+        "level": 44,
+        "moveId": 97
+      }
+    ],
+    "initialMoves": [
+      64
+    ],
+    "catchRate": 190,
+    "baseExperience": 96,
+    "evolutionRules": [
+      {
+        "to": 85,
+        "method": "level",
+        "level": 31
+      }
+    ],
+    "heightDm": 14
+  },
+  {
+    "id": 85,
+    "name": "嘟嘟利",
+    "nameEn": "Dodrio",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 110,
+      "defense": 70,
+      "speed": 100,
+      "special": 60
+    },
+    "color": "#a8a878",
+    "habitat": "草原",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/85.png",
+    "spriteBack": "/assets/pokemon/back/85.png",
+    "spriteAnimated": "/assets/pokemon/animated/85.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/dodrio.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 64
+      },
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 1,
+        "moveId": 31
+      },
+      {
+        "level": 20,
+        "moveId": 45
+      },
+      {
+        "level": 24,
+        "moveId": 31
+      },
+      {
+        "level": 30,
+        "moveId": 65
+      },
+      {
+        "level": 39,
+        "moveId": 99
+      },
+      {
+        "level": 45,
+        "moveId": 161
+      },
+      {
+        "level": 51,
+        "moveId": 97
+      }
+    ],
+    "initialMoves": [
+      64,
+      45,
+      31
+    ],
+    "catchRate": 45,
+    "baseExperience": 158,
+    "evolutionRules": [],
+    "heightDm": 18
+  },
+  {
+    "id": 86,
+    "name": "小海狮",
+    "nameEn": "Seel",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 45,
+      "defense": 55,
+      "speed": 45,
+      "special": 70
+    },
+    "color": "#6890f0",
+    "habitat": "海洋",
+    "evolvesTo": [
+      87
+    ],
+    "sprite": "/assets/pokemon/86.png",
+    "spriteBack": "/assets/pokemon/back/86.png",
+    "spriteAnimated": "/assets/pokemon/animated/86.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/seel.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 29
+      },
+      {
+        "level": 30,
+        "moveId": 45
+      },
+      {
+        "level": 35,
+        "moveId": 62
+      },
+      {
+        "level": 40,
+        "moveId": 156
+      },
+      {
+        "level": 45,
+        "moveId": 36
+      },
+      {
+        "level": 50,
+        "moveId": 58
+      }
+    ],
+    "initialMoves": [
+      29
+    ],
+    "catchRate": 190,
+    "baseExperience": 100,
+    "evolutionRules": [
+      {
+        "to": 87,
+        "method": "level",
+        "level": 34
+      }
+    ],
+    "heightDm": 11
+  },
+  {
+    "id": 87,
+    "name": "白海狮",
+    "nameEn": "Dewgong",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 70,
+      "defense": 80,
+      "speed": 70,
+      "special": 95
+    },
+    "color": "#6890f0",
+    "habitat": "海洋",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/87.png",
+    "spriteBack": "/assets/pokemon/back/87.png",
+    "spriteAnimated": "/assets/pokemon/animated/87.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/dewgong.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 29
+      },
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 1,
+        "moveId": 62
+      },
+      {
+        "level": 30,
+        "moveId": 45
+      },
+      {
+        "level": 35,
+        "moveId": 62
+      },
+      {
+        "level": 44,
+        "moveId": 156
+      },
+      {
+        "level": 50,
+        "moveId": 36
+      },
+      {
+        "level": 56,
+        "moveId": 58
+      }
+    ],
+    "initialMoves": [
+      29,
+      45,
+      62
+    ],
+    "catchRate": 75,
+    "baseExperience": 176,
+    "evolutionRules": [],
+    "heightDm": 17
+  },
+  {
+    "id": 88,
+    "name": "臭泥",
+    "nameEn": "Grimer",
+    "types": [
+      "poison"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 50,
+      "speed": 25,
+      "special": 40
+    },
+    "color": "#a040a0",
+    "habitat": "城市",
+    "evolvesTo": [
+      89
+    ],
+    "sprite": "/assets/pokemon/88.png",
+    "spriteBack": "/assets/pokemon/back/88.png",
+    "spriteAnimated": "/assets/pokemon/animated/88.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/grimer.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 1,
+        "moveId": 50
+      },
+      {
+        "level": 30,
+        "moveId": 139
+      },
+      {
+        "level": 33,
+        "moveId": 107
+      },
+      {
+        "level": 37,
+        "moveId": 124
+      },
+      {
+        "level": 42,
+        "moveId": 106
+      },
+      {
+        "level": 48,
+        "moveId": 103
+      },
+      {
+        "level": 55,
+        "moveId": 151
+      }
+    ],
+    "initialMoves": [
+      1,
+      50
+    ],
+    "catchRate": 190,
+    "baseExperience": 90,
+    "evolutionRules": [
+      {
+        "to": 89,
+        "method": "level",
+        "level": 38
+      }
+    ],
+    "heightDm": 9
+  },
+  {
+    "id": 89,
+    "name": "臭臭泥",
+    "nameEn": "Muk",
+    "types": [
+      "poison"
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": 105,
+      "defense": 75,
+      "speed": 50,
+      "special": 65
+    },
+    "color": "#a040a0",
+    "habitat": "城市",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/89.png",
+    "spriteBack": "/assets/pokemon/back/89.png",
+    "spriteAnimated": "/assets/pokemon/animated/89.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/muk.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 1,
+        "moveId": 50
+      },
+      {
+        "level": 1,
+        "moveId": 139
+      },
+      {
+        "level": 30,
+        "moveId": 139
+      },
+      {
+        "level": 33,
+        "moveId": 107
+      },
+      {
+        "level": 37,
+        "moveId": 124
+      },
+      {
+        "level": 45,
+        "moveId": 106
+      },
+      {
+        "level": 53,
+        "moveId": 103
+      },
+      {
+        "level": 60,
+        "moveId": 151
+      }
+    ],
+    "initialMoves": [
+      1,
+      50,
+      139
+    ],
+    "catchRate": 75,
+    "baseExperience": 157,
+    "evolutionRules": [],
+    "heightDm": 12
+  },
+  {
+    "id": 90,
+    "name": "大舌贝",
+    "nameEn": "Shellder",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 65,
+      "defense": 100,
+      "speed": 40,
+      "special": 45
+    },
+    "color": "#6890f0",
+    "habitat": "海洋",
+    "evolvesTo": [
+      91
+    ],
+    "sprite": "/assets/pokemon/90.png",
+    "spriteBack": "/assets/pokemon/back/90.png",
+    "spriteAnimated": "/assets/pokemon/animated/90.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/shellder.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 110
+      },
+      {
+        "level": 18,
+        "moveId": 48
+      },
+      {
+        "level": 23,
+        "moveId": 128
+      },
+      {
+        "level": 30,
+        "moveId": 62
+      },
+      {
+        "level": 39,
+        "moveId": 43
+      },
+      {
+        "level": 50,
+        "moveId": 58
+      }
+    ],
+    "initialMoves": [
+      33,
+      110
+    ],
+    "catchRate": 190,
+    "baseExperience": 97,
+    "evolutionRules": [
+      {
+        "to": 91,
+        "method": "item",
+        "item": "water_stone"
+      }
+    ],
+    "heightDm": 3
+  },
+  {
+    "id": 91,
+    "name": "刺甲贝",
+    "nameEn": "Cloyster",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 95,
+      "defense": 180,
+      "speed": 70,
+      "special": 85
+    },
+    "color": "#6890f0",
+    "habitat": "海洋",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/91.png",
+    "spriteBack": "/assets/pokemon/back/91.png",
+    "spriteAnimated": "/assets/pokemon/animated/91.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/cloyster.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 110
+      },
+      {
+        "level": 1,
+        "moveId": 48
+      },
+      {
+        "level": 1,
+        "moveId": 128
+      },
+      {
+        "level": 1,
+        "moveId": 62
+      },
+      {
+        "level": 50,
+        "moveId": 131
+      }
+    ],
+    "initialMoves": [
+      110,
+      48,
+      128,
+      62
+    ],
+    "catchRate": 60,
+    "baseExperience": 203,
+    "evolutionRules": [],
+    "heightDm": 15
+  },
+  {
+    "id": 92,
+    "name": "鬼斯",
+    "nameEn": "Gastly",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 35,
+      "defense": 30,
+      "speed": 80,
+      "special": 100
+    },
+    "color": "#705898",
+    "habitat": "洞穴",
+    "evolvesTo": [
+      93
+    ],
+    "sprite": "/assets/pokemon/92.png",
+    "spriteBack": "/assets/pokemon/back/92.png",
+    "spriteAnimated": "/assets/pokemon/animated/92.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/gastly.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 122
+      },
+      {
+        "level": 1,
+        "moveId": 109
+      },
+      {
+        "level": 1,
+        "moveId": 101
+      },
+      {
+        "level": 27,
+        "moveId": 95
+      },
+      {
+        "level": 35,
+        "moveId": 138
+      }
+    ],
+    "initialMoves": [
+      122,
+      109,
+      101
+    ],
+    "catchRate": 190,
+    "baseExperience": 95,
+    "evolutionRules": [
+      {
+        "to": 93,
+        "method": "level",
+        "level": 25
+      }
+    ],
+    "heightDm": 13
+  },
+  {
+    "id": 93,
+    "name": "鬼斯通",
+    "nameEn": "Haunter",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 45,
+      "speed": 95,
+      "special": 115
+    },
+    "color": "#705898",
+    "habitat": "洞穴",
+    "evolvesTo": [
+      94
+    ],
+    "sprite": "/assets/pokemon/93.png",
+    "spriteBack": "/assets/pokemon/back/93.png",
+    "spriteAnimated": "/assets/pokemon/animated/93.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/haunter.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 122
+      },
+      {
+        "level": 1,
+        "moveId": 109
+      },
+      {
+        "level": 1,
+        "moveId": 101
+      },
+      {
+        "level": 29,
+        "moveId": 95
+      },
+      {
+        "level": 38,
+        "moveId": 138
+      }
+    ],
+    "initialMoves": [
+      122,
+      109,
+      101
+    ],
+    "catchRate": 90,
+    "baseExperience": 126,
+    "evolutionRules": [
+      {
+        "to": 94,
+        "method": "trade"
+      }
+    ],
+    "heightDm": 16
+  },
+  {
+    "id": 94,
+    "name": "耿鬼",
+    "nameEn": "Gengar",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 60,
+      "speed": 110,
+      "special": 130
+    },
+    "color": "#705898",
+    "habitat": "洞穴",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/94.png",
+    "spriteBack": "/assets/pokemon/back/94.png",
+    "spriteAnimated": "/assets/pokemon/animated/94.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/gengar.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 122
+      },
+      {
+        "level": 1,
+        "moveId": 109
+      },
+      {
+        "level": 1,
+        "moveId": 101
+      },
+      {
+        "level": 29,
+        "moveId": 95
+      },
+      {
+        "level": 38,
+        "moveId": 138
+      }
+    ],
+    "initialMoves": [
+      122,
+      109,
+      101
+    ],
+    "catchRate": 45,
+    "baseExperience": 190,
+    "evolutionRules": [],
+    "heightDm": 15
+  },
+  {
+    "id": 95,
+    "name": "大岩蛇",
+    "nameEn": "Onix",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 45,
+      "defense": 160,
+      "speed": 70,
+      "special": 30
+    },
+    "color": "#b8a038",
+    "habitat": "洞穴",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/95.png",
+    "spriteBack": "/assets/pokemon/back/95.png",
+    "spriteAnimated": "/assets/pokemon/animated/95.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/onix.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 103
+      },
+      {
+        "level": 15,
+        "moveId": 20
+      },
+      {
+        "level": 19,
+        "moveId": 88
+      },
+      {
+        "level": 25,
+        "moveId": 99
+      },
+      {
+        "level": 33,
+        "moveId": 21
+      },
+      {
+        "level": 43,
+        "moveId": 106
+      }
+    ],
+    "initialMoves": [
+      33,
+      103
+    ],
+    "catchRate": 45,
+    "baseExperience": 108,
+    "evolutionRules": [],
+    "heightDm": 88
+  },
+  {
+    "id": 96,
+    "name": "催眠貘",
+    "nameEn": "Drowzee",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 48,
+      "defense": 45,
+      "speed": 42,
+      "special": 90
+    },
+    "color": "#f85888",
+    "habitat": "草原",
+    "evolvesTo": [
+      97
+    ],
+    "sprite": "/assets/pokemon/96.png",
+    "spriteBack": "/assets/pokemon/back/96.png",
+    "spriteAnimated": "/assets/pokemon/animated/96.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/drowzee.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 1,
+        "moveId": 95
+      },
+      {
+        "level": 12,
+        "moveId": 50
+      },
+      {
+        "level": 17,
+        "moveId": 93
+      },
+      {
+        "level": 24,
+        "moveId": 29
+      },
+      {
+        "level": 29,
+        "moveId": 139
+      },
+      {
+        "level": 32,
+        "moveId": 94
+      },
+      {
+        "level": 37,
+        "moveId": 96
+      }
+    ],
+    "initialMoves": [
+      1,
+      95
+    ],
+    "catchRate": 190,
+    "baseExperience": 102,
+    "evolutionRules": [
+      {
+        "to": 97,
+        "method": "level",
+        "level": 26
+      }
+    ],
+    "heightDm": 10
+  },
+  {
+    "id": 97,
+    "name": "引梦貘人",
+    "nameEn": "Hypno",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 73,
+      "defense": 70,
+      "speed": 67,
+      "special": 115
+    },
+    "color": "#f85888",
+    "habitat": "草原",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/97.png",
+    "spriteBack": "/assets/pokemon/back/97.png",
+    "spriteAnimated": "/assets/pokemon/animated/97.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/hypno.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 1,
+        "moveId": 95
+      },
+      {
+        "level": 1,
+        "moveId": 50
+      },
+      {
+        "level": 1,
+        "moveId": 93
+      },
+      {
+        "level": 12,
+        "moveId": 50
+      },
+      {
+        "level": 17,
+        "moveId": 93
+      },
+      {
+        "level": 24,
+        "moveId": 29
+      },
+      {
+        "level": 33,
+        "moveId": 139
+      },
+      {
+        "level": 37,
+        "moveId": 94
+      },
+      {
+        "level": 43,
+        "moveId": 96
+      }
+    ],
+    "initialMoves": [
+      1,
+      95,
+      50,
+      93
+    ],
+    "catchRate": 75,
+    "baseExperience": 165,
+    "evolutionRules": [],
+    "heightDm": 16
+  },
+  {
+    "id": 98,
+    "name": "大钳蟹",
+    "nameEn": "Krabby",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 105,
+      "defense": 90,
+      "speed": 50,
+      "special": 25
+    },
+    "color": "#6890f0",
+    "habitat": "水边",
+    "evolvesTo": [
+      99
+    ],
+    "sprite": "/assets/pokemon/98.png",
+    "spriteBack": "/assets/pokemon/back/98.png",
+    "spriteAnimated": "/assets/pokemon/animated/98.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/krabby.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 145
+      },
+      {
+        "level": 1,
+        "moveId": 43
+      },
+      {
+        "level": 20,
+        "moveId": 11
+      },
+      {
+        "level": 25,
+        "moveId": 12
+      },
+      {
+        "level": 30,
+        "moveId": 23
+      },
+      {
+        "level": 35,
+        "moveId": 152
+      },
+      {
+        "level": 40,
+        "moveId": 106
+      }
+    ],
+    "initialMoves": [
+      145,
+      43
+    ],
+    "catchRate": 225,
+    "baseExperience": 115,
+    "evolutionRules": [
+      {
+        "to": 99,
+        "method": "level",
+        "level": 28
+      }
+    ],
+    "heightDm": 4
+  },
+  {
+    "id": 99,
+    "name": "巨钳蟹",
+    "nameEn": "Kingler",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 130,
+      "defense": 115,
+      "speed": 75,
+      "special": 50
+    },
+    "color": "#6890f0",
+    "habitat": "水边",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/99.png",
+    "spriteBack": "/assets/pokemon/back/99.png",
+    "spriteAnimated": "/assets/pokemon/animated/99.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/kingler.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 145
+      },
+      {
+        "level": 1,
+        "moveId": 43
+      },
+      {
+        "level": 1,
+        "moveId": 11
+      },
+      {
+        "level": 20,
+        "moveId": 11
+      },
+      {
+        "level": 25,
+        "moveId": 12
+      },
+      {
+        "level": 34,
+        "moveId": 23
+      },
+      {
+        "level": 42,
+        "moveId": 152
+      },
+      {
+        "level": 49,
+        "moveId": 106
+      }
+    ],
+    "initialMoves": [
+      145,
+      43,
+      11
+    ],
+    "catchRate": 60,
+    "baseExperience": 206,
+    "evolutionRules": [],
+    "heightDm": 13
+  },
+  {
+    "id": 100,
+    "name": "霹雳电球",
+    "nameEn": "Voltorb",
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 50,
+      "speed": 100,
+      "special": 55
+    },
+    "color": "#f8d030",
+    "habitat": "城市",
+    "evolvesTo": [
+      101
+    ],
+    "sprite": "/assets/pokemon/100.png",
+    "spriteBack": "/assets/pokemon/back/100.png",
+    "spriteAnimated": "/assets/pokemon/animated/100.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/voltorb.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 103
+      },
+      {
+        "level": 17,
+        "moveId": 49
+      },
+      {
+        "level": 22,
+        "moveId": 120
+      },
+      {
+        "level": 29,
+        "moveId": 113
+      },
+      {
+        "level": 36,
+        "moveId": 129
+      },
+      {
+        "level": 43,
+        "moveId": 153
+      }
+    ],
+    "initialMoves": [
+      33,
+      103
+    ],
+    "catchRate": 190,
+    "baseExperience": 103,
+    "evolutionRules": [
+      {
+        "to": 101,
+        "method": "level",
+        "level": 30
+      }
+    ],
+    "heightDm": 5
+  },
+  {
+    "id": 101,
+    "name": "顽皮雷弹",
+    "nameEn": "Electrode",
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 70,
+      "speed": 140,
+      "special": 80
+    },
+    "color": "#f8d030",
+    "habitat": "城市",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/101.png",
+    "spriteBack": "/assets/pokemon/back/101.png",
+    "spriteAnimated": "/assets/pokemon/animated/101.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/electrode.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 103
+      },
+      {
+        "level": 1,
+        "moveId": 49
+      },
+      {
+        "level": 17,
+        "moveId": 49
+      },
+      {
+        "level": 22,
+        "moveId": 120
+      },
+      {
+        "level": 29,
+        "moveId": 113
+      },
+      {
+        "level": 40,
+        "moveId": 129
+      },
+      {
+        "level": 50,
+        "moveId": 153
+      }
+    ],
+    "initialMoves": [
+      33,
+      103,
+      49
+    ],
+    "catchRate": 60,
+    "baseExperience": 150,
+    "evolutionRules": [],
+    "heightDm": 12
+  },
+  {
+    "id": 102,
+    "name": "蛋蛋",
+    "nameEn": "Exeggcute",
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 40,
+      "defense": 80,
+      "speed": 40,
+      "special": 60
+    },
+    "color": "#78c850",
+    "habitat": "森林",
+    "evolvesTo": [
+      103
+    ],
+    "sprite": "/assets/pokemon/102.png",
+    "spriteBack": "/assets/pokemon/back/102.png",
+    "spriteAnimated": "/assets/pokemon/animated/102.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/exeggcute.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 140
+      },
+      {
+        "level": 1,
+        "moveId": 95
+      },
+      {
+        "level": 25,
+        "moveId": 115
+      },
+      {
+        "level": 28,
+        "moveId": 73
+      },
+      {
+        "level": 32,
+        "moveId": 78
+      },
+      {
+        "level": 37,
+        "moveId": 77
+      },
+      {
+        "level": 42,
+        "moveId": 76
+      },
+      {
+        "level": 48,
+        "moveId": 79
+      }
+    ],
+    "initialMoves": [
+      140,
+      95
+    ],
+    "catchRate": 90,
+    "baseExperience": 98,
+    "evolutionRules": [
+      {
+        "to": 103,
+        "method": "item",
+        "item": "leaf_stone"
+      }
+    ],
+    "heightDm": 4
+  },
+  {
+    "id": 103,
+    "name": "椰蛋树",
+    "nameEn": "Exeggutor",
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 95,
+      "defense": 85,
+      "speed": 55,
+      "special": 125
+    },
+    "color": "#78c850",
+    "habitat": "森林",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/103.png",
+    "spriteBack": "/assets/pokemon/back/103.png",
+    "spriteAnimated": "/assets/pokemon/animated/103.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/exeggutor.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 140
+      },
+      {
+        "level": 1,
+        "moveId": 95
+      },
+      {
+        "level": 28,
+        "moveId": 23
+      }
+    ],
+    "initialMoves": [
+      140,
+      95
+    ],
+    "catchRate": 45,
+    "baseExperience": 212,
+    "evolutionRules": [],
+    "heightDm": 20
+  },
+  {
+    "id": 104,
+    "name": "卡拉卡拉",
+    "nameEn": "Cubone",
+    "types": [
+      "ground"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 95,
+      "speed": 35,
+      "special": 40
+    },
+    "color": "#e0c068",
+    "habitat": "山地",
+    "evolvesTo": [
+      105
+    ],
+    "sprite": "/assets/pokemon/104.png",
+    "spriteBack": "/assets/pokemon/back/104.png",
+    "spriteAnimated": "/assets/pokemon/animated/104.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/cubone.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 125
+      },
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 25,
+        "moveId": 43
+      },
+      {
+        "level": 31,
+        "moveId": 116
+      },
+      {
+        "level": 38,
+        "moveId": 37
+      },
+      {
+        "level": 43,
+        "moveId": 155
+      },
+      {
+        "level": 46,
+        "moveId": 99
+      }
+    ],
+    "initialMoves": [
+      125,
+      45
+    ],
+    "catchRate": 190,
+    "baseExperience": 87,
+    "evolutionRules": [
+      {
+        "to": 105,
+        "method": "level",
+        "level": 28
+      }
+    ],
+    "heightDm": 4
+  },
+  {
+    "id": 105,
+    "name": "嘎啦嘎啦",
+    "nameEn": "Marowak",
+    "types": [
+      "ground"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 80,
+      "defense": 110,
+      "speed": 45,
+      "special": 50
+    },
+    "color": "#e0c068",
+    "habitat": "山地",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/105.png",
+    "spriteBack": "/assets/pokemon/back/105.png",
+    "spriteAnimated": "/assets/pokemon/animated/105.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/marowak.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 125
+      },
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 1,
+        "moveId": 43
+      },
+      {
+        "level": 1,
+        "moveId": 116
+      },
+      {
+        "level": 25,
+        "moveId": 43
+      },
+      {
+        "level": 33,
+        "moveId": 116
+      },
+      {
+        "level": 41,
+        "moveId": 37
+      },
+      {
+        "level": 48,
+        "moveId": 155
+      },
+      {
+        "level": 55,
+        "moveId": 99
+      }
+    ],
+    "initialMoves": [
+      125,
+      45,
+      43,
+      116
+    ],
+    "catchRate": 75,
+    "baseExperience": 124,
+    "evolutionRules": [],
+    "heightDm": 10
+  },
+  {
+    "id": 106,
+    "name": "飞腿郎",
+    "nameEn": "Hitmonlee",
+    "types": [
+      "fighting"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 120,
+      "defense": 53,
+      "speed": 87,
+      "special": 35
+    },
+    "color": "#c03028",
+    "habitat": "城市",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/106.png",
+    "spriteBack": "/assets/pokemon/back/106.png",
+    "spriteAnimated": "/assets/pokemon/animated/106.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/hitmonlee.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 24
+      },
+      {
+        "level": 1,
+        "moveId": 96
+      },
+      {
+        "level": 33,
+        "moveId": 27
+      },
+      {
+        "level": 38,
+        "moveId": 26
+      },
+      {
+        "level": 43,
+        "moveId": 116
+      },
+      {
+        "level": 48,
+        "moveId": 136
+      },
+      {
+        "level": 53,
+        "moveId": 25
+      }
+    ],
+    "initialMoves": [
+      24,
+      96
+    ],
+    "catchRate": 45,
+    "baseExperience": 139,
+    "evolutionRules": [],
+    "heightDm": 15
+  },
+  {
+    "id": 107,
+    "name": "快拳郎",
+    "nameEn": "Hitmonchan",
+    "types": [
+      "fighting"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 105,
+      "defense": 79,
+      "speed": 76,
+      "special": 35
+    },
+    "color": "#c03028",
+    "habitat": "城市",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/107.png",
+    "spriteBack": "/assets/pokemon/back/107.png",
+    "spriteAnimated": "/assets/pokemon/animated/107.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/hitmonchan.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 4
+      },
+      {
+        "level": 1,
+        "moveId": 97
+      },
+      {
+        "level": 33,
+        "moveId": 7
+      },
+      {
+        "level": 38,
+        "moveId": 8
+      },
+      {
+        "level": 43,
+        "moveId": 9
+      },
+      {
+        "level": 48,
+        "moveId": 5
+      },
+      {
+        "level": 53,
+        "moveId": 68
+      }
+    ],
+    "initialMoves": [
+      4,
+      97
+    ],
+    "catchRate": 45,
+    "baseExperience": 140,
+    "evolutionRules": [],
+    "heightDm": 14
+  },
+  {
+    "id": 108,
+    "name": "大舌头",
+    "nameEn": "Lickitung",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 55,
+      "defense": 75,
+      "speed": 30,
+      "special": 60
+    },
+    "color": "#a8a878",
+    "habitat": "草原",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/108.png",
+    "spriteBack": "/assets/pokemon/back/108.png",
+    "spriteAnimated": "/assets/pokemon/animated/108.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/lickitung.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 35
+      },
+      {
+        "level": 1,
+        "moveId": 48
+      },
+      {
+        "level": 7,
+        "moveId": 23
+      },
+      {
+        "level": 15,
+        "moveId": 50
+      },
+      {
+        "level": 23,
+        "moveId": 111
+      },
+      {
+        "level": 31,
+        "moveId": 21
+      },
+      {
+        "level": 39,
+        "moveId": 103
+      }
+    ],
+    "initialMoves": [
+      35,
+      48
+    ],
+    "catchRate": 45,
+    "baseExperience": 127,
+    "evolutionRules": [],
+    "heightDm": 12
+  },
+  {
+    "id": 109,
+    "name": "瓦斯弹",
+    "nameEn": "Koffing",
+    "types": [
+      "poison"
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 65,
+      "defense": 95,
+      "speed": 35,
+      "special": 60
+    },
+    "color": "#a040a0",
+    "habitat": "城市",
+    "evolvesTo": [
+      110
+    ],
+    "sprite": "/assets/pokemon/109.png",
+    "spriteBack": "/assets/pokemon/back/109.png",
+    "spriteAnimated": "/assets/pokemon/animated/109.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/koffing.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 123
+      },
+      {
+        "level": 32,
+        "moveId": 124
+      },
+      {
+        "level": 37,
+        "moveId": 108
+      },
+      {
+        "level": 40,
+        "moveId": 120
+      },
+      {
+        "level": 45,
+        "moveId": 114
+      },
+      {
+        "level": 48,
+        "moveId": 153
+      }
+    ],
+    "initialMoves": [
+      33,
+      123
+    ],
+    "catchRate": 190,
+    "baseExperience": 114,
+    "evolutionRules": [
+      {
+        "to": 110,
+        "method": "level",
+        "level": 35
+      }
+    ],
+    "heightDm": 6
+  },
+  {
+    "id": 110,
+    "name": "双弹瓦斯",
+    "nameEn": "Weezing",
+    "types": [
+      "poison"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 120,
+      "speed": 60,
+      "special": 85
+    },
+    "color": "#a040a0",
+    "habitat": "城市",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/110.png",
+    "spriteBack": "/assets/pokemon/back/110.png",
+    "spriteAnimated": "/assets/pokemon/animated/110.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/weezing.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 123
+      },
+      {
+        "level": 1,
+        "moveId": 124
+      },
+      {
+        "level": 32,
+        "moveId": 124
+      },
+      {
+        "level": 39,
+        "moveId": 108
+      },
+      {
+        "level": 43,
+        "moveId": 120
+      },
+      {
+        "level": 49,
+        "moveId": 114
+      },
+      {
+        "level": 53,
+        "moveId": 153
+      }
+    ],
+    "initialMoves": [
+      33,
+      123,
+      124
+    ],
+    "catchRate": 60,
+    "baseExperience": 173,
+    "evolutionRules": [],
+    "heightDm": 12
+  },
+  {
+    "id": 111,
+    "name": "独角犀牛",
+    "nameEn": "Rhyhorn",
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 85,
+      "defense": 95,
+      "speed": 25,
+      "special": 30
+    },
+    "color": "#e0c068",
+    "habitat": "粗地",
+    "evolvesTo": [
+      112
+    ],
+    "sprite": "/assets/pokemon/111.png",
+    "spriteBack": "/assets/pokemon/back/111.png",
+    "spriteAnimated": "/assets/pokemon/animated/111.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/rhyhorn.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 30
+      },
+      {
+        "level": 30,
+        "moveId": 23
+      },
+      {
+        "level": 35,
+        "moveId": 39
+      },
+      {
+        "level": 40,
+        "moveId": 31
+      },
+      {
+        "level": 45,
+        "moveId": 32
+      },
+      {
+        "level": 50,
+        "moveId": 43
+      },
+      {
+        "level": 55,
+        "moveId": 36
+      }
+    ],
+    "initialMoves": [
+      30
+    ],
+    "catchRate": 120,
+    "baseExperience": 135,
+    "evolutionRules": [
+      {
+        "to": 112,
+        "method": "level",
+        "level": 42
+      }
+    ],
+    "heightDm": 10
+  },
+  {
+    "id": 112,
+    "name": "钻角犀兽",
+    "nameEn": "Rhydon",
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": 130,
+      "defense": 120,
+      "speed": 40,
+      "special": 45
+    },
+    "color": "#e0c068",
+    "habitat": "粗地",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/112.png",
+    "spriteBack": "/assets/pokemon/back/112.png",
+    "spriteAnimated": "/assets/pokemon/animated/112.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/rhydon.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 30
+      },
+      {
+        "level": 1,
+        "moveId": 23
+      },
+      {
+        "level": 1,
+        "moveId": 39
+      },
+      {
+        "level": 1,
+        "moveId": 31
+      },
+      {
+        "level": 30,
+        "moveId": 23
+      },
+      {
+        "level": 35,
+        "moveId": 39
+      },
+      {
+        "level": 40,
+        "moveId": 31
+      },
+      {
+        "level": 48,
+        "moveId": 32
+      },
+      {
+        "level": 55,
+        "moveId": 43
+      },
+      {
+        "level": 64,
+        "moveId": 36
+      }
+    ],
+    "initialMoves": [
+      30,
+      23,
+      39,
+      31
+    ],
+    "catchRate": 60,
+    "baseExperience": 204,
+    "evolutionRules": [],
+    "heightDm": 19
+  },
+  {
+    "id": 113,
+    "name": "吉利蛋",
+    "nameEn": "Chansey",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "hp": 250,
+      "attack": 5,
+      "defense": 5,
+      "speed": 50,
+      "special": 105
+    },
+    "color": "#a8a878",
+    "habitat": "城市",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/113.png",
+    "spriteBack": "/assets/pokemon/back/113.png",
+    "spriteAnimated": "/assets/pokemon/animated/113.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/chansey.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 1,
+        "moveId": 3
+      },
+      {
+        "level": 24,
+        "moveId": 47
+      },
+      {
+        "level": 30,
+        "moveId": 45
+      },
+      {
+        "level": 38,
+        "moveId": 107
+      },
+      {
+        "level": 44,
+        "moveId": 111
+      },
+      {
+        "level": 48,
+        "moveId": 113
+      },
+      {
+        "level": 54,
+        "moveId": 38
+      }
+    ],
+    "initialMoves": [
+      1,
+      3
+    ],
+    "catchRate": 30,
+    "baseExperience": 255,
+    "evolutionRules": [],
+    "heightDm": 11
+  },
+  {
+    "id": 114,
+    "name": "蔓藤怪",
+    "nameEn": "Tangela",
+    "types": [
+      "grass"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 55,
+      "defense": 115,
+      "speed": 60,
+      "special": 100
+    },
+    "color": "#78c850",
+    "habitat": "草原",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/114.png",
+    "spriteBack": "/assets/pokemon/back/114.png",
+    "spriteAnimated": "/assets/pokemon/animated/114.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/tangela.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 132
+      },
+      {
+        "level": 1,
+        "moveId": 20
+      },
+      {
+        "level": 29,
+        "moveId": 71
+      },
+      {
+        "level": 32,
+        "moveId": 77
+      },
+      {
+        "level": 36,
+        "moveId": 78
+      },
+      {
+        "level": 39,
+        "moveId": 79
+      },
+      {
+        "level": 45,
+        "moveId": 21
+      },
+      {
+        "level": 49,
+        "moveId": 74
+      }
+    ],
+    "initialMoves": [
+      132,
+      20
+    ],
+    "catchRate": 45,
+    "baseExperience": 166,
+    "evolutionRules": [],
+    "heightDm": 10
+  },
+  {
+    "id": 115,
+    "name": "袋兽",
+    "nameEn": "Kangaskhan",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": 95,
+      "defense": 80,
+      "speed": 90,
+      "special": 40
+    },
+    "color": "#a8a878",
+    "habitat": "草原",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/115.png",
+    "spriteBack": "/assets/pokemon/back/115.png",
+    "spriteAnimated": "/assets/pokemon/animated/115.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/kangaskhan.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 4
+      },
+      {
+        "level": 1,
+        "moveId": 99
+      },
+      {
+        "level": 26,
+        "moveId": 44
+      },
+      {
+        "level": 31,
+        "moveId": 39
+      },
+      {
+        "level": 36,
+        "moveId": 5
+      },
+      {
+        "level": 41,
+        "moveId": 43
+      },
+      {
+        "level": 46,
+        "moveId": 146
+      }
+    ],
+    "initialMoves": [
+      4,
+      99
+    ],
+    "catchRate": 45,
+    "baseExperience": 175,
+    "evolutionRules": [],
+    "heightDm": 22
+  },
+  {
+    "id": 116,
+    "name": "墨海马",
+    "nameEn": "Horsea",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 40,
+      "defense": 70,
+      "speed": 60,
+      "special": 70
+    },
+    "color": "#6890f0",
+    "habitat": "海洋",
+    "evolvesTo": [
+      117
+    ],
+    "sprite": "/assets/pokemon/116.png",
+    "spriteBack": "/assets/pokemon/back/116.png",
+    "spriteAnimated": "/assets/pokemon/animated/116.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/horsea.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 145
+      },
+      {
+        "level": 19,
+        "moveId": 108
+      },
+      {
+        "level": 24,
+        "moveId": 43
+      },
+      {
+        "level": 30,
+        "moveId": 55
+      },
+      {
+        "level": 37,
+        "moveId": 97
+      },
+      {
+        "level": 45,
+        "moveId": 56
+      }
+    ],
+    "initialMoves": [
+      145
+    ],
+    "catchRate": 225,
+    "baseExperience": 83,
+    "evolutionRules": [
+      {
+        "to": 117,
+        "method": "level",
+        "level": 32
+      }
+    ],
+    "heightDm": 4
+  },
+  {
+    "id": 117,
+    "name": "海刺龙",
+    "nameEn": "Seadra",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 65,
+      "defense": 95,
+      "speed": 85,
+      "special": 95
+    },
+    "color": "#6890f0",
+    "habitat": "海洋",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/117.png",
+    "spriteBack": "/assets/pokemon/back/117.png",
+    "spriteAnimated": "/assets/pokemon/animated/117.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/seadra.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 145
+      },
+      {
+        "level": 1,
+        "moveId": 108
+      },
+      {
+        "level": 19,
+        "moveId": 108
+      },
+      {
+        "level": 24,
+        "moveId": 43
+      },
+      {
+        "level": 30,
+        "moveId": 55
+      },
+      {
+        "level": 41,
+        "moveId": 97
+      },
+      {
+        "level": 52,
+        "moveId": 56
+      }
+    ],
+    "initialMoves": [
+      145,
+      108
+    ],
+    "catchRate": 75,
+    "baseExperience": 155,
+    "evolutionRules": [],
+    "heightDm": 12
+  },
+  {
+    "id": 118,
+    "name": "角金鱼",
+    "nameEn": "Goldeen",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 67,
+      "defense": 60,
+      "speed": 63,
+      "special": 50
+    },
+    "color": "#6890f0",
+    "habitat": "水边",
+    "evolvesTo": [
+      119
+    ],
+    "sprite": "/assets/pokemon/118.png",
+    "spriteBack": "/assets/pokemon/back/118.png",
+    "spriteAnimated": "/assets/pokemon/animated/118.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/goldeen.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 64
+      },
+      {
+        "level": 1,
+        "moveId": 39
+      },
+      {
+        "level": 19,
+        "moveId": 48
+      },
+      {
+        "level": 24,
+        "moveId": 30
+      },
+      {
+        "level": 30,
+        "moveId": 31
+      },
+      {
+        "level": 37,
+        "moveId": 127
+      },
+      {
+        "level": 45,
+        "moveId": 32
+      },
+      {
+        "level": 54,
+        "moveId": 97
+      }
+    ],
+    "initialMoves": [
+      64,
+      39
+    ],
+    "catchRate": 225,
+    "baseExperience": 111,
+    "evolutionRules": [
+      {
+        "to": 119,
+        "method": "level",
+        "level": 33
+      }
+    ],
+    "heightDm": 6
+  },
+  {
+    "id": 119,
+    "name": "金鱼王",
+    "nameEn": "Seaking",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 92,
+      "defense": 65,
+      "speed": 68,
+      "special": 80
+    },
+    "color": "#6890f0",
+    "habitat": "水边",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/119.png",
+    "spriteBack": "/assets/pokemon/back/119.png",
+    "spriteAnimated": "/assets/pokemon/animated/119.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/seaking.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 64
+      },
+      {
+        "level": 1,
+        "moveId": 39
+      },
+      {
+        "level": 1,
+        "moveId": 48
+      },
+      {
+        "level": 19,
+        "moveId": 48
+      },
+      {
+        "level": 24,
+        "moveId": 30
+      },
+      {
+        "level": 30,
+        "moveId": 31
+      },
+      {
+        "level": 39,
+        "moveId": 127
+      },
+      {
+        "level": 48,
+        "moveId": 32
+      },
+      {
+        "level": 54,
+        "moveId": 97
+      }
+    ],
+    "initialMoves": [
+      64,
+      39,
+      48
+    ],
+    "catchRate": 60,
+    "baseExperience": 170,
+    "evolutionRules": [],
+    "heightDm": 13
+  },
+  {
+    "id": 120,
+    "name": "海星星",
+    "nameEn": "Staryu",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 45,
+      "defense": 55,
+      "speed": 85,
+      "special": 70
+    },
+    "color": "#6890f0",
+    "habitat": "海洋",
+    "evolvesTo": [
+      121
+    ],
+    "sprite": "/assets/pokemon/120.png",
+    "spriteBack": "/assets/pokemon/back/120.png",
+    "spriteAnimated": "/assets/pokemon/animated/120.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/staryu.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 17,
+        "moveId": 55
+      },
+      {
+        "level": 22,
+        "moveId": 106
+      },
+      {
+        "level": 27,
+        "moveId": 105
+      },
+      {
+        "level": 32,
+        "moveId": 129
+      },
+      {
+        "level": 37,
+        "moveId": 107
+      },
+      {
+        "level": 42,
+        "moveId": 113
+      },
+      {
+        "level": 47,
+        "moveId": 56
+      }
+    ],
+    "initialMoves": [
+      33
+    ],
+    "catchRate": 225,
+    "baseExperience": 106,
+    "evolutionRules": [
+      {
+        "to": 121,
+        "method": "item",
+        "item": "water_stone"
+      }
+    ],
+    "heightDm": 8
+  },
+  {
+    "id": 121,
+    "name": "宝石海星",
+    "nameEn": "Starmie",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 85,
+      "speed": 115,
+      "special": 100
+    },
+    "color": "#6890f0",
+    "habitat": "海洋",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/121.png",
+    "spriteBack": "/assets/pokemon/back/121.png",
+    "spriteAnimated": "/assets/pokemon/animated/121.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/starmie.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 55
+      },
+      {
+        "level": 1,
+        "moveId": 106
+      }
+    ],
+    "initialMoves": [
+      33,
+      55,
+      106
+    ],
+    "catchRate": 60,
+    "baseExperience": 207,
+    "evolutionRules": [],
+    "heightDm": 11
+  },
+  {
+    "id": 122,
+    "name": "魔墙人偶",
+    "nameEn": "Mr. Mime",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 65,
+      "speed": 90,
+      "special": 100
+    },
+    "color": "#f85888",
+    "habitat": "城市",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/122.png",
+    "spriteBack": "/assets/pokemon/back/122.png",
+    "spriteAnimated": "/assets/pokemon/animated/122.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/mrmime.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 93
+      },
+      {
+        "level": 1,
+        "moveId": 112
+      },
+      {
+        "level": 15,
+        "moveId": 93
+      },
+      {
+        "level": 23,
+        "moveId": 113
+      },
+      {
+        "level": 31,
+        "moveId": 3
+      },
+      {
+        "level": 39,
+        "moveId": 96
+      },
+      {
+        "level": 47,
+        "moveId": 164
+      }
+    ],
+    "initialMoves": [
+      93,
+      112
+    ],
+    "catchRate": 45,
+    "baseExperience": 136,
+    "evolutionRules": [],
+    "heightDm": 13
+  },
+  {
+    "id": 123,
+    "name": "飞天螳螂",
+    "nameEn": "Scyther",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 80,
+      "speed": 105,
+      "special": 55
+    },
+    "color": "#a8b820",
+    "habitat": "草原",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/123.png",
+    "spriteBack": "/assets/pokemon/back/123.png",
+    "spriteAnimated": "/assets/pokemon/animated/123.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/scyther.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 98
+      },
+      {
+        "level": 17,
+        "moveId": 43
+      },
+      {
+        "level": 20,
+        "moveId": 116
+      },
+      {
+        "level": 24,
+        "moveId": 104
+      },
+      {
+        "level": 29,
+        "moveId": 163
+      },
+      {
+        "level": 35,
+        "moveId": 14
+      },
+      {
+        "level": 42,
+        "moveId": 97
+      }
+    ],
+    "initialMoves": [
+      98
+    ],
+    "catchRate": 45,
+    "baseExperience": 187,
+    "evolutionRules": [],
+    "heightDm": 15
+  },
+  {
+    "id": 124,
+    "name": "迷唇姐",
+    "nameEn": "Jynx",
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 50,
+      "defense": 35,
+      "speed": 95,
+      "special": 95
+    },
+    "color": "#98d8d8",
+    "habitat": "城市",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/124.png",
+    "spriteBack": "/assets/pokemon/back/124.png",
+    "spriteAnimated": "/assets/pokemon/animated/124.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/jynx.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 1,
+        "moveId": 142
+      },
+      {
+        "level": 18,
+        "moveId": 122
+      },
+      {
+        "level": 23,
+        "moveId": 3
+      },
+      {
+        "level": 31,
+        "moveId": 8
+      },
+      {
+        "level": 39,
+        "moveId": 34
+      },
+      {
+        "level": 47,
+        "moveId": 37
+      },
+      {
+        "level": 58,
+        "moveId": 59
+      }
+    ],
+    "initialMoves": [
+      1,
+      142
+    ],
+    "catchRate": 45,
+    "baseExperience": 137,
+    "evolutionRules": [],
+    "heightDm": 14
+  },
+  {
+    "id": 125,
+    "name": "电击兽",
+    "nameEn": "Electabuzz",
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 83,
+      "defense": 57,
+      "speed": 105,
+      "special": 85
+    },
+    "color": "#f8d030",
+    "habitat": "草原",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/125.png",
+    "spriteBack": "/assets/pokemon/back/125.png",
+    "spriteAnimated": "/assets/pokemon/animated/125.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/electabuzz.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 98
+      },
+      {
+        "level": 1,
+        "moveId": 43
+      },
+      {
+        "level": 34,
+        "moveId": 84
+      },
+      {
+        "level": 37,
+        "moveId": 103
+      },
+      {
+        "level": 42,
+        "moveId": 9
+      },
+      {
+        "level": 49,
+        "moveId": 113
+      },
+      {
+        "level": 54,
+        "moveId": 87
+      }
+    ],
+    "initialMoves": [
+      98,
+      43
+    ],
+    "catchRate": 45,
+    "baseExperience": 156,
+    "evolutionRules": [],
+    "heightDm": 11
+  },
+  {
+    "id": 126,
+    "name": "鸭嘴火兽",
+    "nameEn": "Magmar",
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 95,
+      "defense": 57,
+      "speed": 93,
+      "special": 85
+    },
+    "color": "#ef8030",
+    "habitat": "山地",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/126.png",
+    "spriteBack": "/assets/pokemon/back/126.png",
+    "spriteAnimated": "/assets/pokemon/animated/126.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/magmar.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 52
+      },
+      {
+        "level": 36,
+        "moveId": 43
+      },
+      {
+        "level": 39,
+        "moveId": 109
+      },
+      {
+        "level": 43,
+        "moveId": 7
+      },
+      {
+        "level": 48,
+        "moveId": 108
+      },
+      {
+        "level": 52,
+        "moveId": 123
+      },
+      {
+        "level": 55,
+        "moveId": 53
+      }
+    ],
+    "initialMoves": [
+      52
+    ],
+    "catchRate": 45,
+    "baseExperience": 167,
+    "evolutionRules": [],
+    "heightDm": 13
+  },
+  {
+    "id": 127,
+    "name": "凯罗斯",
+    "nameEn": "Pinsir",
+    "types": [
+      "bug"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 125,
+      "defense": 100,
+      "speed": 85,
+      "special": 55
+    },
+    "color": "#a8b820",
+    "habitat": "森林",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/127.png",
+    "spriteBack": "/assets/pokemon/back/127.png",
+    "spriteAnimated": "/assets/pokemon/animated/127.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/pinsir.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 11
+      },
+      {
+        "level": 25,
+        "moveId": 69
+      },
+      {
+        "level": 30,
+        "moveId": 12
+      },
+      {
+        "level": 36,
+        "moveId": 116
+      },
+      {
+        "level": 43,
+        "moveId": 106
+      },
+      {
+        "level": 49,
+        "moveId": 163
+      },
+      {
+        "level": 54,
+        "moveId": 14
+      }
+    ],
+    "initialMoves": [
+      11
+    ],
+    "catchRate": 45,
+    "baseExperience": 200,
+    "evolutionRules": [],
+    "heightDm": 15
+  },
+  {
+    "id": 128,
+    "name": "肯泰罗",
+    "nameEn": "Tauros",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 95,
+      "speed": 110,
+      "special": 70
+    },
+    "color": "#a8a878",
+    "habitat": "草原",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/128.png",
+    "spriteBack": "/assets/pokemon/back/128.png",
+    "spriteAnimated": "/assets/pokemon/animated/128.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/tauros.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 21,
+        "moveId": 23
+      },
+      {
+        "level": 28,
+        "moveId": 39
+      },
+      {
+        "level": 35,
+        "moveId": 43
+      },
+      {
+        "level": 44,
+        "moveId": 99
+      },
+      {
+        "level": 51,
+        "moveId": 36
+      }
+    ],
+    "initialMoves": [
+      33
+    ],
+    "catchRate": 45,
+    "baseExperience": 211,
+    "evolutionRules": [],
+    "heightDm": 14
+  },
+  {
+    "id": 129,
+    "name": "鲤鱼王",
+    "nameEn": "Magikarp",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 20,
+      "attack": 10,
+      "defense": 55,
+      "speed": 80,
+      "special": 20
+    },
+    "color": "#6890f0",
+    "habitat": "水边",
+    "evolvesTo": [
+      130
+    ],
+    "sprite": "/assets/pokemon/129.png",
+    "spriteBack": "/assets/pokemon/back/129.png",
+    "spriteAnimated": "/assets/pokemon/animated/129.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/magikarp.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 150
+      },
+      {
+        "level": 15,
+        "moveId": 33
+      }
+    ],
+    "initialMoves": [
+      150
+    ],
+    "catchRate": 255,
+    "baseExperience": 20,
+    "evolutionRules": [
+      {
+        "to": 130,
+        "method": "level",
+        "level": 20
+      }
+    ],
+    "heightDm": 9
+  },
+  {
+    "id": 130,
+    "name": "暴鲤龙",
+    "nameEn": "Gyarados",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 125,
+      "defense": 79,
+      "speed": 81,
+      "special": 100
+    },
+    "color": "#6890f0",
+    "habitat": "水边",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/130.png",
+    "spriteBack": "/assets/pokemon/back/130.png",
+    "spriteAnimated": "/assets/pokemon/animated/130.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/gyarados.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 44
+      },
+      {
+        "level": 1,
+        "moveId": 82
+      },
+      {
+        "level": 1,
+        "moveId": 43
+      },
+      {
+        "level": 1,
+        "moveId": 56
+      },
+      {
+        "level": 20,
+        "moveId": 44
+      },
+      {
+        "level": 25,
+        "moveId": 82
+      },
+      {
+        "level": 32,
+        "moveId": 43
+      },
+      {
+        "level": 41,
+        "moveId": 56
+      },
+      {
+        "level": 52,
+        "moveId": 63
+      }
+    ],
+    "initialMoves": [
+      44,
+      82,
+      43,
+      56
+    ],
+    "catchRate": 45,
+    "baseExperience": 214,
+    "evolutionRules": [],
+    "heightDm": 65
+  },
+  {
+    "id": 131,
+    "name": "拉普拉斯",
+    "nameEn": "Lapras",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "stats": {
+      "hp": 130,
+      "attack": 85,
+      "defense": 80,
+      "speed": 60,
+      "special": 95
+    },
+    "color": "#6890f0",
+    "habitat": "海洋",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/131.png",
+    "spriteBack": "/assets/pokemon/back/131.png",
+    "spriteAnimated": "/assets/pokemon/animated/131.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/lapras.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 55
+      },
+      {
+        "level": 1,
+        "moveId": 45
+      },
+      {
+        "level": 16,
+        "moveId": 47
+      },
+      {
+        "level": 20,
+        "moveId": 54
+      },
+      {
+        "level": 25,
+        "moveId": 34
+      },
+      {
+        "level": 31,
+        "moveId": 109
+      },
+      {
+        "level": 38,
+        "moveId": 58
+      },
+      {
+        "level": 46,
+        "moveId": 56
+      }
+    ],
+    "initialMoves": [
+      55,
+      45
+    ],
+    "catchRate": 45,
+    "baseExperience": 219,
+    "evolutionRules": [],
+    "heightDm": 25
+  },
+  {
+    "id": 132,
+    "name": "百变怪",
+    "nameEn": "Ditto",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 48,
+      "defense": 48,
+      "speed": 48,
+      "special": 48
+    },
+    "color": "#a8a878",
+    "habitat": "城市",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/132.png",
+    "spriteBack": "/assets/pokemon/back/132.png",
+    "spriteAnimated": "/assets/pokemon/animated/132.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/ditto.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 144
+      }
+    ],
+    "initialMoves": [
+      144
+    ],
+    "catchRate": 35,
+    "baseExperience": 61,
+    "evolutionRules": [],
+    "heightDm": 3
+  },
+  {
+    "id": 133,
+    "name": "伊布",
+    "nameEn": "Eevee",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 50,
+      "speed": 55,
+      "special": 65
+    },
+    "color": "#a8a878",
+    "habitat": "城市",
+    "evolvesTo": [
+      134,
+      135,
+      136
+    ],
+    "sprite": "/assets/pokemon/133.png",
+    "spriteBack": "/assets/pokemon/back/133.png",
+    "spriteAnimated": "/assets/pokemon/animated/133.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/eevee.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 28
+      },
+      {
+        "level": 27,
+        "moveId": 98
+      },
+      {
+        "level": 31,
+        "moveId": 39
+      },
+      {
+        "level": 37,
+        "moveId": 44
+      },
+      {
+        "level": 45,
+        "moveId": 36
+      }
+    ],
+    "initialMoves": [
+      33,
+      28
+    ],
+    "catchRate": 45,
+    "baseExperience": 92,
+    "evolutionRules": [
+      {
+        "to": 136,
+        "method": "item",
+        "item": "fire_stone"
+      },
+      {
+        "to": 135,
+        "method": "item",
+        "item": "thunder_stone"
+      },
+      {
+        "to": 134,
+        "method": "item",
+        "item": "water_stone"
+      }
+    ],
+    "heightDm": 3
+  },
+  {
+    "id": 134,
+    "name": "水伊布",
+    "nameEn": "Vaporeon",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 130,
+      "attack": 65,
+      "defense": 60,
+      "speed": 65,
+      "special": 110
+    },
+    "color": "#6890f0",
+    "habitat": "城市",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/134.png",
+    "spriteBack": "/assets/pokemon/back/134.png",
+    "spriteAnimated": "/assets/pokemon/animated/134.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/vaporeon.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 28
+      },
+      {
+        "level": 1,
+        "moveId": 98
+      },
+      {
+        "level": 1,
+        "moveId": 55
+      },
+      {
+        "level": 27,
+        "moveId": 98
+      },
+      {
+        "level": 31,
+        "moveId": 55
+      },
+      {
+        "level": 37,
+        "moveId": 39
+      },
+      {
+        "level": 40,
+        "moveId": 44
+      },
+      {
+        "level": 42,
+        "moveId": 151
+      },
+      {
+        "level": 44,
+        "moveId": 114
+      },
+      {
+        "level": 48,
+        "moveId": 54
+      },
+      {
+        "level": 54,
+        "moveId": 56
+      }
+    ],
+    "initialMoves": [
+      33,
+      28,
+      98,
+      55
+    ],
+    "catchRate": 45,
+    "baseExperience": 196,
+    "evolutionRules": [],
+    "heightDm": 10
+  },
+  {
+    "id": 135,
+    "name": "雷伊布",
+    "nameEn": "Jolteon",
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "speed": 130,
+      "special": 110
+    },
+    "color": "#f8d030",
+    "habitat": "城市",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/135.png",
+    "spriteBack": "/assets/pokemon/back/135.png",
+    "spriteAnimated": "/assets/pokemon/animated/135.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/jolteon.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 28
+      },
+      {
+        "level": 1,
+        "moveId": 98
+      },
+      {
+        "level": 1,
+        "moveId": 84
+      },
+      {
+        "level": 27,
+        "moveId": 98
+      },
+      {
+        "level": 31,
+        "moveId": 84
+      },
+      {
+        "level": 37,
+        "moveId": 39
+      },
+      {
+        "level": 40,
+        "moveId": 86
+      },
+      {
+        "level": 42,
+        "moveId": 24
+      },
+      {
+        "level": 44,
+        "moveId": 97
+      },
+      {
+        "level": 48,
+        "moveId": 42
+      },
+      {
+        "level": 54,
+        "moveId": 87
+      }
+    ],
+    "initialMoves": [
+      33,
+      28,
+      98,
+      84
+    ],
+    "catchRate": 45,
+    "baseExperience": 197,
+    "evolutionRules": [],
+    "heightDm": 8
+  },
+  {
+    "id": 136,
+    "name": "火伊布",
+    "nameEn": "Flareon",
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "speed": 65,
+      "special": 110
+    },
+    "color": "#ef8030",
+    "habitat": "城市",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/136.png",
+    "spriteBack": "/assets/pokemon/back/136.png",
+    "spriteAnimated": "/assets/pokemon/animated/136.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/flareon.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 28
+      },
+      {
+        "level": 1,
+        "moveId": 98
+      },
+      {
+        "level": 1,
+        "moveId": 52
+      },
+      {
+        "level": 27,
+        "moveId": 98
+      },
+      {
+        "level": 31,
+        "moveId": 52
+      },
+      {
+        "level": 37,
+        "moveId": 39
+      },
+      {
+        "level": 40,
+        "moveId": 44
+      },
+      {
+        "level": 42,
+        "moveId": 43
+      },
+      {
+        "level": 44,
+        "moveId": 83
+      },
+      {
+        "level": 48,
+        "moveId": 99
+      },
+      {
+        "level": 54,
+        "moveId": 53
+      }
+    ],
+    "initialMoves": [
+      33,
+      28,
+      98,
+      52
+    ],
+    "catchRate": 45,
+    "baseExperience": 198,
+    "evolutionRules": [],
+    "heightDm": 9
+  },
+  {
+    "id": 137,
+    "name": "多边兽",
+    "nameEn": "Porygon",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 70,
+      "speed": 40,
+      "special": 75
+    },
+    "color": "#a8a878",
+    "habitat": "城市",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/137.png",
+    "spriteBack": "/assets/pokemon/back/137.png",
+    "spriteAnimated": "/assets/pokemon/animated/137.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/porygon.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 33
+      },
+      {
+        "level": 1,
+        "moveId": 159
+      },
+      {
+        "level": 1,
+        "moveId": 160
+      },
+      {
+        "level": 23,
+        "moveId": 60
+      },
+      {
+        "level": 28,
+        "moveId": 105
+      },
+      {
+        "level": 35,
+        "moveId": 97
+      },
+      {
+        "level": 42,
+        "moveId": 161
+      }
+    ],
+    "initialMoves": [
+      33,
+      159,
+      160
+    ],
+    "catchRate": 45,
+    "baseExperience": 130,
+    "evolutionRules": [],
+    "heightDm": 8
+  },
+  {
+    "id": 138,
+    "name": "菊石兽",
+    "nameEn": "Omanyte",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 40,
+      "defense": 100,
+      "speed": 35,
+      "special": 90
+    },
+    "color": "#b8a038",
+    "habitat": "海洋",
+    "evolvesTo": [
+      139
+    ],
+    "sprite": "/assets/pokemon/138.png",
+    "spriteBack": "/assets/pokemon/back/138.png",
+    "spriteAnimated": "/assets/pokemon/animated/138.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/omanyte.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 55
+      },
+      {
+        "level": 1,
+        "moveId": 110
+      },
+      {
+        "level": 34,
+        "moveId": 30
+      },
+      {
+        "level": 39,
+        "moveId": 43
+      },
+      {
+        "level": 46,
+        "moveId": 131
+      },
+      {
+        "level": 53,
+        "moveId": 56
+      }
+    ],
+    "initialMoves": [
+      55,
+      110
+    ],
+    "catchRate": 45,
+    "baseExperience": 120,
+    "evolutionRules": [
+      {
+        "to": 139,
+        "method": "level",
+        "level": 40
+      }
+    ],
+    "heightDm": 4
+  },
+  {
+    "id": 139,
+    "name": "多刺菊石兽",
+    "nameEn": "Omastar",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 60,
+      "defense": 125,
+      "speed": 55,
+      "special": 115
+    },
+    "color": "#b8a038",
+    "habitat": "海洋",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/139.png",
+    "spriteBack": "/assets/pokemon/back/139.png",
+    "spriteAnimated": "/assets/pokemon/animated/139.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/omastar.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 55
+      },
+      {
+        "level": 1,
+        "moveId": 110
+      },
+      {
+        "level": 1,
+        "moveId": 30
+      },
+      {
+        "level": 34,
+        "moveId": 30
+      },
+      {
+        "level": 39,
+        "moveId": 43
+      },
+      {
+        "level": 44,
+        "moveId": 131
+      },
+      {
+        "level": 49,
+        "moveId": 56
+      }
+    ],
+    "initialMoves": [
+      55,
+      110,
+      30
+    ],
+    "catchRate": 45,
+    "baseExperience": 199,
+    "evolutionRules": [],
+    "heightDm": 10
+  },
+  {
+    "id": 140,
+    "name": "化石盔",
+    "nameEn": "Kabuto",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 80,
+      "defense": 90,
+      "speed": 55,
+      "special": 45
+    },
+    "color": "#b8a038",
+    "habitat": "海洋",
+    "evolvesTo": [
+      141
+    ],
+    "sprite": "/assets/pokemon/140.png",
+    "spriteBack": "/assets/pokemon/back/140.png",
+    "spriteAnimated": "/assets/pokemon/animated/140.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/kabuto.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 1,
+        "moveId": 106
+      },
+      {
+        "level": 34,
+        "moveId": 71
+      },
+      {
+        "level": 39,
+        "moveId": 163
+      },
+      {
+        "level": 44,
+        "moveId": 43
+      },
+      {
+        "level": 49,
+        "moveId": 56
+      }
+    ],
+    "initialMoves": [
+      10,
+      106
+    ],
+    "catchRate": 45,
+    "baseExperience": 119,
+    "evolutionRules": [
+      {
+        "to": 141,
+        "method": "level",
+        "level": 40
+      }
+    ],
+    "heightDm": 5
+  },
+  {
+    "id": 141,
+    "name": "镰刀盔",
+    "nameEn": "Kabutops",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 115,
+      "defense": 105,
+      "speed": 80,
+      "special": 70
+    },
+    "color": "#b8a038",
+    "habitat": "海洋",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/141.png",
+    "spriteBack": "/assets/pokemon/back/141.png",
+    "spriteAnimated": "/assets/pokemon/animated/141.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/kabutops.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 1,
+        "moveId": 106
+      },
+      {
+        "level": 1,
+        "moveId": 71
+      },
+      {
+        "level": 34,
+        "moveId": 71
+      },
+      {
+        "level": 39,
+        "moveId": 163
+      },
+      {
+        "level": 46,
+        "moveId": 43
+      },
+      {
+        "level": 53,
+        "moveId": 56
+      }
+    ],
+    "initialMoves": [
+      10,
+      106,
+      71
+    ],
+    "catchRate": 45,
+    "baseExperience": 201,
+    "evolutionRules": [],
+    "heightDm": 13
+  },
+  {
+    "id": 142,
+    "name": "化石翼龙",
+    "nameEn": "Aerodactyl",
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "speed": 130,
+      "special": 60
+    },
+    "color": "#b8a038",
+    "habitat": "山地",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/142.png",
+    "spriteBack": "/assets/pokemon/back/142.png",
+    "spriteAnimated": "/assets/pokemon/animated/142.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/aerodactyl.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 17
+      },
+      {
+        "level": 1,
+        "moveId": 97
+      },
+      {
+        "level": 33,
+        "moveId": 48
+      },
+      {
+        "level": 38,
+        "moveId": 44
+      },
+      {
+        "level": 45,
+        "moveId": 36
+      },
+      {
+        "level": 54,
+        "moveId": 63
+      }
+    ],
+    "initialMoves": [
+      17,
+      97
+    ],
+    "catchRate": 45,
+    "baseExperience": 202,
+    "evolutionRules": [],
+    "heightDm": 18
+  },
+  {
+    "id": 143,
+    "name": "卡比兽",
+    "nameEn": "Snorlax",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "hp": 160,
+      "attack": 110,
+      "defense": 65,
+      "speed": 30,
+      "special": 65
+    },
+    "color": "#a8a878",
+    "habitat": "山地",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/143.png",
+    "spriteBack": "/assets/pokemon/back/143.png",
+    "spriteAnimated": "/assets/pokemon/animated/143.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/snorlax.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 29
+      },
+      {
+        "level": 1,
+        "moveId": 133
+      },
+      {
+        "level": 1,
+        "moveId": 156
+      },
+      {
+        "level": 35,
+        "moveId": 34
+      },
+      {
+        "level": 41,
+        "moveId": 106
+      },
+      {
+        "level": 48,
+        "moveId": 38
+      },
+      {
+        "level": 56,
+        "moveId": 63
+      }
+    ],
+    "initialMoves": [
+      29,
+      133,
+      156
+    ],
+    "catchRate": 25,
+    "baseExperience": 154,
+    "evolutionRules": [],
+    "heightDm": 21
+  },
+  {
+    "id": 144,
+    "name": "急冻鸟",
+    "nameEn": "Articuno",
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 85,
+      "defense": 100,
+      "speed": 85,
+      "special": 125
+    },
+    "color": "#98d8d8",
+    "habitat": "稀有",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/144.png",
+    "spriteBack": "/assets/pokemon/back/144.png",
+    "spriteAnimated": "/assets/pokemon/animated/144.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/articuno.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 64
+      },
+      {
+        "level": 1,
+        "moveId": 58
+      },
+      {
+        "level": 51,
+        "moveId": 59
+      },
+      {
+        "level": 55,
+        "moveId": 97
+      },
+      {
+        "level": 60,
+        "moveId": 54
+      }
+    ],
+    "initialMoves": [
+      64,
+      58
+    ],
+    "catchRate": 3,
+    "baseExperience": 215,
+    "evolutionRules": [],
+    "heightDm": 17
+  },
+  {
+    "id": 145,
+    "name": "闪电鸟",
+    "nameEn": "Zapdos",
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 90,
+      "defense": 85,
+      "speed": 100,
+      "special": 125
+    },
+    "color": "#f8d030",
+    "habitat": "稀有",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/145.png",
+    "spriteBack": "/assets/pokemon/back/145.png",
+    "spriteAnimated": "/assets/pokemon/animated/145.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/zapdos.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 84
+      },
+      {
+        "level": 1,
+        "moveId": 65
+      },
+      {
+        "level": 51,
+        "moveId": 87
+      },
+      {
+        "level": 55,
+        "moveId": 97
+      },
+      {
+        "level": 60,
+        "moveId": 113
+      }
+    ],
+    "initialMoves": [
+      84,
+      65
+    ],
+    "catchRate": 3,
+    "baseExperience": 216,
+    "evolutionRules": [],
+    "heightDm": 16
+  },
+  {
+    "id": 146,
+    "name": "火焰鸟",
+    "nameEn": "Moltres",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 90,
+      "speed": 90,
+      "special": 125
+    },
+    "color": "#ef8030",
+    "habitat": "稀有",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/146.png",
+    "spriteBack": "/assets/pokemon/back/146.png",
+    "spriteAnimated": "/assets/pokemon/animated/146.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/moltres.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 64
+      },
+      {
+        "level": 1,
+        "moveId": 83
+      },
+      {
+        "level": 51,
+        "moveId": 43
+      },
+      {
+        "level": 55,
+        "moveId": 97
+      },
+      {
+        "level": 60,
+        "moveId": 143
+      }
+    ],
+    "initialMoves": [
+      64,
+      83
+    ],
+    "catchRate": 3,
+    "baseExperience": 217,
+    "evolutionRules": [],
+    "heightDm": 20
+  },
+  {
+    "id": 147,
+    "name": "迷你龙",
+    "nameEn": "Dratini",
+    "types": [
+      "dragon"
+    ],
+    "stats": {
+      "hp": 41,
+      "attack": 64,
+      "defense": 45,
+      "speed": 50,
+      "special": 50
+    },
+    "color": "#7038f8",
+    "habitat": "水边",
+    "evolvesTo": [
+      148
+    ],
+    "sprite": "/assets/pokemon/147.png",
+    "spriteBack": "/assets/pokemon/back/147.png",
+    "spriteAnimated": "/assets/pokemon/animated/147.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/dratini.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 35
+      },
+      {
+        "level": 1,
+        "moveId": 43
+      },
+      {
+        "level": 10,
+        "moveId": 86
+      },
+      {
+        "level": 20,
+        "moveId": 97
+      },
+      {
+        "level": 30,
+        "moveId": 21
+      },
+      {
+        "level": 40,
+        "moveId": 82
+      },
+      {
+        "level": 50,
+        "moveId": 63
+      }
+    ],
+    "initialMoves": [
+      35,
+      43
+    ],
+    "catchRate": 45,
+    "baseExperience": 67,
+    "evolutionRules": [
+      {
+        "to": 148,
+        "method": "level",
+        "level": 30
+      }
+    ],
+    "heightDm": 18
+  },
+  {
+    "id": 148,
+    "name": "哈克龙",
+    "nameEn": "Dragonair",
+    "types": [
+      "dragon"
+    ],
+    "stats": {
+      "hp": 61,
+      "attack": 84,
+      "defense": 65,
+      "speed": 70,
+      "special": 70
+    },
+    "color": "#7038f8",
+    "habitat": "水边",
+    "evolvesTo": [
+      149
+    ],
+    "sprite": "/assets/pokemon/148.png",
+    "spriteBack": "/assets/pokemon/back/148.png",
+    "spriteAnimated": "/assets/pokemon/animated/148.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/dragonair.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 35
+      },
+      {
+        "level": 1,
+        "moveId": 43
+      },
+      {
+        "level": 1,
+        "moveId": 86
+      },
+      {
+        "level": 10,
+        "moveId": 86
+      },
+      {
+        "level": 20,
+        "moveId": 97
+      },
+      {
+        "level": 35,
+        "moveId": 21
+      },
+      {
+        "level": 45,
+        "moveId": 82
+      },
+      {
+        "level": 55,
+        "moveId": 63
+      }
+    ],
+    "initialMoves": [
+      35,
+      43,
+      86
+    ],
+    "catchRate": 45,
+    "baseExperience": 144,
+    "evolutionRules": [
+      {
+        "to": 149,
+        "method": "level",
+        "level": 55
+      }
+    ],
+    "heightDm": 40
+  },
+  {
+    "id": 149,
+    "name": "快龙",
+    "nameEn": "Dragonite",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "stats": {
+      "hp": 91,
+      "attack": 134,
+      "defense": 95,
+      "speed": 80,
+      "special": 100
+    },
+    "color": "#7038f8",
+    "habitat": "水边",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/149.png",
+    "spriteBack": "/assets/pokemon/back/149.png",
+    "spriteAnimated": "/assets/pokemon/animated/149.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/dragonite.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 35
+      },
+      {
+        "level": 1,
+        "moveId": 43
+      },
+      {
+        "level": 1,
+        "moveId": 86
+      },
+      {
+        "level": 1,
+        "moveId": 97
+      },
+      {
+        "level": 10,
+        "moveId": 86
+      },
+      {
+        "level": 20,
+        "moveId": 97
+      },
+      {
+        "level": 35,
+        "moveId": 21
+      },
+      {
+        "level": 45,
+        "moveId": 82
+      },
+      {
+        "level": 60,
+        "moveId": 63
+      }
+    ],
+    "initialMoves": [
+      35,
+      43,
+      86,
+      97
+    ],
+    "catchRate": 45,
+    "baseExperience": 218,
+    "evolutionRules": [],
+    "heightDm": 22
+  },
+  {
+    "id": 150,
+    "name": "超梦",
+    "nameEn": "Mewtwo",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "hp": 106,
+      "attack": 110,
+      "defense": 90,
+      "speed": 130,
+      "special": 154
+    },
+    "color": "#f85888",
+    "habitat": "稀有",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/150.png",
+    "spriteBack": "/assets/pokemon/back/150.png",
+    "spriteAnimated": "/assets/pokemon/animated/150.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/mewtwo.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 93
+      },
+      {
+        "level": 1,
+        "moveId": 50
+      },
+      {
+        "level": 1,
+        "moveId": 129
+      },
+      {
+        "level": 1,
+        "moveId": 94
+      },
+      {
+        "level": 63,
+        "moveId": 112
+      },
+      {
+        "level": 66,
+        "moveId": 94
+      },
+      {
+        "level": 70,
+        "moveId": 105
+      },
+      {
+        "level": 75,
+        "moveId": 54
+      },
+      {
+        "level": 81,
+        "moveId": 133
+      }
+    ],
+    "initialMoves": [
+      93,
+      50,
+      129,
+      94
+    ],
+    "catchRate": 3,
+    "baseExperience": 220,
+    "evolutionRules": [],
+    "heightDm": 20
+  },
+  {
+    "id": 151,
+    "name": "梦幻",
+    "nameEn": "Mew",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "speed": 100,
+      "special": 100
+    },
+    "color": "#f85888",
+    "habitat": "稀有",
+    "evolvesTo": [],
+    "sprite": "/assets/pokemon/151.png",
+    "spriteBack": "/assets/pokemon/back/151.png",
+    "spriteAnimated": "/assets/pokemon/animated/151.gif",
+    "source": "https://raw.githubusercontent.com/pret/pokered/master/data/pokemon/base_stats/mew.asm",
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 144
+      },
+      {
+        "level": 20,
+        "moveId": 5
+      },
+      {
+        "level": 30,
+        "moveId": 118
+      },
+      {
+        "level": 40,
+        "moveId": 94
+      }
+    ],
+    "initialMoves": [
+      1
+    ],
+    "catchRate": 45,
+    "baseExperience": 64,
+    "evolutionRules": [],
+    "heightDm": 4
+  }
+]

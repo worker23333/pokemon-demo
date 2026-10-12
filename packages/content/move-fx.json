@@ -1,0 +1,1337 @@
+{
+ "1": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Pound!",
+  "style": "punch"
+ },
+ "2": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Karate Chop!",
+  "style": "slash"
+ },
+ "3": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Double Slap!",
+  "style": "slap",
+  "hits": 3
+ },
+ "4": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Comet Punch!",
+  "style": "punch",
+  "hits": 3
+ },
+ "5": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Mega Punch!",
+  "style": "punch"
+ },
+ "6": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Pay Day!",
+  "style": "tackle"
+ },
+ "7": {
+  "fx": "melee",
+  "type": "fire",
+  "color": "#ff7a1a",
+  "color2": "#ffd34d",
+  "callout": "Fire Punch!",
+  "style": "punch"
+ },
+ "8": {
+  "fx": "melee",
+  "type": "ice",
+  "color": "#7fe8ff",
+  "color2": "#ffffff",
+  "callout": "Ice Punch!",
+  "style": "punch"
+ },
+ "9": {
+  "fx": "melee",
+  "type": "electric",
+  "color": "#ffe53b",
+  "color2": "#fffbd0",
+  "callout": "Thunder Punch!",
+  "style": "punch"
+ },
+ "10": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Scratch!",
+  "style": "slash"
+ },
+ "11": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Vise Grip!",
+  "style": "slash"
+ },
+ "12": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Guillotine!",
+  "style": "slash"
+ },
+ "13": {
+  "fx": "projectile",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Razor Wind!",
+  "shape": "crescent",
+  "size": 8
+ },
+ "14": {
+  "fx": "buff",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Swords Dance!"
+ },
+ "15": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Cut!",
+  "style": "slash"
+ },
+ "16": {
+  "fx": "vortex",
+  "type": "normal",
+  "color": "#e8f4ff",
+  "color2": "#ffffff",
+  "callout": "Gust!"
+ },
+ "17": {
+  "fx": "melee",
+  "type": "flying",
+  "color": "#c9e3ff",
+  "color2": "#ffffff",
+  "callout": "Wing Attack!",
+  "style": "peck"
+ },
+ "18": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Whirlwind!",
+  "shape": "sparkle"
+ },
+ "19": {
+  "fx": "dive",
+  "type": "flying",
+  "color": "#c9e3ff",
+  "color2": "#ffffff",
+  "callout": "Fly!",
+  "big": true
+ },
+ "20": {
+  "fx": "bind",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Bind!"
+ },
+ "21": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Slam!",
+  "style": "tackle"
+ },
+ "22": {
+  "fx": "melee",
+  "type": "grass",
+  "color": "#6fd34a",
+  "color2": "#d6ff9a",
+  "callout": "Vine Whip!",
+  "style": "whip"
+ },
+ "23": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Stomp!",
+  "style": "tackle"
+ },
+ "24": {
+  "fx": "melee",
+  "type": "fighting",
+  "color": "#e0583a",
+  "color2": "#ffc49a",
+  "callout": "Double Kick!",
+  "style": "kick",
+  "hits": 2
+ },
+ "25": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Mega Kick!",
+  "style": "kick"
+ },
+ "26": {
+  "fx": "melee",
+  "type": "fighting",
+  "color": "#e0583a",
+  "color2": "#ffc49a",
+  "callout": "Jump Kick!",
+  "style": "kick"
+ },
+ "27": {
+  "fx": "melee",
+  "type": "fighting",
+  "color": "#e0583a",
+  "color2": "#ffc49a",
+  "callout": "Rolling Kick!",
+  "style": "kick"
+ },
+ "28": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Sand Attack!",
+  "shape": "cloud"
+ },
+ "29": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Headbutt!",
+  "style": "tackle"
+ },
+ "30": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Horn Attack!",
+  "style": "peck"
+ },
+ "31": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Fury Attack!",
+  "style": "peck",
+  "hits": 3
+ },
+ "32": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Horn Drill!",
+  "style": "peck"
+ },
+ "33": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Tackle!",
+  "style": "tackle"
+ },
+ "34": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Body Slam!",
+  "style": "tackle"
+ },
+ "35": {
+  "fx": "bind",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Wrap!"
+ },
+ "36": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Take Down!",
+  "style": "tackle"
+ },
+ "37": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Thrash!",
+  "style": "tackle"
+ },
+ "38": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Double-Edge!",
+  "style": "tackle"
+ },
+ "39": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Tail Whip!",
+  "shape": "sparkle"
+ },
+ "40": {
+  "fx": "projectile",
+  "type": "poison",
+  "color": "#b05cd6",
+  "color2": "#e7b6ff",
+  "callout": "Poison Sting!",
+  "shape": "needle",
+  "count": 3
+ },
+ "41": {
+  "fx": "projectile",
+  "type": "bug",
+  "color": "#a8c83a",
+  "color2": "#eaff8a",
+  "callout": "Twineedle!",
+  "shape": "needle",
+  "count": 3
+ },
+ "42": {
+  "fx": "projectile",
+  "type": "bug",
+  "color": "#a8c83a",
+  "color2": "#eaff8a",
+  "callout": "Pin Missile!",
+  "shape": "needle",
+  "count": 3
+ },
+ "43": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Leer!",
+  "shape": "sparkle"
+ },
+ "44": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Bite!",
+  "style": "bite"
+ },
+ "45": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Growl!",
+  "shape": "sound"
+ },
+ "46": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Roar!",
+  "shape": "sound"
+ },
+ "47": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Sing!",
+  "shape": "sound"
+ },
+ "48": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Supersonic!",
+  "shape": "sound"
+ },
+ "49": {
+  "fx": "projectile",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Sonic Boom!",
+  "shape": "ring",
+  "size": 7
+ },
+ "50": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Disable!",
+  "shape": "sparkle"
+ },
+ "51": {
+  "fx": "projectile",
+  "type": "poison",
+  "color": "#b05cd6",
+  "color2": "#e7b6ff",
+  "callout": "Acid!",
+  "shape": "glob",
+  "size": 5
+ },
+ "52": {
+  "fx": "projectile",
+  "type": "fire",
+  "color": "#ff7a1a",
+  "color2": "#ffd34d",
+  "callout": "Ember!",
+  "shape": "fireball",
+  "size": 4
+ },
+ "53": {
+  "fx": "stream",
+  "type": "fire",
+  "color": "#ff7a1a",
+  "color2": "#ffd34d",
+  "callout": "Flamethrower!",
+  "big": true
+ },
+ "54": {
+  "fx": "status",
+  "type": "ice",
+  "color": "#7fe8ff",
+  "color2": "#ffffff",
+  "callout": "Mist!",
+  "shape": "cloud"
+ },
+ "55": {
+  "fx": "beam",
+  "type": "water",
+  "color": "#3fa9ff",
+  "color2": "#c9f1ff",
+  "callout": "Water Gun!",
+  "width": 4
+ },
+ "56": {
+  "fx": "beam",
+  "type": "water",
+  "color": "#3fa9ff",
+  "color2": "#c9f1ff",
+  "callout": "Hydro Pump!",
+  "width": 7,
+  "twin": true,
+  "big": true
+ },
+ "57": {
+  "fx": "wave",
+  "type": "water",
+  "color": "#3fa9ff",
+  "color2": "#c9f1ff",
+  "callout": "Surf!",
+  "big": true
+ },
+ "58": {
+  "fx": "beam",
+  "type": "ice",
+  "color": "#7fe8ff",
+  "color2": "#ffffff",
+  "callout": "Ice Beam!",
+  "width": 6
+ },
+ "59": {
+  "fx": "stream",
+  "type": "ice",
+  "color": "#7fe8ff",
+  "color2": "#ffffff",
+  "callout": "Blizzard!",
+  "big": true,
+  "snow": true
+ },
+ "60": {
+  "fx": "beam",
+  "type": "psychic",
+  "color": "#ff5fb4",
+  "color2": "#ffd0ee",
+  "callout": "Psybeam!",
+  "width": 6,
+  "rings": true
+ },
+ "61": {
+  "fx": "projectile",
+  "type": "water",
+  "color": "#3fa9ff",
+  "color2": "#c9f1ff",
+  "callout": "Bubble Beam!",
+  "shape": "bubble",
+  "count": 4
+ },
+ "62": {
+  "fx": "beam",
+  "type": "ice",
+  "color": "#7fe8ff",
+  "color2": "#ffffff",
+  "callout": "Aurora Beam!",
+  "width": 6,
+  "rainbow": true
+ },
+ "63": {
+  "fx": "beam",
+  "type": "normal",
+  "color": "#ff6ad5",
+  "color2": "#ffffff",
+  "callout": "Hyper Beam!",
+  "width": 10,
+  "big": true
+ },
+ "64": {
+  "fx": "melee",
+  "type": "flying",
+  "color": "#c9e3ff",
+  "color2": "#ffffff",
+  "callout": "Peck!",
+  "style": "peck"
+ },
+ "65": {
+  "fx": "melee",
+  "type": "flying",
+  "color": "#c9e3ff",
+  "color2": "#ffffff",
+  "callout": "Drill Peck!",
+  "style": "peck"
+ },
+ "66": {
+  "fx": "slam",
+  "type": "fighting",
+  "color": "#e0583a",
+  "color2": "#ffc49a",
+  "callout": "Submission!",
+  "big": true
+ },
+ "67": {
+  "fx": "melee",
+  "type": "fighting",
+  "color": "#e0583a",
+  "color2": "#ffc49a",
+  "callout": "Low Kick!",
+  "style": "kick"
+ },
+ "68": {
+  "fx": "melee",
+  "type": "fighting",
+  "color": "#e0583a",
+  "color2": "#ffc49a",
+  "callout": "Counter!",
+  "style": "tackle"
+ },
+ "69": {
+  "fx": "slam",
+  "type": "fighting",
+  "color": "#e0583a",
+  "color2": "#ffc49a",
+  "callout": "Seismic Toss!",
+  "big": true
+ },
+ "70": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Strength!",
+  "style": "punch"
+ },
+ "71": {
+  "fx": "projectile",
+  "type": "grass",
+  "color": "#6fd34a",
+  "color2": "#d6ff9a",
+  "callout": "Absorb!",
+  "shape": "drain",
+  "size": 4
+ },
+ "72": {
+  "fx": "projectile",
+  "type": "grass",
+  "color": "#6fd34a",
+  "color2": "#d6ff9a",
+  "callout": "Mega Drain!",
+  "shape": "drain",
+  "size": 4
+ },
+ "73": {
+  "fx": "projectile",
+  "type": "grass",
+  "color": "#6fd34a",
+  "color2": "#d6ff9a",
+  "callout": "Leech Seed!",
+  "shape": "seed",
+  "count": 3
+ },
+ "74": {
+  "fx": "buff",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Growth!"
+ },
+ "75": {
+  "fx": "projectile",
+  "type": "grass",
+  "color": "#6fd34a",
+  "color2": "#d6ff9a",
+  "callout": "Razor Leaf!",
+  "shape": "leaf",
+  "count": 4
+ },
+ "76": {
+  "fx": "beam",
+  "type": "grass",
+  "color": "#e8ff6a",
+  "color2": "#ffffff",
+  "callout": "Solar Beam!",
+  "width": 9,
+  "big": true
+ },
+ "77": {
+  "fx": "status",
+  "type": "poison",
+  "color": "#b05cd6",
+  "color2": "#e7b6ff",
+  "callout": "Poison Powder!",
+  "shape": "powder"
+ },
+ "78": {
+  "fx": "status",
+  "type": "grass",
+  "color": "#6fd34a",
+  "color2": "#d6ff9a",
+  "callout": "Stun Spore!",
+  "shape": "powder"
+ },
+ "79": {
+  "fx": "status",
+  "type": "grass",
+  "color": "#6fd34a",
+  "color2": "#d6ff9a",
+  "callout": "Sleep Powder!",
+  "shape": "powder"
+ },
+ "80": {
+  "fx": "vortex",
+  "type": "grass",
+  "color": "#ff9ad5",
+  "color2": "#ffe0f2",
+  "callout": "Petal Dance!",
+  "petals": true
+ },
+ "81": {
+  "fx": "status",
+  "type": "bug",
+  "color": "#a8c83a",
+  "color2": "#eaff8a",
+  "callout": "String Shot!",
+  "shape": "sparkle"
+ },
+ "82": {
+  "fx": "beam",
+  "type": "dragon",
+  "color": "#7b5cff",
+  "color2": "#ff7ae0",
+  "callout": "Dragon Rage!",
+  "width": 7
+ },
+ "83": {
+  "fx": "vortex",
+  "type": "fire",
+  "color": "#ff7a1a",
+  "color2": "#ffd34d",
+  "callout": "Fire Spin!"
+ },
+ "84": {
+  "fx": "projectile",
+  "type": "electric",
+  "color": "#ffe53b",
+  "color2": "#fffbd0",
+  "callout": "Thunder Shock!",
+  "shape": "spark",
+  "size": 4
+ },
+ "85": {
+  "fx": "bolt",
+  "type": "electric",
+  "color": "#ffe53b",
+  "color2": "#fffbd0",
+  "callout": "Thunderbolt!",
+  "chain": true
+ },
+ "86": {
+  "fx": "status",
+  "type": "electric",
+  "color": "#ffe53b",
+  "color2": "#fffbd0",
+  "callout": "Thunder Wave!",
+  "shape": "spark"
+ },
+ "87": {
+  "fx": "bolt",
+  "type": "electric",
+  "color": "#ffe53b",
+  "color2": "#fffbd0",
+  "callout": "Thunder!",
+  "big": true
+ },
+ "88": {
+  "fx": "projectile",
+  "type": "rock",
+  "color": "#a08a64",
+  "color2": "#e0cfa0",
+  "callout": "Rock Throw!",
+  "shape": "rock",
+  "size": 6
+ },
+ "89": {
+  "fx": "quake",
+  "type": "ground",
+  "color": "#c08a4a",
+  "color2": "#f0d29a",
+  "callout": "Earthquake!",
+  "big": true
+ },
+ "90": {
+  "fx": "quake",
+  "type": "ground",
+  "color": "#c08a4a",
+  "color2": "#f0d29a",
+  "callout": "Fissure!",
+  "big": true
+ },
+ "91": {
+  "fx": "dig",
+  "type": "ground",
+  "color": "#c08a4a",
+  "color2": "#f0d29a",
+  "callout": "Dig!",
+  "big": true
+ },
+ "92": {
+  "fx": "status",
+  "type": "poison",
+  "color": "#b05cd6",
+  "color2": "#e7b6ff",
+  "callout": "Toxic!",
+  "shape": "cloud"
+ },
+ "93": {
+  "fx": "orb",
+  "type": "psychic",
+  "color": "#ff5fb4",
+  "color2": "#ffd0ee",
+  "callout": "Confusion!"
+ },
+ "94": {
+  "fx": "orb",
+  "type": "psychic",
+  "color": "#ff5fb4",
+  "color2": "#ffd0ee",
+  "callout": "Psychic!"
+ },
+ "95": {
+  "fx": "status",
+  "type": "psychic",
+  "color": "#ff5fb4",
+  "color2": "#ffd0ee",
+  "callout": "Hypnosis!",
+  "shape": "rings"
+ },
+ "96": {
+  "fx": "buff",
+  "type": "psychic",
+  "color": "#ff5fb4",
+  "color2": "#ffd0ee",
+  "callout": "Meditate!"
+ },
+ "97": {
+  "fx": "buff",
+  "type": "psychic",
+  "color": "#ff5fb4",
+  "color2": "#ffd0ee",
+  "callout": "Agility!"
+ },
+ "98": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Quick Attack!",
+  "style": "tackle"
+ },
+ "99": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Rage!",
+  "style": "tackle"
+ },
+ "100": {
+  "fx": "status",
+  "type": "psychic",
+  "color": "#ff5fb4",
+  "color2": "#ffd0ee",
+  "callout": "Teleport!",
+  "shape": "sparkle"
+ },
+ "101": {
+  "fx": "orb",
+  "type": "ghost",
+  "color": "#6a4fb0",
+  "color2": "#c9b6ff",
+  "callout": "Night Shade!"
+ },
+ "102": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Mimic!",
+  "shape": "sparkle"
+ },
+ "103": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Screech!",
+  "shape": "sound"
+ },
+ "104": {
+  "fx": "clones",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Double Team!"
+ },
+ "105": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Recover!",
+  "shape": "heal"
+ },
+ "106": {
+  "fx": "buff",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Harden!"
+ },
+ "107": {
+  "fx": "clones",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Minimize!"
+ },
+ "108": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Smokescreen!",
+  "shape": "cloud"
+ },
+ "109": {
+  "fx": "status",
+  "type": "ghost",
+  "color": "#6a4fb0",
+  "color2": "#c9b6ff",
+  "callout": "Confuse Ray!",
+  "shape": "rings"
+ },
+ "110": {
+  "fx": "buff",
+  "type": "water",
+  "color": "#3fa9ff",
+  "color2": "#c9f1ff",
+  "callout": "Withdraw!"
+ },
+ "111": {
+  "fx": "buff",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Defense Curl!"
+ },
+ "112": {
+  "fx": "buff",
+  "type": "psychic",
+  "color": "#ff5fb4",
+  "color2": "#ffd0ee",
+  "callout": "Barrier!"
+ },
+ "113": {
+  "fx": "buff",
+  "type": "psychic",
+  "color": "#ff5fb4",
+  "color2": "#ffd0ee",
+  "callout": "Light Screen!"
+ },
+ "114": {
+  "fx": "status",
+  "type": "ice",
+  "color": "#7fe8ff",
+  "color2": "#ffffff",
+  "callout": "Haze!",
+  "shape": "cloud"
+ },
+ "115": {
+  "fx": "buff",
+  "type": "psychic",
+  "color": "#ff5fb4",
+  "color2": "#ffd0ee",
+  "callout": "Reflect!"
+ },
+ "116": {
+  "fx": "buff",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Focus Energy!"
+ },
+ "117": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Bide!",
+  "style": "tackle"
+ },
+ "118": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Metronome!",
+  "shape": "sparkle"
+ },
+ "119": {
+  "fx": "status",
+  "type": "flying",
+  "color": "#c9e3ff",
+  "color2": "#ffffff",
+  "callout": "Mirror Move!",
+  "shape": "sparkle"
+ },
+ "120": {
+  "fx": "explode",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Self-Destruct!",
+  "big": true
+ },
+ "121": {
+  "fx": "projectile",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Egg Bomb!",
+  "shape": "egg",
+  "size": 5
+ },
+ "122": {
+  "fx": "melee",
+  "type": "ghost",
+  "color": "#6a4fb0",
+  "color2": "#c9b6ff",
+  "callout": "Lick!",
+  "style": "bite"
+ },
+ "123": {
+  "fx": "stream",
+  "type": "poison",
+  "color": "#b05cd6",
+  "color2": "#e7b6ff",
+  "callout": "Smog!",
+  "cloud": true
+ },
+ "124": {
+  "fx": "projectile",
+  "type": "poison",
+  "color": "#b05cd6",
+  "color2": "#e7b6ff",
+  "callout": "Sludge!",
+  "shape": "glob",
+  "size": 5
+ },
+ "125": {
+  "fx": "projectile",
+  "type": "ground",
+  "color": "#c08a4a",
+  "color2": "#f0d29a",
+  "callout": "Bone Club!",
+  "shape": "bone",
+  "size": 6,
+  "spin": true
+ },
+ "126": {
+  "fx": "projectile",
+  "type": "fire",
+  "color": "#ff7a1a",
+  "color2": "#ffd34d",
+  "callout": "Fire Blast!",
+  "shape": "fireball",
+  "big": true,
+  "size": 9
+ },
+ "127": {
+  "fx": "melee",
+  "type": "water",
+  "color": "#3fa9ff",
+  "color2": "#c9f1ff",
+  "callout": "Waterfall!",
+  "style": "splash"
+ },
+ "128": {
+  "fx": "bind",
+  "type": "water",
+  "color": "#3fa9ff",
+  "color2": "#c9f1ff",
+  "callout": "Clamp!"
+ },
+ "129": {
+  "fx": "projectile",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Swift!",
+  "shape": "star",
+  "count": 5
+ },
+ "130": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Skull Bash!",
+  "style": "tackle"
+ },
+ "131": {
+  "fx": "projectile",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Spike Cannon!",
+  "shape": "needle",
+  "count": 3
+ },
+ "132": {
+  "fx": "bind",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Constrict!"
+ },
+ "133": {
+  "fx": "buff",
+  "type": "psychic",
+  "color": "#ff5fb4",
+  "color2": "#ffd0ee",
+  "callout": "Amnesia!"
+ },
+ "134": {
+  "fx": "status",
+  "type": "psychic",
+  "color": "#ff5fb4",
+  "color2": "#ffd0ee",
+  "callout": "Kinesis!",
+  "shape": "rings"
+ },
+ "135": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Soft-Boiled!",
+  "shape": "heal"
+ },
+ "136": {
+  "fx": "melee",
+  "type": "fighting",
+  "color": "#e0583a",
+  "color2": "#ffc49a",
+  "callout": "High Jump Kick!",
+  "style": "kick"
+ },
+ "137": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Glare!",
+  "shape": "eye"
+ },
+ "138": {
+  "fx": "orb",
+  "type": "psychic",
+  "color": "#ff5fb4",
+  "color2": "#ffd0ee",
+  "callout": "Dream Eater!"
+ },
+ "139": {
+  "fx": "stream",
+  "type": "poison",
+  "color": "#b05cd6",
+  "color2": "#e7b6ff",
+  "callout": "Poison Gas!",
+  "cloud": true
+ },
+ "140": {
+  "fx": "projectile",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Barrage!",
+  "shape": "egg",
+  "size": 5
+ },
+ "141": {
+  "fx": "projectile",
+  "type": "bug",
+  "color": "#a8c83a",
+  "color2": "#eaff8a",
+  "callout": "Leech Life!",
+  "shape": "drain",
+  "size": 4
+ },
+ "142": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Lovely Kiss!",
+  "shape": "hearts"
+ },
+ "143": {
+  "fx": "dive",
+  "type": "flying",
+  "color": "#c9e3ff",
+  "color2": "#ffffff",
+  "callout": "Sky Attack!",
+  "big": true
+ },
+ "144": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Transform!",
+  "shape": "sparkle"
+ },
+ "145": {
+  "fx": "projectile",
+  "type": "water",
+  "color": "#3fa9ff",
+  "color2": "#c9f1ff",
+  "callout": "Bubble!",
+  "shape": "bubble",
+  "count": 4
+ },
+ "146": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Dizzy Punch!",
+  "style": "punch"
+ },
+ "147": {
+  "fx": "status",
+  "type": "grass",
+  "color": "#6fd34a",
+  "color2": "#d6ff9a",
+  "callout": "Spore!",
+  "shape": "powder"
+ },
+ "148": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Flash!",
+  "shape": "flash"
+ },
+ "149": {
+  "fx": "projectile",
+  "type": "psychic",
+  "color": "#ff5fb4",
+  "color2": "#ffd0ee",
+  "callout": "Psywave!",
+  "shape": "ring",
+  "size": 7
+ },
+ "150": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Splash!",
+  "shape": "sparkle"
+ },
+ "151": {
+  "fx": "buff",
+  "type": "poison",
+  "color": "#b05cd6",
+  "color2": "#e7b6ff",
+  "callout": "Acid Armor!"
+ },
+ "152": {
+  "fx": "melee",
+  "type": "water",
+  "color": "#3fa9ff",
+  "color2": "#c9f1ff",
+  "callout": "Crabhammer!",
+  "style": "splash"
+ },
+ "153": {
+  "fx": "explode",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Explosion!",
+  "big": true
+ },
+ "154": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Fury Swipes!",
+  "style": "slash",
+  "hits": 3
+ },
+ "155": {
+  "fx": "projectile",
+  "type": "ground",
+  "color": "#c08a4a",
+  "color2": "#f0d29a",
+  "callout": "Bonemerang!",
+  "shape": "bone",
+  "size": 6,
+  "spin": true
+ },
+ "156": {
+  "fx": "status",
+  "type": "psychic",
+  "color": "#ff5fb4",
+  "color2": "#ffd0ee",
+  "callout": "Rest!",
+  "shape": "heal"
+ },
+ "157": {
+  "fx": "rain",
+  "type": "rock",
+  "color": "#a08a64",
+  "color2": "#e0cfa0",
+  "callout": "Rock Slide!",
+  "shape": "rock"
+ },
+ "158": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Hyper Fang!",
+  "style": "bite"
+ },
+ "159": {
+  "fx": "buff",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Sharpen!"
+ },
+ "160": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Conversion!",
+  "shape": "sparkle"
+ },
+ "161": {
+  "fx": "beam",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Tri Attack!",
+  "width": 6,
+  "rainbow": true
+ },
+ "162": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Super Fang!",
+  "style": "bite"
+ },
+ "163": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Slash!",
+  "style": "slash"
+ },
+ "164": {
+  "fx": "status",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Substitute!",
+  "shape": "sparkle"
+ },
+ "165": {
+  "fx": "melee",
+  "type": "normal",
+  "color": "#f4f1e6",
+  "color2": "#ffffff",
+  "callout": "Struggle!",
+  "style": "tackle"
+ }
+}

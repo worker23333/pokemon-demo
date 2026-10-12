@@ -1,0 +1,11 @@
+export type Point = { x:number; z:number };
+export type Rect = Point & { w:number; d:number };
+export type WorldTheme = 'beach'|'meadow'|'forest'|'ash'|'ruins';
+export type EntityKind = 'npc'|'heal'|'pickup'|'trainer'|'portal'|'puzzle'|'landmark';
+export type WorldEntity = Point & { id:string; name:string; kind:EntityKind; actor?:string; asset?:string; speciesId?:number; facing?:'up'|'down'|'left'|'right'; target?:string; targetSpawn?:Point; requires?:string; rewardFlag?:string; dialogue?:string[]; source?:string };
+export type Prop = Point & { asset:string; height:number; rotation?:number; kind?:'sprite'|'box'|'arch'|'tent'|'boat'|'pillar'; w?:number; d?:number; color?:string };
+export type TerrainPatch = Rect & { kind:'path'|'sand'|'grass'|'stone'|'flower'|'ash'|'water'; texture?:string; y?:number };
+export type WorldMap = { id:string; name:string; subtitle:string; theme:WorldTheme; sourceMap:string; sourceNote:string; bounds:Rect; spawn:Point; camp?:Point; walkable:Rect[]; blockers:Rect[]; terrain:TerrainPatch[]; props:Prop[]; entities:WorldEntity[]; grass:Rect[]; wild:number[]; ambience?:string; sourcePlacements?:unknown[]; native?:{sceneId:string;origin:[number,number,number];ueBounds:{min:number[];max:number[]};includeOverworld:boolean} };
+export type PartnerVitals = { hp:number; maxHp:number; moves:{id:number;name:string;type:string;pp:number;remainingPp:number}[] };
+export type WorldSave = { version:1; trainer:'brendan'|'may'; partner:number; level:number; mapId:string; position:Point; lastCamp:{mapId:string;position:Point}; flags:string[]; collected:string[]; defeated:string[]; completedBattles:string[]; visited:string[]; bag:{potion:number;ether:number}; vitals:PartnerVitals|null; encounters:number; steps:number; playSeconds:number; lastSaved:string; activeEncounter:string|null; chapterComplete:boolean; destroyed:string[] };
+export type BattleReturn = { battleId:string; encounterId:string; winner:string|null; playerFighter:{speciesId:number;level:number;hp:number;maxHp:number;moves:{id:number;name:string;type:string;pp:number;remainingPp:number}[]} };

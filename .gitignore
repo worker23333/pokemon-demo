@@ -1,0 +1,11 @@
+web/
+node_modules/
+.runtime/
+dist/
+.venv/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.sqlite*
+.env*
+.DS_Store

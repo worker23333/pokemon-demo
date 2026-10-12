@@ -1,0 +1,417 @@
+{
+  "defaultMultiplier": 1,
+  "ruleset": "generation-i-red-blue",
+  "notes": "Preserves original cartridge matchups, including Ghost→Psychic immunity and mutual Bug/Poison weakness. Physical/special category follows move type, not modern per-move split.",
+  "matchups": [
+    {
+      "attack": "water",
+      "defense": "fire",
+      "multiplier": 2
+    },
+    {
+      "attack": "fire",
+      "defense": "grass",
+      "multiplier": 2
+    },
+    {
+      "attack": "fire",
+      "defense": "ice",
+      "multiplier": 2
+    },
+    {
+      "attack": "grass",
+      "defense": "water",
+      "multiplier": 2
+    },
+    {
+      "attack": "electric",
+      "defense": "water",
+      "multiplier": 2
+    },
+    {
+      "attack": "water",
+      "defense": "rock",
+      "multiplier": 2
+    },
+    {
+      "attack": "ground",
+      "defense": "flying",
+      "multiplier": 0
+    },
+    {
+      "attack": "water",
+      "defense": "water",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "fire",
+      "defense": "fire",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "electric",
+      "defense": "electric",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "ice",
+      "defense": "ice",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "grass",
+      "defense": "grass",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "psychic",
+      "defense": "psychic",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "fire",
+      "defense": "water",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "grass",
+      "defense": "fire",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "water",
+      "defense": "grass",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "electric",
+      "defense": "grass",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "normal",
+      "defense": "rock",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "normal",
+      "defense": "ghost",
+      "multiplier": 0
+    },
+    {
+      "attack": "ghost",
+      "defense": "ghost",
+      "multiplier": 2
+    },
+    {
+      "attack": "fire",
+      "defense": "bug",
+      "multiplier": 2
+    },
+    {
+      "attack": "fire",
+      "defense": "rock",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "water",
+      "defense": "ground",
+      "multiplier": 2
+    },
+    {
+      "attack": "electric",
+      "defense": "ground",
+      "multiplier": 0
+    },
+    {
+      "attack": "electric",
+      "defense": "flying",
+      "multiplier": 2
+    },
+    {
+      "attack": "grass",
+      "defense": "ground",
+      "multiplier": 2
+    },
+    {
+      "attack": "grass",
+      "defense": "bug",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "grass",
+      "defense": "poison",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "grass",
+      "defense": "rock",
+      "multiplier": 2
+    },
+    {
+      "attack": "grass",
+      "defense": "flying",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "ice",
+      "defense": "water",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "ice",
+      "defense": "grass",
+      "multiplier": 2
+    },
+    {
+      "attack": "ice",
+      "defense": "ground",
+      "multiplier": 2
+    },
+    {
+      "attack": "ice",
+      "defense": "flying",
+      "multiplier": 2
+    },
+    {
+      "attack": "fighting",
+      "defense": "normal",
+      "multiplier": 2
+    },
+    {
+      "attack": "fighting",
+      "defense": "poison",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "fighting",
+      "defense": "flying",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "fighting",
+      "defense": "psychic",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "fighting",
+      "defense": "bug",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "fighting",
+      "defense": "rock",
+      "multiplier": 2
+    },
+    {
+      "attack": "fighting",
+      "defense": "ice",
+      "multiplier": 2
+    },
+    {
+      "attack": "fighting",
+      "defense": "ghost",
+      "multiplier": 0
+    },
+    {
+      "attack": "poison",
+      "defense": "grass",
+      "multiplier": 2
+    },
+    {
+      "attack": "poison",
+      "defense": "poison",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "poison",
+      "defense": "ground",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "poison",
+      "defense": "bug",
+      "multiplier": 2
+    },
+    {
+      "attack": "poison",
+      "defense": "rock",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "poison",
+      "defense": "ghost",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "ground",
+      "defense": "fire",
+      "multiplier": 2
+    },
+    {
+      "attack": "ground",
+      "defense": "electric",
+      "multiplier": 2
+    },
+    {
+      "attack": "ground",
+      "defense": "grass",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "ground",
+      "defense": "bug",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "ground",
+      "defense": "rock",
+      "multiplier": 2
+    },
+    {
+      "attack": "ground",
+      "defense": "poison",
+      "multiplier": 2
+    },
+    {
+      "attack": "flying",
+      "defense": "electric",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "flying",
+      "defense": "fighting",
+      "multiplier": 2
+    },
+    {
+      "attack": "flying",
+      "defense": "bug",
+      "multiplier": 2
+    },
+    {
+      "attack": "flying",
+      "defense": "grass",
+      "multiplier": 2
+    },
+    {
+      "attack": "flying",
+      "defense": "rock",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "psychic",
+      "defense": "fighting",
+      "multiplier": 2
+    },
+    {
+      "attack": "psychic",
+      "defense": "poison",
+      "multiplier": 2
+    },
+    {
+      "attack": "bug",
+      "defense": "fire",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "bug",
+      "defense": "grass",
+      "multiplier": 2
+    },
+    {
+      "attack": "bug",
+      "defense": "fighting",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "bug",
+      "defense": "flying",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "bug",
+      "defense": "psychic",
+      "multiplier": 2
+    },
+    {
+      "attack": "bug",
+      "defense": "ghost",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "bug",
+      "defense": "poison",
+      "multiplier": 2
+    },
+    {
+      "attack": "rock",
+      "defense": "fire",
+      "multiplier": 2
+    },
+    {
+      "attack": "rock",
+      "defense": "fighting",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "rock",
+      "defense": "ground",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "rock",
+      "defense": "flying",
+      "multiplier": 2
+    },
+    {
+      "attack": "rock",
+      "defense": "bug",
+      "multiplier": 2
+    },
+    {
+      "attack": "rock",
+      "defense": "ice",
+      "multiplier": 2
+    },
+    {
+      "attack": "ghost",
+      "defense": "normal",
+      "multiplier": 0
+    },
+    {
+      "attack": "ghost",
+      "defense": "psychic",
+      "multiplier": 0
+    },
+    {
+      "attack": "fire",
+      "defense": "dragon",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "water",
+      "defense": "dragon",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "electric",
+      "defense": "dragon",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "grass",
+      "defense": "dragon",
+      "multiplier": 0.5
+    },
+    {
+      "attack": "ice",
+      "defense": "dragon",
+      "multiplier": 2
+    },
+    {
+      "attack": "dragon",
+      "defense": "dragon",
+      "multiplier": 2
+    }
+  ]
+}
