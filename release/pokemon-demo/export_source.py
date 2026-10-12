@@ -87,7 +87,7 @@ def export_source(destination, root=ROOT):
         "    battle: fileURLToPath(new URL('./index.html', import.meta.url)),\n"
         "    world: fileURLToPath(new URL('../gamma-world/index.html', import.meta.url))\n"
         "  } } }\n});\n")
-    (destination / ".gitignore").write_text("web/\nnode_modules/\n.runtime/\ndist/\n.venv/\n.pytest_cache/\n__pycache__/\n*.pyc\n*.sqlite*\n.env*\n.DS_Store\n")
+    (destination / ".gitignore").write_text("/web/\nnode_modules/\n.runtime/\ndist/\n.venv/\n.pytest_cache/\n__pycache__/\n*.pyc\n*.sqlite*\n.env*\n.DS_Store\n")
     shutil.copyfile(root / "release/pokemon-demo/.dockerignore", destination / ".dockerignore")
     (destination / "RUNTIME_ASSETS_REQUIRED.md").write_text(
         "# Source-only package\n\nThis export is not playable out of the box and cannot compile standalone without the omitted runtime inputs. "

@@ -9,8 +9,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 102,
-      "sha256": "a4cd683a3631bc28e7d707c6bc65dfcfc6cec038c37c28a3ba15efcc5a1d9aad"
+      "bytes": 103,
+      "sha256": "2556c4c03c576b81f67a723112e378503fcbe41630e26a307bd7f76ac3ec9f57"
     },
     {
       "path": "README.md",
@@ -384,8 +384,8 @@
     },
     {
       "path": "release/pokemon-demo/export_source.py",
-      "bytes": 7810,
-      "sha256": "598c6d4dda540062d865f73bc66c7be1153376e0f19333ff8732cab158a3cadf"
+      "bytes": 7811,
+      "sha256": "5e3e0fb5b81aca58387c6044c29989caf6eca7b8b0e1df883357a6bc6d71d95d"
     },
     {
       "path": "release/pokemon-demo/import_web.py",
@@ -434,7 +434,7 @@
     }
   ],
   "fileCountExcludingManifest": 86,
-  "bytesExcludingManifest": 1203519,
+  "bytesExcludingManifest": 1203521,
   "generatedFiles": [
     "package.json",
     ".gitignore",
